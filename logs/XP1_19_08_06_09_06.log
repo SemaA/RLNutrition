@@ -1,0 +1,1089 @@
+2019-08-06 09:06:12,036 Starting the learning phase...
+2019-08-06 09:06:12,046 -------------------------------------------------------
+2019-08-06 09:06:12,047 Initialization of user...
+2019-08-06 09:06:12,449 -------------------------------------------------------
+2019-08-06 09:06:12,462 Initialization of expert...
+2019-08-06 09:06:12,501 -------------------------------------------------------
+2019-08-06 09:06:12,503 Learning phase...
+2019-08-06 09:06:12,506 LEARNING TIMESTEP 1
+2019-08-06 09:06:12,508 State : 
+2019-08-06 09:10:18,398 Current state: ('bread', 'butter', 'fruits', 'margarine', 'pasta', 'spring water', 'yoghurt'), chosen action: ('yoghurt', 'cheese dish')
+2019-08-06 09:10:18,414 Action ('yoghurt', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:10:18,419 Baseline action ('pasta', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:10:18,421 Baseline nutGreedy: action ('pasta', 'cheese dish'), gain 2.4664355291491873, accepted 0
+2019-08-06 09:10:18,423 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 09:10:18,425 Timestep 1, refused action ('yoghurt', 'cheese dish') 
+2019-08-06 09:10:18,432 LEARNING TIMESTEP 2
+2019-08-06 09:10:18,433 State : 
+2019-08-06 09:12:02,033 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 09:12:02,150 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:12:02,150 Baseline action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:12:02,151 Baseline nutGreedy: action ('margarine', 'cheese dish'), gain 3.172266514406182, accepted 0
+2019-08-06 09:12:02,152 The next state is: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt')
+2019-08-06 09:12:02,153 Timestep 2, refused action ('margarine', 'cheese dish') 
+2019-08-06 09:12:02,158 LEARNING TIMESTEP 3
+2019-08-06 09:12:02,159 State : 
+2019-08-06 09:15:22,991 Current state: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt'), chosen action: ('fruits', 'pork')
+2019-08-06 09:15:22,994 Action ('fruits', 'pork'), probability of acceptance: 0
+2019-08-06 09:15:22,996 Baseline action ('fruits', 'cheese dish'), probability of acceptance: 1
+2019-08-06 09:15:22,997 Baseline nutGreedy: action ('fruits', 'cheese dish'), gain 3.063523377701401, accepted 1
+2019-08-06 09:15:23,005 The next state is: ('bread', 'butter', 'cream dessert', 'egg', 'sauces', 'spring water')
+2019-08-06 09:15:23,008 Timestep 3, refused action ('fruits', 'pork') 
+2019-08-06 09:15:23,015 LEARNING TIMESTEP 4
+2019-08-06 09:15:23,017 State : 
+2019-08-06 09:18:55,082 Current state: ('bread', 'butter', 'cream dessert', 'egg', 'sauces', 'spring water'), chosen action: ('sauces', 'rusk')
+2019-08-06 09:18:55,086 Action ('sauces', 'rusk'), probability of acceptance: 0
+2019-08-06 09:18:55,088 Baseline action ('egg', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:18:55,090 Baseline nutGreedy: action ('egg', 'cheese dish'), gain 2.9957131954564744, accepted 0
+2019-08-06 09:18:55,092 The next state is: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water')
+2019-08-06 09:18:55,093 Timestep 4, refused action ('sauces', 'rusk') 
+2019-08-06 09:18:55,095 LEARNING TIMESTEP 5
+2019-08-06 09:18:55,097 State : 
+2019-08-06 09:21:38,179 Current state: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water'), chosen action: ('spring water', 'cheese dish')
+2019-08-06 09:21:38,182 Action ('spring water', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:21:38,184 Baseline action ('dessert', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:21:38,186 Baseline nutGreedy: action ('dessert', 'cheese dish'), gain 3.088062025640596, accepted 0
+2019-08-06 09:21:38,188 The next state is: ('bread', 'butter', 'cream dessert', 'egg', 'sauces', 'spring water')
+2019-08-06 09:21:38,190 Timestep 5, refused action ('spring water', 'cheese dish') 
+2019-08-06 09:21:38,192 LEARNING TIMESTEP 6
+2019-08-06 09:21:38,194 State : 
+2019-08-06 09:24:59,049 Current state: ('bread', 'butter', 'cream dessert', 'egg', 'sauces', 'spring water'), chosen action: ('bread', 'other shellfish')
+2019-08-06 09:24:59,053 Action ('bread', 'other shellfish'), probability of acceptance: 0
+2019-08-06 09:24:59,056 Baseline action ('egg', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:24:59,061 Baseline nutGreedy: action ('egg', 'cheese dish'), gain 2.9957131954564744, accepted 0
+2019-08-06 09:24:59,064 The next state is: ('bread', 'spring water', 'yoghurt')
+2019-08-06 09:24:59,066 Timestep 6, refused action ('bread', 'other shellfish') 
+2019-08-06 09:24:59,068 LEARNING TIMESTEP 7
+2019-08-06 09:24:59,069 State : 
+2019-08-06 09:26:36,124 Current state: ('bread', 'spring water', 'yoghurt'), chosen action: ('spring water', 'doughnut crepe waffle')
+2019-08-06 09:26:36,136 Action ('spring water', 'doughnut crepe waffle'), probability of acceptance: 1
+2019-08-06 09:26:36,137 Baseline action ('yoghurt', 'cheese dish'), probability of acceptance: 1
+2019-08-06 09:26:36,139 Baseline nutGreedy: action ('yoghurt', 'cheese dish'), gain 3.189065570996135, accepted 1
+2019-08-06 09:26:36,141 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 09:28:39,456 Timestep 7, accepted action ('spring water', 'doughnut crepe waffle') with PandietGain 1.3878 
+2019-08-06 09:28:39,464 LEARNING TIMESTEP 8
+2019-08-06 09:28:39,465 State : 
+2019-08-06 09:30:21,272 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 09:30:21,276 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:30:21,278 Baseline action ('margarine', 'cheese dish'), probability of acceptance: 1
+2019-08-06 09:30:21,280 Baseline nutGreedy: action ('margarine', 'cheese dish'), gain 3.172266514406182, accepted 1
+2019-08-06 09:30:21,282 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 09:30:21,284 Timestep 8, refused action ('margarine', 'cheese dish') 
+2019-08-06 09:30:21,286 LEARNING TIMESTEP 9
+2019-08-06 09:30:21,288 State : 
+2019-08-06 09:31:59,919 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('sugar', 'chocolate bars')
+2019-08-06 09:31:59,925 Action ('sugar', 'chocolate bars'), probability of acceptance: 0
+2019-08-06 09:31:59,927 Baseline action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:31:59,930 Baseline nutGreedy: action ('margarine', 'cheese dish'), gain 3.172266514406182, accepted 0
+2019-08-06 09:31:59,932 The next state is: ('bread', 'fruits', 'pasta', 'spring water', 'yoghurt')
+2019-08-06 09:31:59,940 Timestep 9, refused action ('sugar', 'chocolate bars') 
+2019-08-06 09:31:59,941 LEARNING TIMESTEP 10
+2019-08-06 09:31:59,944 State : 
+2019-08-06 09:35:09,182 Current state: ('bread', 'fruits', 'pasta', 'spring water', 'yoghurt'), chosen action: ('bread', 'cheese dish')
+2019-08-06 09:35:09,187 Action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 09:35:09,189 Baseline action ('pasta', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:35:09,191 Baseline nutGreedy: action ('pasta', 'cheese dish'), gain 2.616163370875647, accepted 0
+2019-08-06 09:35:09,208 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 09:36:54,498 Timestep 10, accepted action ('bread', 'cheese dish') with PandietGain 0.0708 
+2019-08-06 09:36:54,511 LEARNING TIMESTEP 11
+2019-08-06 09:36:54,512 State : 
+2019-08-06 09:38:40,560 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 09:38:40,567 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:38:40,570 Baseline action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:38:40,572 Baseline nutGreedy: action ('margarine', 'cheese dish'), gain 3.172266514406182, accepted 0
+2019-08-06 09:38:40,574 The next state is: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt')
+2019-08-06 09:38:40,575 Timestep 11, refused action ('margarine', 'cheese dish') 
+2019-08-06 09:38:40,578 LEARNING TIMESTEP 12
+2019-08-06 09:38:40,580 State : 
+2019-08-06 09:42:12,481 Current state: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt'), chosen action: ('yoghurt', 'chocolate bars')
+2019-08-06 09:42:12,490 Action ('yoghurt', 'chocolate bars'), probability of acceptance: 1
+2019-08-06 09:42:12,491 Baseline action ('fruits', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:42:12,493 Baseline nutGreedy: action ('fruits', 'cheese dish'), gain 2.7293072783512002, accepted 0
+2019-08-06 09:42:12,495 The next state is: ('bread', 'spring water', 'yoghurt')
+2019-08-06 09:43:58,784 Timestep 12, accepted action ('yoghurt', 'chocolate bars') with PandietGain -0.9587 
+2019-08-06 09:43:58,788 LEARNING TIMESTEP 13
+2019-08-06 09:43:58,790 State : 
+2019-08-06 09:45:41,084 Current state: ('bread', 'spring water', 'yoghurt'), chosen action: ('bread', 'tap water')
+2019-08-06 09:45:41,087 Action ('bread', 'tap water'), probability of acceptance: 0
+2019-08-06 09:45:41,089 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:45:41,091 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 3.1439191531405584, accepted 0
+2019-08-06 09:45:41,093 The next state is: ('beans', 'bread', 'butter', 'cream dessert', 'sauces', 'spring water')
+2019-08-06 09:45:41,096 Timestep 13, refused action ('bread', 'tap water') 
+2019-08-06 09:45:41,097 LEARNING TIMESTEP 14
+2019-08-06 09:45:41,104 State : 
+2019-08-06 09:48:56,146 Current state: ('beans', 'bread', 'butter', 'cream dessert', 'sauces', 'spring water'), chosen action: ('spring water', 'other shellfish')
+2019-08-06 09:48:56,153 Action ('spring water', 'other shellfish'), probability of acceptance: 1
+2019-08-06 09:48:56,158 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:48:56,160 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.770803232515817, accepted 0
+2019-08-06 09:48:56,166 The next state is: ('beans', 'bread', 'dessert', 'spring water')
+2019-08-06 09:51:11,461 Timestep 14, accepted action ('spring water', 'other shellfish') with PandietGain -0.8879 
+2019-08-06 09:51:11,463 LEARNING TIMESTEP 15
+2019-08-06 09:51:11,465 State : 
+2019-08-06 09:53:27,848 Current state: ('beans', 'bread', 'dessert', 'spring water'), chosen action: ('beans', 'cheese dish')
+2019-08-06 09:53:27,867 Action ('beans', 'cheese dish'), probability of acceptance: 1
+2019-08-06 09:53:27,872 Baseline action ('dessert', 'cheese dish'), probability of acceptance: 0
+2019-08-06 09:53:27,878 Baseline nutGreedy: action ('dessert', 'cheese dish'), gain 2.586957545814357, accepted 0
+2019-08-06 09:53:27,884 The next state is: ('bread', 'butter', 'cream dessert', 'egg', 'sauces', 'spring water')
+2019-08-06 09:56:44,676 Timestep 15, accepted action ('beans', 'cheese dish') with PandietGain 2.2594 
+2019-08-06 09:56:44,678 LEARNING TIMESTEP 16
+2019-08-06 09:56:44,680 State : 
+2019-08-06 10:00:15,484 Current state: ('bread', 'butter', 'cream dessert', 'egg', 'sauces', 'spring water'), chosen action: ('bread', 'cheese dish')
+2019-08-06 10:00:15,487 Action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:00:15,490 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:00:15,493 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.8251505598135367, accepted 0
+2019-08-06 10:00:15,495 The next state is: ('beans', 'bread', 'butter', 'cream dessert', 'sauces', 'spring water')
+2019-08-06 10:00:15,496 Timestep 16, refused action ('bread', 'cheese dish') 
+2019-08-06 10:00:15,504 LEARNING TIMESTEP 17
+2019-08-06 10:00:15,509 State : 
+2019-08-06 10:03:38,381 Current state: ('beans', 'bread', 'butter', 'cream dessert', 'sauces', 'spring water'), chosen action: ('butter', 'cheese dish')
+2019-08-06 10:03:38,385 Action ('butter', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:03:38,387 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 10:03:38,389 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.770803232515817, accepted 1
+2019-08-06 10:03:38,391 The next state is: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar')
+2019-08-06 10:03:38,393 Timestep 17, refused action ('butter', 'cheese dish') 
+2019-08-06 10:03:38,396 LEARNING TIMESTEP 18
+2019-08-06 10:03:38,398 State : 
+2019-08-06 10:09:18,514 Current state: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar'), chosen action: ('cabbage', 'processed dried vegetables')
+2019-08-06 10:09:18,520 Action ('cabbage', 'processed dried vegetables'), probability of acceptance: 1
+2019-08-06 10:09:18,528 Baseline action ('dried vegetables', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:09:18,529 Baseline nutGreedy: action ('dried vegetables', 'cheese dish'), gain 1.3778857292134532, accepted 0
+2019-08-06 10:09:18,531 The next state is: ('bread', 'fruits', 'pasta', 'spring water', 'yoghurt')
+2019-08-06 10:12:30,901 Timestep 18, accepted action ('cabbage', 'processed dried vegetables') with PandietGain -3.8597 
+2019-08-06 10:12:30,913 LEARNING TIMESTEP 19
+2019-08-06 10:12:30,915 State : 
+2019-08-06 10:15:30,591 Current state: ('bread', 'fruits', 'pasta', 'spring water', 'yoghurt'), chosen action: ('bread', 'cheese dish')
+2019-08-06 10:15:30,595 Action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 10:15:30,596 Baseline action ('pasta', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:15:30,598 Baseline nutGreedy: action ('pasta', 'cheese dish'), gain 2.2112557421149006, accepted 0
+2019-08-06 10:15:30,607 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 10:17:23,128 Timestep 19, accepted action ('bread', 'cheese dish') with PandietGain 3.2517 
+2019-08-06 10:17:23,136 LEARNING TIMESTEP 20
+2019-08-06 10:17:23,137 State : 
+2019-08-06 10:19:27,044 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cocoa')
+2019-08-06 10:19:27,052 Action ('margarine', 'cocoa'), probability of acceptance: 1
+2019-08-06 10:19:27,054 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:19:27,056 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 0
+2019-08-06 10:19:27,062 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 10:21:30,682 Timestep 20, accepted action ('margarine', 'cocoa') with PandietGain -1.3902 
+2019-08-06 10:21:30,688 LEARNING TIMESTEP 21
+2019-08-06 10:21:30,690 State : 
+2019-08-06 10:23:29,059 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 10:23:29,072 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:23:29,074 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 10:23:29,098 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 10:23:29,105 The next state is: ('beans', 'bread', 'butter', 'cream dessert', 'sauces', 'spring water')
+2019-08-06 10:23:29,108 Timestep 21, refused action ('margarine', 'cheese dish') 
+2019-08-06 10:23:29,110 LEARNING TIMESTEP 22
+2019-08-06 10:23:29,112 State : 
+2019-08-06 10:27:41,992 Current state: ('beans', 'bread', 'butter', 'cream dessert', 'sauces', 'spring water'), chosen action: ('spring water', 'other cereals')
+2019-08-06 10:27:41,997 Action ('spring water', 'other cereals'), probability of acceptance: 0
+2019-08-06 10:27:42,002 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:27:42,009 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.770803232515817, accepted 0
+2019-08-06 10:27:42,019 The next state is: ('bread', 'butter', 'cream dessert', 'egg', 'sauces', 'spring water')
+2019-08-06 10:27:42,020 Timestep 22, refused action ('spring water', 'other cereals') 
+2019-08-06 10:27:42,022 LEARNING TIMESTEP 23
+2019-08-06 10:27:42,024 State : 
+2019-08-06 10:31:05,880 Current state: ('bread', 'butter', 'cream dessert', 'egg', 'sauces', 'spring water'), chosen action: ('egg', 'aromatic herbs')
+2019-08-06 10:31:05,884 Action ('egg', 'aromatic herbs'), probability of acceptance: 0
+2019-08-06 10:31:05,885 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:31:05,887 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.8251505598135367, accepted 0
+2019-08-06 10:31:05,889 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 10:31:05,892 Timestep 23, refused action ('egg', 'aromatic herbs') 
+2019-08-06 10:31:05,894 LEARNING TIMESTEP 24
+2019-08-06 10:31:05,895 State : 
+2019-08-06 10:32:56,372 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'spirits fortified wine')
+2019-08-06 10:32:56,376 Action ('margarine', 'spirits fortified wine'), probability of acceptance: 1
+2019-08-06 10:32:56,377 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:32:56,379 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 0
+2019-08-06 10:32:56,382 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 10:35:01,816 Timestep 24, accepted action ('margarine', 'spirits fortified wine') with PandietGain 0.2594 
+2019-08-06 10:35:01,818 LEARNING TIMESTEP 25
+2019-08-06 10:35:01,820 State : 
+2019-08-06 10:37:17,537 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 10:37:17,544 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:37:17,550 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 10:37:17,556 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 10:37:17,558 The next state is: ('bread', 'spirits fortified wine', 'sugar')
+2019-08-06 10:37:17,560 Timestep 25, refused action ('margarine', 'cheese dish') 
+2019-08-06 10:37:17,566 LEARNING TIMESTEP 26
+2019-08-06 10:37:17,568 State : 
+2019-08-06 10:39:22,516 Current state: ('bread', 'spirits fortified wine', 'sugar'), chosen action: ('sugar', 'cheese dish')
+2019-08-06 10:39:22,524 State not in acceptability matrix !
+2019-08-06 10:39:22,525 State not in acceptability matrix !
+2019-08-06 10:39:22,527 Action ('sugar', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:39:22,529 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:39:22,530 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 3.2521320084943426, accepted 0
+2019-08-06 10:39:22,537 The next state is: ('bread', 'fruits', 'pasta', 'spring water', 'yoghurt')
+2019-08-06 10:39:22,542 Timestep 26, refused action ('sugar', 'cheese dish') 
+2019-08-06 10:39:22,544 LEARNING TIMESTEP 27
+2019-08-06 10:39:22,550 State : 
+2019-08-06 10:42:49,674 Current state: ('bread', 'fruits', 'pasta', 'spring water', 'yoghurt'), chosen action: ('yoghurt', 'freshwater fish')
+2019-08-06 10:42:49,685 Action ('yoghurt', 'freshwater fish'), probability of acceptance: 0
+2019-08-06 10:42:49,691 Baseline action ('pasta', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:42:49,695 Baseline nutGreedy: action ('pasta', 'cheese dish'), gain 2.2112557421149006, accepted 0
+2019-08-06 10:42:49,697 The next state is: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt')
+2019-08-06 10:42:49,703 Timestep 27, refused action ('yoghurt', 'freshwater fish') 
+2019-08-06 10:42:49,707 LEARNING TIMESTEP 28
+2019-08-06 10:42:49,709 State : 
+2019-08-06 10:46:08,125 Current state: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt'), chosen action: ('fruits', 'chocolate bars')
+2019-08-06 10:46:08,138 Action ('fruits', 'chocolate bars'), probability of acceptance: 0
+2019-08-06 10:46:08,142 Baseline action ('fruits', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:46:08,147 Baseline nutGreedy: action ('fruits', 'cheese dish'), gain 2.7293072783512002, accepted 0
+2019-08-06 10:46:08,151 The next state is: ('bread', 'rice', 'sauces', 'spring water', 'vegetable dish', 'yoghurt')
+2019-08-06 10:46:08,155 Timestep 28, refused action ('fruits', 'chocolate bars') 
+2019-08-06 10:46:08,158 LEARNING TIMESTEP 29
+2019-08-06 10:46:08,159 State : 
+2019-08-06 10:48:37,446 Current state: ('bread', 'rice', 'sauces', 'spring water', 'vegetable dish', 'yoghurt'), chosen action: ('rice', 'dried fruit mix')
+2019-08-06 10:48:37,449 Action ('rice', 'dried fruit mix'), probability of acceptance: 0
+2019-08-06 10:48:37,451 Baseline action ('rice', 'cheese dish'), probability of acceptance: 1
+2019-08-06 10:48:37,453 Baseline nutGreedy: action ('rice', 'cheese dish'), gain 2.276003256764753, accepted 1
+2019-08-06 10:48:37,455 The next state is: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar')
+2019-08-06 10:48:37,456 Timestep 29, refused action ('rice', 'dried fruit mix') 
+2019-08-06 10:48:37,458 LEARNING TIMESTEP 30
+2019-08-06 10:48:37,460 State : 
+2019-08-06 10:52:29,991 Current state: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar'), chosen action: ('root vegetable', 'coffee')
+2019-08-06 10:52:29,994 Action ('root vegetable', 'coffee'), probability of acceptance: 1
+2019-08-06 10:52:29,996 Baseline action ('dried vegetables', 'cheese dish'), probability of acceptance: 1
+2019-08-06 10:52:29,998 Baseline nutGreedy: action ('dried vegetables', 'cheese dish'), gain 1.3778857292134532, accepted 1
+2019-08-06 10:52:30,001 The next state is: ('bread', 'butter', 'ham', 'oil', 'potatoes', 'salt and spices', 'spring water', 'vegetable mix', 'yoghurt')
+2019-08-06 10:56:04,870 Timestep 30, accepted action ('root vegetable', 'coffee') with PandietGain -2.1897 
+2019-08-06 10:56:04,872 LEARNING TIMESTEP 31
+2019-08-06 10:56:04,873 State : 
+2019-08-06 10:59:35,264 Current state: ('bread', 'butter', 'ham', 'oil', 'potatoes', 'salt and spices', 'spring water', 'vegetable mix', 'yoghurt'), chosen action: ('oil', 'other cheese')
+2019-08-06 10:59:35,267 Action ('oil', 'other cheese'), probability of acceptance: 1
+2019-08-06 10:59:35,269 Baseline action ('oil', 'cheese dish'), probability of acceptance: 0
+2019-08-06 10:59:35,270 Baseline nutGreedy: action ('oil', 'cheese dish'), gain 3.1328463318776727, accepted 0
+2019-08-06 10:59:35,272 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 11:00:55,814 Timestep 31, accepted action ('oil', 'other cheese') with PandietGain 3.8538 
+2019-08-06 11:00:55,816 LEARNING TIMESTEP 32
+2019-08-06 11:00:55,818 State : 
+2019-08-06 11:02:05,363 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('sugar', 'other breakfast cereals')
+2019-08-06 11:02:05,367 Action ('sugar', 'other breakfast cereals'), probability of acceptance: 1
+2019-08-06 11:02:05,368 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 11:02:05,370 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 0
+2019-08-06 11:02:05,372 The next state is: ('bread', 'butter', 'ham', 'oil', 'potatoes', 'salt and spices', 'spring water', 'vegetable mix', 'yoghurt')
+2019-08-06 11:05:51,409 Timestep 32, accepted action ('sugar', 'other breakfast cereals') with PandietGain -3.5145 
+2019-08-06 11:05:51,410 LEARNING TIMESTEP 33
+2019-08-06 11:05:51,412 State : 
+2019-08-06 11:09:46,061 Current state: ('bread', 'butter', 'ham', 'oil', 'potatoes', 'salt and spices', 'spring water', 'vegetable mix', 'yoghurt'), chosen action: ('oil', 'other cheese')
+2019-08-06 11:09:46,065 Action ('oil', 'other cheese'), probability of acceptance: 0
+2019-08-06 11:09:46,067 Baseline action ('oil', 'cheese dish'), probability of acceptance: 0
+2019-08-06 11:09:46,068 Baseline nutGreedy: action ('oil', 'cheese dish'), gain 3.1328463318776727, accepted 0
+2019-08-06 11:09:46,070 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 11:09:46,072 Timestep 33, refused action ('oil', 'other cheese') 
+2019-08-06 11:09:46,074 LEARNING TIMESTEP 34
+2019-08-06 11:09:46,075 State : 
+2019-08-06 11:11:13,380 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 11:11:13,383 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 11:11:13,385 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 11:11:13,387 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 11:11:13,389 The next state is: ('bread', 'coffee', 'margarine', 'sugar')
+2019-08-06 11:11:13,391 Timestep 34, refused action ('margarine', 'cheese dish') 
+2019-08-06 11:11:13,392 LEARNING TIMESTEP 35
+2019-08-06 11:11:13,393 State : 
+2019-08-06 11:13:03,858 Current state: ('bread', 'coffee', 'margarine', 'sugar'), chosen action: ('margarine', 'broth')
+2019-08-06 11:13:03,865 Action ('margarine', 'broth'), probability of acceptance: 1
+2019-08-06 11:13:03,872 Baseline action ('margarine', 'cheese dish'), probability of acceptance: 1
+2019-08-06 11:13:03,873 Baseline nutGreedy: action ('margarine', 'cheese dish'), gain 2.5488031827177338, accepted 1
+2019-08-06 11:13:03,875 The next state is: ('bread', 'margarine', 'other breakfast cereals')
+2019-08-06 11:14:24,925 Timestep 35, accepted action ('margarine', 'broth') with PandietGain 1.7646 
+2019-08-06 11:14:24,927 LEARNING TIMESTEP 36
+2019-08-06 11:14:24,929 State : 
+2019-08-06 11:15:47,242 Current state: ('bread', 'margarine', 'other breakfast cereals'), chosen action: ('other breakfast cereals', 'cheese dish')
+2019-08-06 11:15:47,244 State not in acceptability matrix !
+2019-08-06 11:15:47,246 State not in acceptability matrix !
+2019-08-06 11:15:47,247 Action ('other breakfast cereals', 'cheese dish'), probability of acceptance: 0
+2019-08-06 11:15:47,249 Baseline action ('other breakfast cereals', 'cheese dish'), probability of acceptance: 0
+2019-08-06 11:15:47,250 Baseline nutGreedy: action ('other breakfast cereals', 'cheese dish'), gain 2.179834305317975, accepted 0
+2019-08-06 11:15:47,252 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 11:15:47,254 Timestep 36, refused action ('other breakfast cereals', 'cheese dish') 
+2019-08-06 11:15:47,256 LEARNING TIMESTEP 37
+2019-08-06 11:15:47,257 State : 
+2019-08-06 11:17:07,487 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'other shellfish')
+2019-08-06 11:17:07,491 Action ('margarine', 'other shellfish'), probability of acceptance: 1
+2019-08-06 11:17:07,492 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 11:17:07,494 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 11:17:07,496 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 11:18:28,834 Timestep 37, accepted action ('margarine', 'other shellfish') with PandietGain -0.7137 
+2019-08-06 11:18:28,835 LEARNING TIMESTEP 38
+2019-08-06 11:18:28,837 State : 
+2019-08-06 11:19:53,510 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 11:19:53,513 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 11:19:53,515 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 11:19:53,517 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 0
+2019-08-06 11:19:53,519 The next state is: ('bread', 'butter', 'ham', 'oil', 'potatoes', 'salt and spices', 'spring water', 'vegetable mix', 'yoghurt')
+2019-08-06 11:19:53,521 Timestep 38, refused action ('margarine', 'cheese dish') 
+2019-08-06 11:19:53,522 LEARNING TIMESTEP 39
+2019-08-06 11:19:53,524 State : 
+2019-08-06 11:23:50,955 Current state: ('bread', 'butter', 'ham', 'oil', 'potatoes', 'salt and spices', 'spring water', 'vegetable mix', 'yoghurt'), chosen action: ('vegetable mix', 'bottled milk')
+2019-08-06 11:23:50,958 Action ('vegetable mix', 'bottled milk'), probability of acceptance: 1
+2019-08-06 11:23:50,960 Baseline action ('oil', 'cheese dish'), probability of acceptance: 0
+2019-08-06 11:23:50,962 Baseline nutGreedy: action ('oil', 'cheese dish'), gain 3.1328463318776727, accepted 0
+2019-08-06 11:23:50,964 The next state is: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water')
+2019-08-06 11:26:01,923 Timestep 39, accepted action ('vegetable mix', 'bottled milk') with PandietGain 0.7084 
+2019-08-06 11:26:01,925 LEARNING TIMESTEP 40
+2019-08-06 11:26:01,926 State : 
+2019-08-06 11:28:03,535 Current state: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water'), chosen action: ('dessert', 'other shellfish')
+2019-08-06 11:28:03,539 Action ('dessert', 'other shellfish'), probability of acceptance: 1
+2019-08-06 11:28:03,541 Baseline action ('sauces', 'cheese dish'), probability of acceptance: 1
+2019-08-06 11:28:03,542 Baseline nutGreedy: action ('sauces', 'cheese dish'), gain 2.5251853296593154, accepted 1
+2019-08-06 11:28:03,544 The next state is: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar')
+2019-08-06 11:31:52,352 Timestep 40, accepted action ('dessert', 'other shellfish') with PandietGain -1.2131 
+2019-08-06 11:31:52,354 LEARNING TIMESTEP 41
+2019-08-06 11:31:52,356 State : 
+2019-08-06 11:35:19,827 Current state: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar'), chosen action: ('sauces', 'freshwater fish')
+2019-08-06 11:35:19,831 Action ('sauces', 'freshwater fish'), probability of acceptance: 1
+2019-08-06 11:35:19,833 Baseline action ('dried vegetables', 'cheese dish'), probability of acceptance: 1
+2019-08-06 11:35:19,834 Baseline nutGreedy: action ('dried vegetables', 'cheese dish'), gain 1.3778857292134532, accepted 1
+2019-08-06 11:35:19,837 The next state is: ('beans', 'bread', 'butter', 'cream dessert', 'sauces', 'spring water')
+2019-08-06 11:38:25,067 Timestep 41, accepted action ('sauces', 'freshwater fish') with PandietGain -0.8347 
+2019-08-06 11:38:25,069 LEARNING TIMESTEP 42
+2019-08-06 11:38:25,071 State : 
+2019-08-06 11:43:24,483 Current state: ('beans', 'bread', 'butter', 'cream dessert', 'sauces', 'spring water'), chosen action: ('sauces', 'cider')
+2019-08-06 11:43:24,492 Action ('sauces', 'cider'), probability of acceptance: 1
+2019-08-06 11:43:24,508 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 11:43:24,515 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.770803232515817, accepted 0
+2019-08-06 11:43:24,519 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 11:47:24,546 Timestep 42, accepted action ('sauces', 'cider') with PandietGain 2.3855 
+2019-08-06 11:47:24,552 LEARNING TIMESTEP 43
+2019-08-06 11:47:24,556 State : 
+2019-08-06 11:52:01,476 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 11:52:01,492 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 11:52:01,498 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 11:52:01,504 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 0
+2019-08-06 11:52:01,517 The next state is: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt')
+2019-08-06 11:52:01,527 Timestep 43, refused action ('margarine', 'cheese dish') 
+2019-08-06 11:52:01,532 LEARNING TIMESTEP 44
+2019-08-06 11:52:01,536 State : 
+2019-08-06 12:01:25,426 Current state: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt'), chosen action: ('fruits', 'puff pastry')
+2019-08-06 12:01:25,449 Action ('fruits', 'puff pastry'), probability of acceptance: 1
+2019-08-06 12:01:25,460 Baseline action ('fruits', 'cheese dish'), probability of acceptance: 0
+2019-08-06 12:01:25,462 Baseline nutGreedy: action ('fruits', 'cheese dish'), gain 2.7293072783512002, accepted 0
+2019-08-06 12:01:25,471 The next state is: ('bread', 'butter', 'cream dessert', 'egg', 'sauces', 'spring water')
+2019-08-06 12:08:50,297 Timestep 44, accepted action ('fruits', 'puff pastry') with PandietGain 0.7962 
+2019-08-06 12:08:50,308 LEARNING TIMESTEP 45
+2019-08-06 12:08:50,309 State : 
+2019-08-06 12:13:43,346 Current state: ('bread', 'butter', 'cream dessert', 'egg', 'sauces', 'spring water'), chosen action: ('sauces', 'spirits fortified wine')
+2019-08-06 12:13:43,353 Action ('sauces', 'spirits fortified wine'), probability of acceptance: 1
+2019-08-06 12:13:43,359 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 12:13:43,364 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.8251505598135367, accepted 0
+2019-08-06 12:13:43,366 The next state is: ('bread', 'butter', 'fruits', 'margarine', 'pasta', 'spring water', 'yoghurt')
+2019-08-06 12:19:30,067 Timestep 45, accepted action ('sauces', 'spirits fortified wine') with PandietGain -1.0925 
+2019-08-06 12:19:30,072 LEARNING TIMESTEP 46
+2019-08-06 12:19:30,073 State : 
+2019-08-06 12:25:10,710 Current state: ('bread', 'butter', 'fruits', 'margarine', 'pasta', 'spring water', 'yoghurt'), chosen action: ('yoghurt', 'cheese dish')
+2019-08-06 12:25:10,717 Action ('yoghurt', 'cheese dish'), probability of acceptance: 0
+2019-08-06 12:25:10,719 Baseline action ('pasta', 'cheese dish'), probability of acceptance: 0
+2019-08-06 12:25:10,721 Baseline nutGreedy: action ('pasta', 'cheese dish'), gain 2.0500290951488154, accepted 0
+2019-08-06 12:25:10,724 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 12:25:10,732 Timestep 46, refused action ('yoghurt', 'cheese dish') 
+2019-08-06 12:25:10,733 LEARNING TIMESTEP 47
+2019-08-06 12:25:10,734 State : 
+2019-08-06 12:27:36,167 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('sugar', 'sweets')
+2019-08-06 12:27:36,170 Action ('sugar', 'sweets'), probability of acceptance: 1
+2019-08-06 12:27:36,176 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 12:27:36,178 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 12:27:36,180 The next state is: ('bread', 'butter', 'ham', 'oil', 'potatoes', 'salt and spices', 'spring water', 'vegetable mix', 'yoghurt')
+2019-08-06 12:34:37,962 Timestep 47, accepted action ('sugar', 'sweets') with PandietGain -2.1233 
+2019-08-06 12:34:37,964 LEARNING TIMESTEP 48
+2019-08-06 12:34:37,965 State : 
+2019-08-06 12:41:37,272 Current state: ('bread', 'butter', 'ham', 'oil', 'potatoes', 'salt and spices', 'spring water', 'vegetable mix', 'yoghurt'), chosen action: ('oil', 'other cheese')
+2019-08-06 12:41:37,282 Action ('oil', 'other cheese'), probability of acceptance: 1
+2019-08-06 12:41:37,284 Baseline action ('oil', 'cheese dish'), probability of acceptance: 0
+2019-08-06 12:41:37,288 Baseline nutGreedy: action ('oil', 'cheese dish'), gain 3.1328463318776727, accepted 0
+2019-08-06 12:41:37,290 The next state is: ('bread', 'margarine', 'sweets')
+2019-08-06 12:44:07,708 Timestep 48, accepted action ('oil', 'other cheese') with PandietGain 3.8371 
+2019-08-06 12:44:07,710 LEARNING TIMESTEP 49
+2019-08-06 12:44:07,714 State : 
+2019-08-06 12:46:31,024 Current state: ('bread', 'margarine', 'sweets'), chosen action: ('sweets', 'cheese dish')
+2019-08-06 12:46:31,032 State not in acceptability matrix !
+2019-08-06 12:46:31,033 State not in acceptability matrix !
+2019-08-06 12:46:31,034 Action ('sweets', 'cheese dish'), probability of acceptance: 0
+2019-08-06 12:46:31,036 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 12:46:31,040 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.5679844540692613, accepted 0
+2019-08-06 12:46:31,041 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 12:46:31,050 Timestep 49, refused action ('sweets', 'cheese dish') 
+2019-08-06 12:46:31,056 LEARNING TIMESTEP 50
+2019-08-06 12:46:31,059 State : 
+2019-08-06 12:48:59,970 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('sugar', 'other product of panification')
+2019-08-06 12:48:59,977 Action ('sugar', 'other product of panification'), probability of acceptance: 1
+2019-08-06 12:48:59,984 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 12:48:59,985 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 12:48:59,986 The next state is: ('bread', 'butter', 'fruits', 'margarine', 'pasta', 'spring water', 'yoghurt')
+2019-08-06 12:54:30,829 Timestep 50, accepted action ('sugar', 'other product of panification') with PandietGain -3.9972 
+2019-08-06 12:54:30,840 LEARNING TIMESTEP 51
+2019-08-06 12:54:30,850 State : 
+2019-08-06 13:00:01,997 Current state: ('bread', 'butter', 'fruits', 'margarine', 'pasta', 'spring water', 'yoghurt'), chosen action: ('spring water', 'fruit vegetable')
+2019-08-06 13:00:02,003 Action ('spring water', 'fruit vegetable'), probability of acceptance: 1
+2019-08-06 13:00:02,008 Baseline action ('pasta', 'cheese dish'), probability of acceptance: 0
+2019-08-06 13:00:02,010 Baseline nutGreedy: action ('pasta', 'cheese dish'), gain 2.0500290951488154, accepted 0
+2019-08-06 13:00:02,018 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 13:02:27,759 Timestep 51, accepted action ('spring water', 'fruit vegetable') with PandietGain 1.2253 
+2019-08-06 13:02:27,761 LEARNING TIMESTEP 52
+2019-08-06 13:02:27,762 State : 
+2019-08-06 13:04:54,662 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('bread', 'sweet biscuits')
+2019-08-06 13:04:54,669 Action ('bread', 'sweet biscuits'), probability of acceptance: 1
+2019-08-06 13:04:54,678 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:04:54,679 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 13:04:54,681 The next state is: ('bread', 'rice', 'sauces', 'spring water', 'vegetable dish', 'yoghurt')
+2019-08-06 13:07:15,098 Timestep 52, accepted action ('bread', 'sweet biscuits') with PandietGain -0.3208 
+2019-08-06 13:07:15,104 LEARNING TIMESTEP 53
+2019-08-06 13:07:15,105 State : 
+2019-08-06 13:09:34,440 Current state: ('bread', 'rice', 'sauces', 'spring water', 'vegetable dish', 'yoghurt'), chosen action: ('sauces', 'cheese dish')
+2019-08-06 13:09:34,443 Action ('sauces', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:09:34,445 Baseline action ('rice', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:09:34,446 Baseline nutGreedy: action ('rice', 'cheese dish'), gain 2.276003256764753, accepted 1
+2019-08-06 13:09:34,448 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 13:10:44,402 Timestep 53, accepted action ('sauces', 'cheese dish') with PandietGain 2.6941 
+2019-08-06 13:10:44,404 LEARNING TIMESTEP 54
+2019-08-06 13:10:44,405 State : 
+2019-08-06 13:11:54,082 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 13:11:54,085 Action ('margarine', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:11:54,087 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 13:11:54,089 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 0
+2019-08-06 13:11:54,090 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 13:13:03,856 Timestep 54, accepted action ('margarine', 'cheese dish') with PandietGain 0.6892 
+2019-08-06 13:13:03,858 LEARNING TIMESTEP 55
+2019-08-06 13:13:03,859 State : 
+2019-08-06 13:14:17,060 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('bread', 'soup')
+2019-08-06 13:14:17,064 Action ('bread', 'soup'), probability of acceptance: 1
+2019-08-06 13:14:17,066 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 13:14:17,067 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 0
+2019-08-06 13:14:17,069 The next state is: ('bread', 'processed dried vegetables', 'sauces', 'spring water', 'yoghurt')
+2019-08-06 13:16:12,178 Timestep 55, accepted action ('bread', 'soup') with PandietGain -4.2948 
+2019-08-06 13:16:12,180 LEARNING TIMESTEP 56
+2019-08-06 13:16:12,181 State : 
+2019-08-06 13:18:06,949 Current state: ('bread', 'processed dried vegetables', 'sauces', 'spring water', 'yoghurt'), chosen action: ('bread', 'cheese dish')
+2019-08-06 13:18:06,952 Action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 13:18:06,954 Baseline action ('processed dried vegetables', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:18:06,956 Baseline nutGreedy: action ('processed dried vegetables', 'cheese dish'), gain 2.27130904137924, accepted 1
+2019-08-06 13:18:06,957 The next state is: ('beef', 'bread', 'cream dessert', 'leaf vegetable', 'sauces', 'sausage saucisson', 'spring water')
+2019-08-06 13:18:06,959 Timestep 56, refused action ('bread', 'cheese dish') 
+2019-08-06 13:18:06,961 LEARNING TIMESTEP 57
+2019-08-06 13:18:06,962 State : 
+2019-08-06 13:20:47,565 Current state: ('beef', 'bread', 'cream dessert', 'leaf vegetable', 'sauces', 'sausage saucisson', 'spring water'), chosen action: ('beef', 'cheese dish')
+2019-08-06 13:20:47,573 Action ('beef', 'cheese dish'), probability of acceptance: 0
+2019-08-06 13:20:47,575 Baseline action ('beef', 'cheese dish'), probability of acceptance: 0
+2019-08-06 13:20:47,580 Baseline nutGreedy: action ('beef', 'cheese dish'), gain 2.7779696168829844, accepted 0
+2019-08-06 13:20:47,581 The next state is: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar')
+2019-08-06 13:20:47,583 Timestep 57, refused action ('beef', 'cheese dish') 
+2019-08-06 13:20:47,585 LEARNING TIMESTEP 58
+2019-08-06 13:20:47,587 State : 
+2019-08-06 13:24:29,303 Current state: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar'), chosen action: ('dried vegetables', 'cheese dish')
+2019-08-06 13:24:29,306 Action ('dried vegetables', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:24:29,308 Baseline action ('dried vegetables', 'cheese dish'), probability of acceptance: 0
+2019-08-06 13:24:29,309 Baseline nutGreedy: action ('dried vegetables', 'cheese dish'), gain 1.3778857292134532, accepted 0
+2019-08-06 13:24:29,311 The next state is: ('beans', 'bread', 'dessert', 'spring water')
+2019-08-06 13:26:01,955 Timestep 58, accepted action ('dried vegetables', 'cheese dish') with PandietGain 3.0011 
+2019-08-06 13:26:01,956 LEARNING TIMESTEP 59
+2019-08-06 13:26:01,958 State : 
+2019-08-06 13:27:34,023 Current state: ('beans', 'bread', 'dessert', 'spring water'), chosen action: ('beans', 'cheese dish')
+2019-08-06 13:27:34,026 Action ('beans', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:27:34,028 Baseline action ('dessert', 'cheese dish'), probability of acceptance: 0
+2019-08-06 13:27:34,030 Baseline nutGreedy: action ('dessert', 'cheese dish'), gain 2.586957545814357, accepted 0
+2019-08-06 13:27:34,031 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 13:28:47,825 Timestep 59, accepted action ('beans', 'cheese dish') with PandietGain 1.0779 
+2019-08-06 13:28:47,827 LEARNING TIMESTEP 60
+2019-08-06 13:28:47,829 State : 
+2019-08-06 13:29:57,851 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'salt and spices')
+2019-08-06 13:29:57,857 Action ('margarine', 'salt and spices'), probability of acceptance: 0
+2019-08-06 13:29:57,862 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:29:57,863 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 13:29:57,865 The next state is: ('beans', 'bread', 'dessert', 'spring water')
+2019-08-06 13:29:57,867 Timestep 60, refused action ('margarine', 'salt and spices') 
+2019-08-06 13:29:57,869 LEARNING TIMESTEP 61
+2019-08-06 13:29:57,871 State : 
+2019-08-06 13:31:30,614 Current state: ('beans', 'bread', 'dessert', 'spring water'), chosen action: ('beans', 'chocolate cereals')
+2019-08-06 13:31:30,618 Action ('beans', 'chocolate cereals'), probability of acceptance: 0
+2019-08-06 13:31:30,619 Baseline action ('dessert', 'cheese dish'), probability of acceptance: 0
+2019-08-06 13:31:30,621 Baseline nutGreedy: action ('dessert', 'cheese dish'), gain 2.586957545814357, accepted 0
+2019-08-06 13:31:30,623 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 13:31:30,624 Timestep 61, refused action ('beans', 'chocolate cereals') 
+2019-08-06 13:31:30,626 LEARNING TIMESTEP 62
+2019-08-06 13:31:30,627 State : 
+2019-08-06 13:32:39,636 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 13:32:39,640 Action ('margarine', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:32:39,641 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 13:32:39,643 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 0
+2019-08-06 13:32:39,645 The next state is: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt')
+2019-08-06 13:35:01,488 Timestep 62, accepted action ('margarine', 'cheese dish') with PandietGain 0.2158 
+2019-08-06 13:35:01,490 LEARNING TIMESTEP 63
+2019-08-06 13:35:01,492 State : 
+2019-08-06 13:37:16,845 Current state: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt'), chosen action: ('fruits', 'cake')
+2019-08-06 13:37:16,849 Action ('fruits', 'cake'), probability of acceptance: 0
+2019-08-06 13:37:16,850 Baseline action ('fruits', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:37:16,852 Baseline nutGreedy: action ('fruits', 'cheese dish'), gain 2.7293072783512002, accepted 1
+2019-08-06 13:37:16,854 The next state is: ('bread', 'butter', 'fruits', 'margarine', 'pasta', 'spring water', 'yoghurt')
+2019-08-06 13:37:16,855 Timestep 63, refused action ('fruits', 'cake') 
+2019-08-06 13:37:16,857 LEARNING TIMESTEP 64
+2019-08-06 13:37:16,858 State : 
+2019-08-06 13:40:08,514 Current state: ('bread', 'butter', 'fruits', 'margarine', 'pasta', 'spring water', 'yoghurt'), chosen action: ('yoghurt', 'cheese dish')
+2019-08-06 13:40:08,518 Action ('yoghurt', 'cheese dish'), probability of acceptance: 0
+2019-08-06 13:40:08,519 Baseline action ('pasta', 'cheese dish'), probability of acceptance: 0
+2019-08-06 13:40:08,521 Baseline nutGreedy: action ('pasta', 'cheese dish'), gain 2.0500290951488154, accepted 0
+2019-08-06 13:40:08,523 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 13:40:08,525 Timestep 64, refused action ('yoghurt', 'cheese dish') 
+2019-08-06 13:40:08,527 LEARNING TIMESTEP 65
+2019-08-06 13:40:08,529 State : 
+2019-08-06 13:41:17,155 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 13:41:17,158 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 13:41:17,160 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:41:17,161 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 13:41:17,163 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 13:41:17,165 Timestep 65, refused action ('margarine', 'cheese dish') 
+2019-08-06 13:41:17,166 LEARNING TIMESTEP 66
+2019-08-06 13:41:17,168 State : 
+2019-08-06 13:42:27,220 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'sodas colas')
+2019-08-06 13:42:27,223 Action ('margarine', 'sodas colas'), probability of acceptance: 0
+2019-08-06 13:42:27,224 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:42:27,226 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 13:42:27,228 The next state is: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar')
+2019-08-06 13:42:27,230 Timestep 66, refused action ('margarine', 'sodas colas') 
+2019-08-06 13:42:27,231 LEARNING TIMESTEP 67
+2019-08-06 13:42:27,233 State : 
+2019-08-06 13:46:08,857 Current state: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar'), chosen action: ('rice', 'chicory')
+2019-08-06 13:46:08,860 Action ('rice', 'chicory'), probability of acceptance: 0
+2019-08-06 13:46:08,862 Baseline action ('dried vegetables', 'cheese dish'), probability of acceptance: 0
+2019-08-06 13:46:08,864 Baseline nutGreedy: action ('dried vegetables', 'cheese dish'), gain 1.3778857292134532, accepted 0
+2019-08-06 13:46:08,865 The next state is: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water')
+2019-08-06 13:46:08,867 Timestep 67, refused action ('rice', 'chicory') 
+2019-08-06 13:46:08,869 LEARNING TIMESTEP 68
+2019-08-06 13:46:08,870 State : 
+2019-08-06 13:48:03,195 Current state: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water'), chosen action: ('spring water', 'cheese dish')
+2019-08-06 13:48:03,203 Action ('spring water', 'cheese dish'), probability of acceptance: 0
+2019-08-06 13:48:03,207 Baseline action ('sauces', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:48:03,209 Baseline nutGreedy: action ('sauces', 'cheese dish'), gain 2.5251853296593154, accepted 1
+2019-08-06 13:48:03,211 The next state is: ('bread', 'coffee', 'margarine', 'sugar')
+2019-08-06 13:48:03,213 Timestep 68, refused action ('spring water', 'cheese dish') 
+2019-08-06 13:48:03,215 LEARNING TIMESTEP 69
+2019-08-06 13:48:03,220 State : 
+2019-08-06 13:49:39,212 Current state: ('bread', 'coffee', 'margarine', 'sugar'), chosen action: ('margarine', 'complement condiment')
+2019-08-06 13:49:39,216 Action ('margarine', 'complement condiment'), probability of acceptance: 0
+2019-08-06 13:49:39,218 Baseline action ('margarine', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:49:39,219 Baseline nutGreedy: action ('margarine', 'cheese dish'), gain 2.5488031827177338, accepted 1
+2019-08-06 13:49:39,221 The next state is: ('bread', 'fruits', 'pasta', 'spring water', 'yoghurt')
+2019-08-06 13:49:39,223 Timestep 69, refused action ('margarine', 'complement condiment') 
+2019-08-06 13:49:39,224 LEARNING TIMESTEP 70
+2019-08-06 13:49:39,226 State : 
+2019-08-06 13:51:33,612 Current state: ('bread', 'fruits', 'pasta', 'spring water', 'yoghurt'), chosen action: ('bread', 'beans')
+2019-08-06 13:51:33,615 Action ('bread', 'beans'), probability of acceptance: 0
+2019-08-06 13:51:33,617 Baseline action ('pasta', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:51:33,619 Baseline nutGreedy: action ('pasta', 'cheese dish'), gain 2.2112557421149006, accepted 1
+2019-08-06 13:51:33,621 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 13:51:33,623 Timestep 70, refused action ('bread', 'beans') 
+2019-08-06 13:51:33,625 LEARNING TIMESTEP 71
+2019-08-06 13:51:33,626 State : 
+2019-08-06 13:52:43,584 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('bread', 'compote')
+2019-08-06 13:52:43,588 Action ('bread', 'compote'), probability of acceptance: 1
+2019-08-06 13:52:43,590 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 13:52:43,591 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 13:52:43,593 The next state is: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar')
+2019-08-06 13:56:24,519 Timestep 71, accepted action ('bread', 'compote') with PandietGain -4.1343 
+2019-08-06 13:56:24,521 LEARNING TIMESTEP 72
+2019-08-06 13:56:24,522 State : 
+2019-08-06 14:00:05,943 Current state: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar'), chosen action: ('dried vegetables', 'cheese dish')
+2019-08-06 14:00:05,947 Action ('dried vegetables', 'cheese dish'), probability of acceptance: 0
+2019-08-06 14:00:05,949 Baseline action ('dried vegetables', 'cheese dish'), probability of acceptance: 1
+2019-08-06 14:00:05,950 Baseline nutGreedy: action ('dried vegetables', 'cheese dish'), gain 1.3778857292134532, accepted 1
+2019-08-06 14:00:05,952 The next state is: ('bread', 'fruits', 'pasta', 'spring water', 'yoghurt')
+2019-08-06 14:00:05,954 Timestep 72, refused action ('dried vegetables', 'cheese dish') 
+2019-08-06 14:00:05,955 LEARNING TIMESTEP 73
+2019-08-06 14:00:05,957 State : 
+2019-08-06 14:01:58,429 Current state: ('bread', 'fruits', 'pasta', 'spring water', 'yoghurt'), chosen action: ('bread', 'cheese dish')
+2019-08-06 14:01:58,432 Action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 14:01:58,434 Baseline action ('pasta', 'cheese dish'), probability of acceptance: 0
+2019-08-06 14:01:58,435 Baseline nutGreedy: action ('pasta', 'cheese dish'), gain 2.2112557421149006, accepted 0
+2019-08-06 14:01:58,437 The next state is: ('bread', 'processed dried vegetables', 'sauces', 'spring water', 'yoghurt')
+2019-08-06 14:03:57,374 Timestep 73, accepted action ('bread', 'cheese dish') with PandietGain 3.3105 
+2019-08-06 14:03:57,377 LEARNING TIMESTEP 74
+2019-08-06 14:03:57,383 State : 
+2019-08-06 14:05:53,242 Current state: ('bread', 'processed dried vegetables', 'sauces', 'spring water', 'yoghurt'), chosen action: ('yoghurt', 'beer')
+2019-08-06 14:05:53,245 Action ('yoghurt', 'beer'), probability of acceptance: 0
+2019-08-06 14:05:53,248 Baseline action ('processed dried vegetables', 'cheese dish'), probability of acceptance: 0
+2019-08-06 14:05:53,250 Baseline nutGreedy: action ('processed dried vegetables', 'cheese dish'), gain 2.27130904137924, accepted 0
+2019-08-06 14:05:53,251 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 14:05:53,253 Timestep 74, refused action ('yoghurt', 'beer') 
+2019-08-06 14:05:53,254 LEARNING TIMESTEP 75
+2019-08-06 14:05:53,256 State : 
+2019-08-06 14:07:03,371 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 14:07:03,375 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 14:07:03,376 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 14:07:03,378 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 14:07:03,379 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 14:07:03,381 Timestep 75, refused action ('margarine', 'cheese dish') 
+2019-08-06 14:07:03,383 LEARNING TIMESTEP 76
+2019-08-06 14:07:03,384 State : 
+2019-08-06 14:08:13,211 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 14:08:13,214 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 14:08:13,215 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 14:08:13,217 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 14:08:13,219 The next state is: ('bread', 'spring water', 'yoghurt')
+2019-08-06 14:08:13,220 Timestep 76, refused action ('margarine', 'cheese dish') 
+2019-08-06 14:08:13,222 LEARNING TIMESTEP 77
+2019-08-06 14:08:13,223 State : 
+2019-08-06 14:09:27,514 Current state: ('bread', 'spring water', 'yoghurt'), chosen action: ('yoghurt', 'ripe cheese')
+2019-08-06 14:09:27,518 Action ('yoghurt', 'ripe cheese'), probability of acceptance: 1
+2019-08-06 14:09:27,520 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 14:09:27,522 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 3.1439191531405584, accepted 0
+2019-08-06 14:09:27,523 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 14:10:37,042 Timestep 77, accepted action ('yoghurt', 'ripe cheese') with PandietGain -0.2413 
+2019-08-06 14:10:37,044 LEARNING TIMESTEP 78
+2019-08-06 14:10:37,046 State : 
+2019-08-06 14:11:46,853 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('bread', 'dried fruit mix')
+2019-08-06 14:11:46,856 Action ('bread', 'dried fruit mix'), probability of acceptance: 1
+2019-08-06 14:11:46,858 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 14:11:46,859 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 14:11:46,861 The next state is: ('bread', 'butter', 'fruits', 'margarine', 'pasta', 'spring water', 'yoghurt')
+2019-08-06 14:14:29,885 Timestep 78, accepted action ('bread', 'dried fruit mix') with PandietGain -3.6957 
+2019-08-06 14:14:29,887 LEARNING TIMESTEP 79
+2019-08-06 14:14:29,888 State : 
+2019-08-06 14:17:06,297 Current state: ('bread', 'butter', 'fruits', 'margarine', 'pasta', 'spring water', 'yoghurt'), chosen action: ('butter', 'other cheese')
+2019-08-06 14:17:06,302 Action ('butter', 'other cheese'), probability of acceptance: 0
+2019-08-06 14:17:06,304 Baseline action ('pasta', 'cheese dish'), probability of acceptance: 1
+2019-08-06 14:17:06,306 Baseline nutGreedy: action ('pasta', 'cheese dish'), gain 2.0500290951488154, accepted 1
+2019-08-06 14:17:06,307 The next state is: ('dried fruit mix', 'margarine', 'sugar')
+2019-08-06 14:17:06,309 Timestep 79, refused action ('butter', 'other cheese') 
+2019-08-06 14:17:06,310 LEARNING TIMESTEP 80
+2019-08-06 14:17:06,320 State : 
+2019-08-06 14:18:15,871 Current state: ('dried fruit mix', 'margarine', 'sugar'), chosen action: ('dried fruit mix', 'ripe cheese')
+2019-08-06 14:18:15,873 State not in acceptability matrix !
+2019-08-06 14:18:15,875 State not in acceptability matrix !
+2019-08-06 14:18:15,876 Action ('dried fruit mix', 'ripe cheese'), probability of acceptance: 0
+2019-08-06 14:18:15,878 Baseline action ('dried fruit mix', 'cheese dish'), probability of acceptance: 0
+2019-08-06 14:18:15,879 Baseline nutGreedy: action ('dried fruit mix', 'cheese dish'), gain 2.7565192449429645, accepted 0
+2019-08-06 14:18:15,881 The next state is: ('bread', 'processed dried vegetables', 'sauces', 'spring water', 'yoghurt')
+2019-08-06 14:18:15,882 Timestep 80, refused action ('dried fruit mix', 'ripe cheese') 
+2019-08-06 14:18:15,884 LEARNING TIMESTEP 81
+2019-08-06 14:18:15,886 State : 
+2019-08-06 14:20:14,198 Current state: ('bread', 'processed dried vegetables', 'sauces', 'spring water', 'yoghurt'), chosen action: ('bread', 'cheese dish')
+2019-08-06 14:20:14,203 Action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 14:20:14,205 Baseline action ('processed dried vegetables', 'cheese dish'), probability of acceptance: 1
+2019-08-06 14:20:14,206 Baseline nutGreedy: action ('processed dried vegetables', 'cheese dish'), gain 2.27130904137924, accepted 1
+2019-08-06 14:20:14,208 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 14:21:24,709 Timestep 81, accepted action ('bread', 'cheese dish') with PandietGain 4.0362 
+2019-08-06 14:21:24,714 LEARNING TIMESTEP 82
+2019-08-06 14:21:24,716 State : 
+2019-08-06 14:22:34,324 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 14:22:34,327 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 14:22:34,329 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 14:22:34,330 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 0
+2019-08-06 14:22:34,332 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 14:22:34,334 Timestep 82, refused action ('margarine', 'cheese dish') 
+2019-08-06 14:22:34,335 LEARNING TIMESTEP 83
+2019-08-06 14:22:34,337 State : 
+2019-08-06 14:23:48,130 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 14:23:48,134 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 14:23:48,135 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 14:23:48,137 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 14:23:48,139 The next state is: ('bread', 'coffee', 'margarine', 'sugar')
+2019-08-06 14:23:48,140 Timestep 83, refused action ('margarine', 'cheese dish') 
+2019-08-06 14:23:48,142 LEARNING TIMESTEP 84
+2019-08-06 14:23:48,143 State : 
+2019-08-06 14:25:20,703 Current state: ('bread', 'coffee', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 14:25:20,706 Action ('margarine', 'cheese dish'), probability of acceptance: 1
+2019-08-06 14:25:20,707 Baseline action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 14:25:20,709 Baseline nutGreedy: action ('margarine', 'cheese dish'), gain 2.5488031827177338, accepted 0
+2019-08-06 14:25:20,710 The next state is: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar')
+2019-08-06 14:29:04,472 Timestep 84, accepted action ('margarine', 'cheese dish') with PandietGain 0.6017 
+2019-08-06 14:29:04,474 LEARNING TIMESTEP 85
+2019-08-06 14:29:04,476 State : 
+2019-08-06 14:34:54,552 Current state: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar'), chosen action: ('spring water', 'other cereals')
+2019-08-06 14:34:54,555 Action ('spring water', 'other cereals'), probability of acceptance: 1
+2019-08-06 14:34:54,557 Baseline action ('dried vegetables', 'cheese dish'), probability of acceptance: 0
+2019-08-06 14:34:54,560 Baseline nutGreedy: action ('dried vegetables', 'cheese dish'), gain 1.3778857292134532, accepted 0
+2019-08-06 14:34:54,565 The next state is: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water')
+2019-08-06 14:37:39,729 Timestep 85, accepted action ('spring water', 'other cereals') with PandietGain -4.4892 
+2019-08-06 14:37:39,731 LEARNING TIMESTEP 86
+2019-08-06 14:37:39,733 State : 
+2019-08-06 14:40:29,512 Current state: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water'), chosen action: ('dessert', 'sparkling mineral water')
+2019-08-06 14:40:29,516 Action ('dessert', 'sparkling mineral water'), probability of acceptance: 1
+2019-08-06 14:40:29,520 Baseline action ('sauces', 'cheese dish'), probability of acceptance: 1
+2019-08-06 14:40:29,522 Baseline nutGreedy: action ('sauces', 'cheese dish'), gain 2.5251853296593154, accepted 1
+2019-08-06 14:40:29,528 The next state is: ('bread', 'butter', 'ham', 'oil', 'potatoes', 'salt and spices', 'spring water', 'vegetable mix', 'yoghurt')
+2019-08-06 14:46:09,436 Timestep 86, accepted action ('dessert', 'sparkling mineral water') with PandietGain 1.4579 
+2019-08-06 14:46:09,444 LEARNING TIMESTEP 87
+2019-08-06 14:46:09,445 State : 
+2019-08-06 14:51:54,720 Current state: ('bread', 'butter', 'ham', 'oil', 'potatoes', 'salt and spices', 'spring water', 'vegetable mix', 'yoghurt'), chosen action: ('ham', 'crepe fritter')
+2019-08-06 14:51:54,732 Action ('ham', 'crepe fritter'), probability of acceptance: 0
+2019-08-06 14:51:54,740 Baseline action ('oil', 'cheese dish'), probability of acceptance: 0
+2019-08-06 14:51:54,742 Baseline nutGreedy: action ('oil', 'cheese dish'), gain 3.1328463318776727, accepted 0
+2019-08-06 14:51:54,744 The next state is: ('bread', 'spring water', 'yoghurt')
+2019-08-06 14:51:54,746 Timestep 87, refused action ('ham', 'crepe fritter') 
+2019-08-06 14:51:54,751 LEARNING TIMESTEP 88
+2019-08-06 14:51:54,754 State : 
+2019-08-06 14:53:52,356 Current state: ('bread', 'spring water', 'yoghurt'), chosen action: ('yoghurt', 'ripe cheese')
+2019-08-06 14:53:52,365 Action ('yoghurt', 'ripe cheese'), probability of acceptance: 1
+2019-08-06 14:53:52,373 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 14:53:52,374 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 3.1439191531405584, accepted 0
+2019-08-06 14:53:52,376 The next state is: ('beans', 'bread', 'butter', 'cream dessert', 'sauces', 'spring water')
+2019-08-06 14:57:53,598 Timestep 88, accepted action ('yoghurt', 'ripe cheese') with PandietGain 2.0891 
+2019-08-06 14:57:53,611 LEARNING TIMESTEP 89
+2019-08-06 14:57:53,613 State : 
+2019-08-06 15:02:12,126 Current state: ('beans', 'bread', 'butter', 'cream dessert', 'sauces', 'spring water'), chosen action: ('butter', 'flavoured milk')
+2019-08-06 15:02:12,137 Action ('butter', 'flavoured milk'), probability of acceptance: 0
+2019-08-06 15:02:12,140 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:02:12,149 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.770803232515817, accepted 0
+2019-08-06 15:02:12,151 The next state is: ('bread', 'coffee', 'margarine', 'sugar')
+2019-08-06 15:02:12,154 Timestep 89, refused action ('butter', 'flavoured milk') 
+2019-08-06 15:02:12,160 LEARNING TIMESTEP 90
+2019-08-06 15:02:12,162 State : 
+2019-08-06 15:05:03,805 Current state: ('bread', 'coffee', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 15:05:03,814 Action ('margarine', 'cheese dish'), probability of acceptance: 1
+2019-08-06 15:05:03,815 Baseline action ('margarine', 'cheese dish'), probability of acceptance: 1
+2019-08-06 15:05:03,817 Baseline nutGreedy: action ('margarine', 'cheese dish'), gain 2.5488031827177338, accepted 1
+2019-08-06 15:05:03,821 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 15:06:54,503 Timestep 90, accepted action ('margarine', 'cheese dish') with PandietGain 0.9423 
+2019-08-06 15:06:54,505 LEARNING TIMESTEP 91
+2019-08-06 15:06:54,507 State : 
+2019-08-06 15:08:10,124 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 15:08:10,129 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:08:10,130 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:08:10,132 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 0
+2019-08-06 15:08:10,135 The next state is: ('beans', 'bread', 'butter', 'cream dessert', 'sauces', 'spring water')
+2019-08-06 15:08:10,137 Timestep 91, refused action ('margarine', 'cheese dish') 
+2019-08-06 15:08:10,138 LEARNING TIMESTEP 92
+2019-08-06 15:08:10,140 State : 
+2019-08-06 15:10:40,240 Current state: ('beans', 'bread', 'butter', 'cream dessert', 'sauces', 'spring water'), chosen action: ('butter', 'cheese dish')
+2019-08-06 15:10:40,244 Action ('butter', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:10:40,245 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:10:40,247 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.770803232515817, accepted 0
+2019-08-06 15:10:40,249 The next state is: ('bread', 'coffee', 'margarine', 'sugar')
+2019-08-06 15:10:40,251 Timestep 92, refused action ('butter', 'cheese dish') 
+2019-08-06 15:10:40,252 LEARNING TIMESTEP 93
+2019-08-06 15:10:40,254 State : 
+2019-08-06 15:12:16,987 Current state: ('bread', 'coffee', 'margarine', 'sugar'), chosen action: ('margarine', 'other milk')
+2019-08-06 15:12:16,990 Action ('margarine', 'other milk'), probability of acceptance: 1
+2019-08-06 15:12:16,992 Baseline action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:12:16,993 Baseline nutGreedy: action ('margarine', 'cheese dish'), gain 2.5488031827177338, accepted 0
+2019-08-06 15:12:16,995 The next state is: ('bread', 'spring water', 'yoghurt')
+2019-08-06 15:13:31,039 Timestep 93, accepted action ('margarine', 'other milk') with PandietGain -2.5052 
+2019-08-06 15:13:31,041 LEARNING TIMESTEP 94
+2019-08-06 15:13:31,042 State : 
+2019-08-06 15:15:29,235 Current state: ('bread', 'spring water', 'yoghurt'), chosen action: ('bread', 'compote')
+2019-08-06 15:15:29,237 Action ('bread', 'compote'), probability of acceptance: 1
+2019-08-06 15:15:29,240 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:15:29,245 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 3.1439191531405584, accepted 0
+2019-08-06 15:15:29,247 The next state is: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar')
+2019-08-06 15:20:06,393 Timestep 94, accepted action ('bread', 'compote') with PandietGain 0.4766 
+2019-08-06 15:20:06,395 LEARNING TIMESTEP 95
+2019-08-06 15:20:06,396 State : 
+2019-08-06 15:24:04,501 Current state: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar'), chosen action: ('sugar', 'sandwich baguette')
+2019-08-06 15:24:04,504 Action ('sugar', 'sandwich baguette'), probability of acceptance: 1
+2019-08-06 15:24:04,506 Baseline action ('dried vegetables', 'cheese dish'), probability of acceptance: 1
+2019-08-06 15:24:04,508 Baseline nutGreedy: action ('dried vegetables', 'cheese dish'), gain 1.3778857292134532, accepted 1
+2019-08-06 15:24:04,510 The next state is: ('bread', 'butter', 'cream dessert', 'egg', 'sauces', 'spring water')
+2019-08-06 15:26:24,635 Timestep 95, accepted action ('sugar', 'sandwich baguette') with PandietGain -1.0615 
+2019-08-06 15:26:24,643 LEARNING TIMESTEP 96
+2019-08-06 15:26:24,658 State : 
+2019-08-06 15:28:39,565 Current state: ('bread', 'butter', 'cream dessert', 'egg', 'sauces', 'spring water'), chosen action: ('sauces', 'other shellfish')
+2019-08-06 15:28:39,568 Action ('sauces', 'other shellfish'), probability of acceptance: 1
+2019-08-06 15:28:39,570 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:28:39,572 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.8251505598135367, accepted 0
+2019-08-06 15:28:39,573 The next state is: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt')
+2019-08-06 15:30:52,308 Timestep 96, accepted action ('sauces', 'other shellfish') with PandietGain 1.1703 
+2019-08-06 15:30:52,310 LEARNING TIMESTEP 97
+2019-08-06 15:30:52,311 State : 
+2019-08-06 15:32:56,425 Current state: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt'), chosen action: ('bread', 'cheese dish')
+2019-08-06 15:32:56,428 Action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 15:32:56,430 Baseline action ('fruits', 'cheese dish'), probability of acceptance: 1
+2019-08-06 15:32:56,432 Baseline nutGreedy: action ('fruits', 'cheese dish'), gain 2.7293072783512002, accepted 1
+2019-08-06 15:32:56,433 The next state is: ('bread', 'rice', 'sauces', 'spring water', 'vegetable dish', 'yoghurt')
+2019-08-06 15:35:03,919 Timestep 97, accepted action ('bread', 'cheese dish') with PandietGain 2.0540 
+2019-08-06 15:35:03,921 LEARNING TIMESTEP 98
+2019-08-06 15:35:03,923 State : 
+2019-08-06 15:37:25,007 Current state: ('bread', 'rice', 'sauces', 'spring water', 'vegetable dish', 'yoghurt'), chosen action: ('sauces', 'cheese dish')
+2019-08-06 15:37:25,011 Action ('sauces', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:37:25,017 Baseline action ('rice', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:37:25,019 Baseline nutGreedy: action ('rice', 'cheese dish'), gain 2.276003256764753, accepted 0
+2019-08-06 15:37:25,021 The next state is: ('bread', 'processed dried vegetables', 'sauces', 'spring water', 'yoghurt')
+2019-08-06 15:37:25,028 Timestep 98, refused action ('sauces', 'cheese dish') 
+2019-08-06 15:37:25,029 LEARNING TIMESTEP 99
+2019-08-06 15:37:25,030 State : 
+2019-08-06 15:39:51,748 Current state: ('bread', 'processed dried vegetables', 'sauces', 'spring water', 'yoghurt'), chosen action: ('bread', 'lamb')
+2019-08-06 15:39:51,752 Action ('bread', 'lamb'), probability of acceptance: 0
+2019-08-06 15:39:51,753 Baseline action ('processed dried vegetables', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:39:51,755 Baseline nutGreedy: action ('processed dried vegetables', 'cheese dish'), gain 2.27130904137924, accepted 0
+2019-08-06 15:39:51,757 The next state is: ('bread', 'coffee', 'margarine', 'sugar')
+2019-08-06 15:39:51,759 Timestep 99, refused action ('bread', 'lamb') 
+2019-08-06 15:39:51,760 LEARNING TIMESTEP 100
+2019-08-06 15:39:51,762 State : 
+2019-08-06 15:41:23,209 Current state: ('bread', 'coffee', 'margarine', 'sugar'), chosen action: ('margarine', 'ripe cheese')
+2019-08-06 15:41:23,216 Action ('margarine', 'ripe cheese'), probability of acceptance: 0
+2019-08-06 15:41:23,224 Baseline action ('margarine', 'cheese dish'), probability of acceptance: 1
+2019-08-06 15:41:23,226 Baseline nutGreedy: action ('margarine', 'cheese dish'), gain 2.5488031827177338, accepted 1
+2019-08-06 15:41:23,228 The next state is: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt')
+2019-08-06 15:41:23,229 Timestep 100, refused action ('margarine', 'ripe cheese') 
+2019-08-06 15:41:23,231 LEARNING TIMESTEP 101
+2019-08-06 15:41:23,233 State : 
+2019-08-06 15:43:37,636 Current state: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt'), chosen action: ('bread', 'cheese dish')
+2019-08-06 15:43:37,639 Action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 15:43:37,641 Baseline action ('fruits', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:43:37,642 Baseline nutGreedy: action ('fruits', 'cheese dish'), gain 2.7293072783512002, accepted 0
+2019-08-06 15:43:37,644 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 15:44:51,311 Timestep 101, accepted action ('bread', 'cheese dish') with PandietGain 0.0000 
+2019-08-06 15:44:51,313 LEARNING TIMESTEP 102
+2019-08-06 15:44:51,315 State : 
+2019-08-06 15:46:00,088 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 15:46:00,097 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:46:00,099 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 15:46:00,102 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 15:46:00,107 The next state is: ('beans', 'butter', 'cheese dish', 'fruits', 'spring water', 'yoghurt')
+2019-08-06 15:46:00,109 Timestep 102, refused action ('margarine', 'cheese dish') 
+2019-08-06 15:46:00,111 LEARNING TIMESTEP 103
+2019-08-06 15:46:00,115 State : 
+2019-08-06 15:48:25,230 Current state: ('beans', 'butter', 'cheese dish', 'fruits', 'spring water', 'yoghurt'), chosen action: ('fruits', 'sandwich baguette')
+2019-08-06 15:48:25,232 State not in acceptability matrix !
+2019-08-06 15:48:25,234 State not in acceptability matrix !
+2019-08-06 15:48:25,235 Action ('fruits', 'sandwich baguette'), probability of acceptance: 0
+2019-08-06 15:48:25,237 Baseline action ('fruits', 'sausage saucisson'), probability of acceptance: 0
+2019-08-06 15:48:25,239 Baseline nutGreedy: action ('fruits', 'sausage saucisson'), gain 3.75302024981913, accepted 0
+2019-08-06 15:48:25,240 The next state is: ('bread', 'fruits', 'pasta', 'spring water', 'yoghurt')
+2019-08-06 15:48:25,243 Timestep 103, refused action ('fruits', 'sandwich baguette') 
+2019-08-06 15:48:25,245 LEARNING TIMESTEP 104
+2019-08-06 15:48:25,247 State : 
+2019-08-06 15:50:22,294 Current state: ('bread', 'fruits', 'pasta', 'spring water', 'yoghurt'), chosen action: ('bread', 'cheese dish')
+2019-08-06 15:50:22,297 Action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 15:50:22,303 Baseline action ('pasta', 'cheese dish'), probability of acceptance: 1
+2019-08-06 15:50:22,304 Baseline nutGreedy: action ('pasta', 'cheese dish'), gain 2.2112557421149006, accepted 1
+2019-08-06 15:50:22,306 The next state is: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water')
+2019-08-06 15:52:15,627 Timestep 104, accepted action ('bread', 'cheese dish') with PandietGain -0.8352 
+2019-08-06 15:52:15,629 LEARNING TIMESTEP 105
+2019-08-06 15:52:15,630 State : 
+2019-08-06 15:54:11,863 Current state: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water'), chosen action: ('dessert', 'rusk')
+2019-08-06 15:54:11,866 Action ('dessert', 'rusk'), probability of acceptance: 0
+2019-08-06 15:54:11,868 Baseline action ('sauces', 'cheese dish'), probability of acceptance: 1
+2019-08-06 15:54:11,869 Baseline nutGreedy: action ('sauces', 'cheese dish'), gain 2.5251853296593154, accepted 1
+2019-08-06 15:54:11,871 The next state is: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water')
+2019-08-06 15:54:11,872 Timestep 105, refused action ('dessert', 'rusk') 
+2019-08-06 15:54:11,874 LEARNING TIMESTEP 106
+2019-08-06 15:54:11,875 State : 
+2019-08-06 15:56:03,635 Current state: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water'), chosen action: ('spring water', 'cheese dish')
+2019-08-06 15:56:03,638 Action ('spring water', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:56:03,640 Baseline action ('sauces', 'cheese dish'), probability of acceptance: 1
+2019-08-06 15:56:03,641 Baseline nutGreedy: action ('sauces', 'cheese dish'), gain 2.5251853296593154, accepted 1
+2019-08-06 15:56:03,643 The next state is: ('bread', 'butter', 'cream dessert', 'egg', 'sauces', 'spring water')
+2019-08-06 15:56:03,645 Timestep 106, refused action ('spring water', 'cheese dish') 
+2019-08-06 15:56:03,646 LEARNING TIMESTEP 107
+2019-08-06 15:56:03,648 State : 
+2019-08-06 15:58:17,809 Current state: ('bread', 'butter', 'cream dessert', 'egg', 'sauces', 'spring water'), chosen action: ('bread', 'cheese dish')
+2019-08-06 15:58:17,812 Action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:58:17,814 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:58:17,816 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.8251505598135367, accepted 0
+2019-08-06 15:58:17,818 The next state is: ('bread', 'coffee', 'margarine', 'sugar')
+2019-08-06 15:58:17,819 Timestep 107, refused action ('bread', 'cheese dish') 
+2019-08-06 15:58:17,821 LEARNING TIMESTEP 108
+2019-08-06 15:58:17,822 State : 
+2019-08-06 15:59:51,959 Current state: ('bread', 'coffee', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 15:59:51,963 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 15:59:51,964 Baseline action ('margarine', 'cheese dish'), probability of acceptance: 1
+2019-08-06 15:59:51,966 Baseline nutGreedy: action ('margarine', 'cheese dish'), gain 2.5488031827177338, accepted 1
+2019-08-06 15:59:51,968 The next state is: ('beans', 'bread', 'butter', 'cream dessert', 'sauces', 'spring water')
+2019-08-06 15:59:51,969 Timestep 108, refused action ('margarine', 'cheese dish') 
+2019-08-06 15:59:51,971 LEARNING TIMESTEP 109
+2019-08-06 15:59:51,972 State : 
+2019-08-06 16:02:06,254 Current state: ('beans', 'bread', 'butter', 'cream dessert', 'sauces', 'spring water'), chosen action: ('bread', 'sausage saucisson')
+2019-08-06 16:02:06,257 Action ('bread', 'sausage saucisson'), probability of acceptance: 0
+2019-08-06 16:02:06,259 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:02:06,261 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.770803232515817, accepted 1
+2019-08-06 16:02:06,263 The next state is: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar')
+2019-08-06 16:02:06,264 Timestep 109, refused action ('bread', 'sausage saucisson') 
+2019-08-06 16:02:06,266 LEARNING TIMESTEP 110
+2019-08-06 16:02:06,268 State : 
+2019-08-06 16:05:47,890 Current state: ('bread', 'cabbage', 'dried vegetables', 'fromage blanc', 'fruit vegetable', 'rice', 'root vegetable', 'sauces', 'spring water', 'sugar'), chosen action: ('fruit vegetable', 'fresh cheese')
+2019-08-06 16:05:47,894 Action ('fruit vegetable', 'fresh cheese'), probability of acceptance: 0
+2019-08-06 16:05:47,896 Baseline action ('dried vegetables', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:05:47,898 Baseline nutGreedy: action ('dried vegetables', 'cheese dish'), gain 1.3778857292134532, accepted 1
+2019-08-06 16:05:47,905 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 16:05:47,906 Timestep 110, refused action ('fruit vegetable', 'fresh cheese') 
+2019-08-06 16:05:47,907 LEARNING TIMESTEP 111
+2019-08-06 16:05:47,909 State : 
+2019-08-06 16:06:56,891 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 16:06:56,894 Action ('margarine', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:06:56,896 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:06:56,907 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 16:06:56,909 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 16:08:05,960 Timestep 111, accepted action ('margarine', 'cheese dish') with PandietGain 0.8238 
+2019-08-06 16:08:05,962 LEARNING TIMESTEP 112
+2019-08-06 16:08:05,964 State : 
+2019-08-06 16:09:18,556 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'doughnut crepe waffle')
+2019-08-06 16:09:18,559 Action ('margarine', 'doughnut crepe waffle'), probability of acceptance: 1
+2019-08-06 16:09:18,561 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:09:18,563 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 0
+2019-08-06 16:09:18,565 The next state is: ('bread', 'spring water', 'yoghurt')
+2019-08-06 16:10:28,232 Timestep 112, accepted action ('margarine', 'doughnut crepe waffle') with PandietGain -1.4733 
+2019-08-06 16:10:28,234 LEARNING TIMESTEP 113
+2019-08-06 16:10:28,236 State : 
+2019-08-06 16:11:36,908 Current state: ('bread', 'spring water', 'yoghurt'), chosen action: ('bread', 'still mineral water')
+2019-08-06 16:11:36,911 Action ('bread', 'still mineral water'), probability of acceptance: 1
+2019-08-06 16:11:36,913 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:11:36,914 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 3.1439191531405584, accepted 0
+2019-08-06 16:11:36,916 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 16:12:45,465 Timestep 113, accepted action ('bread', 'still mineral water') with PandietGain -0.6247 
+2019-08-06 16:12:45,467 LEARNING TIMESTEP 114
+2019-08-06 16:12:45,468 State : 
+2019-08-06 16:13:56,228 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'doughnut crepe waffle')
+2019-08-06 16:13:56,231 Action ('margarine', 'doughnut crepe waffle'), probability of acceptance: 1
+2019-08-06 16:13:56,233 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:13:56,234 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 0
+2019-08-06 16:13:56,236 The next state is: ('bread', 'processed dried vegetables', 'sauces', 'spring water', 'yoghurt')
+2019-08-06 16:15:48,967 Timestep 114, accepted action ('margarine', 'doughnut crepe waffle') with PandietGain 0.6247 
+2019-08-06 16:15:48,969 LEARNING TIMESTEP 115
+2019-08-06 16:15:48,970 State : 
+2019-08-06 16:17:42,065 Current state: ('bread', 'processed dried vegetables', 'sauces', 'spring water', 'yoghurt'), chosen action: ('yoghurt', 'sugar')
+2019-08-06 16:17:42,069 Action ('yoghurt', 'sugar'), probability of acceptance: 0
+2019-08-06 16:17:42,070 Baseline action ('processed dried vegetables', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:17:42,072 Baseline nutGreedy: action ('processed dried vegetables', 'cheese dish'), gain 2.27130904137924, accepted 1
+2019-08-06 16:17:42,074 The next state is: ('bread', 'doughnut crepe waffle', 'sugar')
+2019-08-06 16:17:42,075 Timestep 115, refused action ('yoghurt', 'sugar') 
+2019-08-06 16:17:42,077 LEARNING TIMESTEP 116
+2019-08-06 16:17:42,079 State : 
+2019-08-06 16:18:52,291 Current state: ('bread', 'doughnut crepe waffle', 'sugar'), chosen action: ('sugar', 'cheese dish')
+2019-08-06 16:18:52,294 State not in acceptability matrix !
+2019-08-06 16:18:52,295 State not in acceptability matrix !
+2019-08-06 16:18:52,297 Action ('sugar', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:18:52,304 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:18:52,305 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7925393078043044, accepted 0
+2019-08-06 16:18:52,307 The next state is: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water')
+2019-08-06 16:18:52,308 Timestep 116, refused action ('sugar', 'cheese dish') 
+2019-08-06 16:18:52,310 LEARNING TIMESTEP 117
+2019-08-06 16:18:52,311 State : 
+2019-08-06 16:20:44,493 Current state: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water'), chosen action: ('sauces', 'yoghurt')
+2019-08-06 16:20:44,497 Action ('sauces', 'yoghurt'), probability of acceptance: 0
+2019-08-06 16:20:44,503 Baseline action ('sauces', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:20:44,504 Baseline nutGreedy: action ('sauces', 'cheese dish'), gain 2.5251853296593154, accepted 1
+2019-08-06 16:20:44,506 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 16:20:44,508 Timestep 117, refused action ('sauces', 'yoghurt') 
+2019-08-06 16:20:44,509 LEARNING TIMESTEP 118
+2019-08-06 16:20:44,510 State : 
+2019-08-06 16:21:53,052 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 16:21:53,055 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:21:53,057 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:21:53,059 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 0
+2019-08-06 16:21:53,061 The next state is: ('bread', 'fruits', 'pasta', 'spring water', 'yoghurt')
+2019-08-06 16:21:53,063 Timestep 118, refused action ('margarine', 'cheese dish') 
+2019-08-06 16:21:53,064 LEARNING TIMESTEP 119
+2019-08-06 16:21:53,066 State : 
+2019-08-06 16:23:43,758 Current state: ('bread', 'fruits', 'pasta', 'spring water', 'yoghurt'), chosen action: ('yoghurt', 'crepe fritter')
+2019-08-06 16:23:43,765 Action ('yoghurt', 'crepe fritter'), probability of acceptance: 1
+2019-08-06 16:23:43,772 Baseline action ('pasta', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:23:43,773 Baseline nutGreedy: action ('pasta', 'cheese dish'), gain 2.2112557421149006, accepted 0
+2019-08-06 16:23:43,774 The next state is: ('bread', 'coffee', 'margarine', 'sugar')
+2019-08-06 16:25:15,801 Timestep 119, accepted action ('yoghurt', 'crepe fritter') with PandietGain -1.9654 
+2019-08-06 16:25:15,803 LEARNING TIMESTEP 120
+2019-08-06 16:25:15,808 State : 
+2019-08-06 16:26:43,398 Current state: ('bread', 'coffee', 'margarine', 'sugar'), chosen action: ('bread', 'doughnut crepe waffle')
+2019-08-06 16:26:43,405 Action ('bread', 'doughnut crepe waffle'), probability of acceptance: 0
+2019-08-06 16:26:43,408 Baseline action ('margarine', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:26:43,409 Baseline nutGreedy: action ('margarine', 'cheese dish'), gain 2.5488031827177338, accepted 1
+2019-08-06 16:26:43,411 The next state is: ('bread', 'butter', 'fruits', 'margarine', 'pasta', 'spring water', 'yoghurt')
+2019-08-06 16:26:43,413 Timestep 120, refused action ('bread', 'doughnut crepe waffle') 
+2019-08-06 16:26:43,414 LEARNING TIMESTEP 121
+2019-08-06 16:26:43,416 State : 
+2019-08-06 16:29:17,028 Current state: ('bread', 'butter', 'fruits', 'margarine', 'pasta', 'spring water', 'yoghurt'), chosen action: ('yoghurt', 'cheese dish')
+2019-08-06 16:29:17,031 Action ('yoghurt', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:29:17,036 Baseline action ('pasta', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:29:17,038 Baseline nutGreedy: action ('pasta', 'cheese dish'), gain 2.0500290951488154, accepted 0
+2019-08-06 16:29:17,039 The next state is: ('bread', 'rice', 'sauces', 'spring water', 'vegetable dish', 'yoghurt')
+2019-08-06 16:29:17,044 Timestep 121, refused action ('yoghurt', 'cheese dish') 
+2019-08-06 16:29:17,046 LEARNING TIMESTEP 122
+2019-08-06 16:29:17,048 State : 
+2019-08-06 16:31:26,543 Current state: ('bread', 'rice', 'sauces', 'spring water', 'vegetable dish', 'yoghurt'), chosen action: ('sauces', 'cheese dish')
+2019-08-06 16:31:26,546 Action ('sauces', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:31:26,548 Baseline action ('rice', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:31:26,549 Baseline nutGreedy: action ('rice', 'cheese dish'), gain 2.276003256764753, accepted 1
+2019-08-06 16:31:26,551 The next state is: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water')
+2019-08-06 16:33:15,580 Timestep 122, accepted action ('sauces', 'cheese dish') with PandietGain 2.7496 
+2019-08-06 16:33:15,582 LEARNING TIMESTEP 123
+2019-08-06 16:33:15,584 State : 
+2019-08-06 16:35:12,836 Current state: ('bread', 'dessert', 'pasta or potatoe dish', 'sauces', 'spring water'), chosen action: ('spring water', 'cheese dish')
+2019-08-06 16:35:12,839 Action ('spring water', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:35:12,841 Baseline action ('sauces', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:35:12,842 Baseline nutGreedy: action ('sauces', 'cheese dish'), gain 2.5251853296593154, accepted 1
+2019-08-06 16:35:12,844 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 16:35:12,845 Timestep 123, refused action ('spring water', 'cheese dish') 
+2019-08-06 16:35:12,847 LEARNING TIMESTEP 124
+2019-08-06 16:35:12,848 State : 
+2019-08-06 16:36:28,316 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 16:36:28,319 Action ('margarine', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:36:28,321 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:36:28,323 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 16:36:28,325 The next state is: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt')
+2019-08-06 16:38:41,940 Timestep 124, accepted action ('margarine', 'cheese dish') with PandietGain 0.6892 
+2019-08-06 16:38:41,943 LEARNING TIMESTEP 125
+2019-08-06 16:38:41,944 State : 
+2019-08-06 16:40:55,294 Current state: ('beans', 'bread', 'butter', 'fruits', 'spring water', 'yoghurt'), chosen action: ('bread', 'cheese dish')
+2019-08-06 16:40:55,297 Action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:40:55,304 Baseline action ('fruits', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:40:55,311 Baseline nutGreedy: action ('fruits', 'cheese dish'), gain 2.7293072783512002, accepted 0
+2019-08-06 16:40:55,313 The next state is: ('bread', 'spring water', 'yoghurt')
+2019-08-06 16:42:03,185 Timestep 125, accepted action ('bread', 'cheese dish') with PandietGain 0.0114 
+2019-08-06 16:42:03,187 LEARNING TIMESTEP 126
+2019-08-06 16:42:03,190 State : 
+2019-08-06 16:43:11,043 Current state: ('bread', 'spring water', 'yoghurt'), chosen action: ('spring water', 'other fresh drinks')
+2019-08-06 16:43:11,046 Action ('spring water', 'other fresh drinks'), probability of acceptance: 0
+2019-08-06 16:43:11,048 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:43:11,049 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 3.1439191531405584, accepted 0
+2019-08-06 16:43:11,051 The next state is: ('beans', 'butter', 'cheese dish', 'fruits', 'spring water', 'yoghurt')
+2019-08-06 16:43:11,053 Timestep 126, refused action ('spring water', 'other fresh drinks') 
+2019-08-06 16:43:11,055 LEARNING TIMESTEP 127
+2019-08-06 16:43:11,056 State : 
+2019-08-06 16:45:33,338 Current state: ('beans', 'butter', 'cheese dish', 'fruits', 'spring water', 'yoghurt'), chosen action: ('fruits', 'complement condiment')
+2019-08-06 16:45:33,340 State not in acceptability matrix !
+2019-08-06 16:45:33,342 State not in acceptability matrix !
+2019-08-06 16:45:33,343 Action ('fruits', 'complement condiment'), probability of acceptance: 0
+2019-08-06 16:45:33,345 Baseline action ('fruits', 'sausage saucisson'), probability of acceptance: 0
+2019-08-06 16:45:33,347 Baseline nutGreedy: action ('fruits', 'sausage saucisson'), gain 3.75302024981913, accepted 0
+2019-08-06 16:45:33,348 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 16:45:33,350 Timestep 127, refused action ('fruits', 'complement condiment') 
+2019-08-06 16:45:33,351 LEARNING TIMESTEP 128
+2019-08-06 16:45:33,353 State : 
+2019-08-06 16:46:49,040 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 16:46:49,043 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:46:49,045 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:46:49,047 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 16:46:49,048 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 16:46:49,050 Timestep 128, refused action ('margarine', 'cheese dish') 
+2019-08-06 16:46:49,051 LEARNING TIMESTEP 129
+2019-08-06 16:46:49,053 State : 
+2019-08-06 16:47:57,242 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 16:47:57,247 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:47:57,252 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:47:57,254 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 16:47:57,256 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 16:47:57,258 Timestep 129, refused action ('margarine', 'cheese dish') 
+2019-08-06 16:47:57,259 LEARNING TIMESTEP 130
+2019-08-06 16:47:57,261 State : 
+2019-08-06 16:49:09,908 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 16:49:09,912 Action ('margarine', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:49:09,914 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:49:09,915 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 16:49:09,918 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 16:49:09,920 Timestep 130, refused action ('margarine', 'cheese dish') 
+2019-08-06 16:49:09,922 LEARNING TIMESTEP 131
+2019-08-06 16:49:09,924 State : 
+2019-08-06 16:50:28,183 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('margarine', 'cheese dish')
+2019-08-06 16:50:28,186 Action ('margarine', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:50:28,188 Baseline action ('bread', 'cheese dish'), probability of acceptance: 0
+2019-08-06 16:50:28,190 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 0
+2019-08-06 16:50:28,192 The next state is: ('beans', 'butter', 'cheese dish', 'fruits', 'spring water', 'yoghurt')
+2019-08-06 16:52:36,856 Timestep 131, accepted action ('margarine', 'cheese dish') with PandietGain -0.0114 
+2019-08-06 16:52:36,859 LEARNING TIMESTEP 132
+2019-08-06 16:52:36,861 State : 
+2019-08-06 16:55:09,648 Current state: ('beans', 'butter', 'cheese dish', 'fruits', 'spring water', 'yoghurt'), chosen action: ('fruits', 'complement condiment')
+2019-08-06 16:55:09,656 State not in acceptability matrix !
+2019-08-06 16:55:09,657 State not in acceptability matrix !
+2019-08-06 16:55:09,659 Action ('fruits', 'complement condiment'), probability of acceptance: 0
+2019-08-06 16:55:09,662 Baseline action ('fruits', 'sausage saucisson'), probability of acceptance: 0
+2019-08-06 16:55:09,667 Baseline nutGreedy: action ('fruits', 'sausage saucisson'), gain 3.75302024981913, accepted 0
+2019-08-06 16:55:09,668 The next state is: ('bread', 'margarine', 'sugar')
+2019-08-06 16:55:09,671 Timestep 132, refused action ('fruits', 'complement condiment') 
+2019-08-06 16:55:09,673 LEARNING TIMESTEP 133
+2019-08-06 16:55:09,675 State : 
+2019-08-06 16:56:58,994 Current state: ('bread', 'margarine', 'sugar'), chosen action: ('bread', 'cereal breakfast')
+2019-08-06 16:56:58,998 Action ('bread', 'cereal breakfast'), probability of acceptance: 1
+2019-08-06 16:56:59,005 Baseline action ('bread', 'cheese dish'), probability of acceptance: 1
+2019-08-06 16:56:59,007 Baseline nutGreedy: action ('bread', 'cheese dish'), gain 2.7565192449429645, accepted 1
+2019-08-06 16:56:59,009 The next state is: ('bread', 'butter', 'cream dessert', 'egg', 'sauces', 'spring water')
+2019-08-06 16:59:42,015 Timestep 133, accepted action ('bread', 'cereal breakfast') with PandietGain -4.7334 
+2019-08-06 16:59:42,020 LEARNING TIMESTEP 134
+2019-08-06 16:59:42,022 State : 

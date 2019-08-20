@@ -1,0 +1,2017 @@
+2019-08-19 10:07:28,630 -------------------------------------------------------
+2019-08-19 10:07:28,634 Importing the user object...
+2019-08-19 10:07:29,187 Updating PandietScore...
+2019-08-19 10:07:29,194 Previous PandietScore: 0.0000. Current pandietScore 54.6922
+2019-08-19 10:07:29,213 -------------------------------------------------------
+2019-08-19 10:07:29,218 Initialization of expert...
+2019-08-19 10:07:29,223 -------------------------------------------------------
+2019-08-19 10:07:29,225 Learning phase...
+2019-08-19 10:07:29,228 LEARNING TIMESTEP 1
+2019-08-19 10:07:29,231 State : 
+2019-08-19 10:07:41,074 Current state: ('beans', 'fromage blanc', 'margarine', 'poultry rabbit', 'yoghurt'), chosen action: ('fromage blanc', 'potatoes')
+2019-08-19 10:07:41,094 Action ('fromage blanc', 'potatoes'), probability of acceptance: 1
+2019-08-19 10:07:41,096 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 1
+2019-08-19 10:07:41,110 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain -0.3901699388307662, accepted 1
+2019-08-19 10:07:41,111 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas')
+2019-08-19 10:07:57,664 Timestep 1, accepted action ('fromage blanc', 'potatoes') with PandietGain -0.1004 
+2019-08-19 10:07:57,666 Updating PandietScore...
+2019-08-19 10:07:57,669 Previous PandietScore: 54.6922. Current pandietScore 56.1570
+2019-08-19 10:07:57,671 LEARNING TIMESTEP 2
+2019-08-19 10:07:57,673 State : 
+2019-08-19 10:08:14,570 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas'), chosen action: ('fromage blanc', 'bread')
+2019-08-19 10:08:14,576 Action ('fromage blanc', 'bread'), probability of acceptance: 0
+2019-08-19 10:08:14,588 Baseline action ('margarine', 'yoghurt'), probability of acceptance: 0
+2019-08-19 10:08:14,592 Baseline nutGreedy: action ('margarine', 'yoghurt'), gain 3.4571077194191133, accepted 0
+2019-08-19 10:08:14,593 The next state is: ('beans', 'margarine', 'potatoes', 'poultry rabbit', 'yoghurt')
+2019-08-19 10:08:15,281 Timestep 2, refused action ('fromage blanc', 'bread') 
+2019-08-19 10:08:15,293 Updating PandietScore...
+2019-08-19 10:08:15,301 Previous PandietScore: 56.1570. Current pandietScore 56.1570
+2019-08-19 10:08:15,306 LEARNING TIMESTEP 3
+2019-08-19 10:08:15,308 State : 
+2019-08-19 10:08:33,159 Current state: ('beans', 'margarine', 'potatoes', 'poultry rabbit', 'yoghurt'), chosen action: ('beans', 'bread')
+2019-08-19 10:08:33,167 State not in acceptability matrix !
+2019-08-19 10:08:33,170 State not in acceptability matrix !
+2019-08-19 10:08:33,175 Action ('beans', 'bread'), probability of acceptance: 0
+2019-08-19 10:08:33,188 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 0
+2019-08-19 10:08:33,189 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain 3.121076424723711, accepted 0
+2019-08-19 10:08:33,200 The next state is: ('bread', 'butter', 'margarine')
+2019-08-19 10:08:33,973 Timestep 3, refused action ('beans', 'bread') 
+2019-08-19 10:08:33,975 Updating PandietScore...
+2019-08-19 10:08:33,984 Previous PandietScore: 56.1570. Current pandietScore 56.1570
+2019-08-19 10:08:34,002 LEARNING TIMESTEP 4
+2019-08-19 10:08:34,006 State : 
+2019-08-19 10:08:54,691 Current state: ('bread', 'butter', 'margarine'), chosen action: ('butter', 'fromage blanc')
+2019-08-19 10:08:54,707 Action ('butter', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:08:54,710 Baseline action ('bread', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:08:54,713 Baseline nutGreedy: action ('bread', 'fromage blanc'), gain 5.276472063840373, accepted 1
+2019-08-19 10:08:54,718 The next state is: ('yoghurt',)
+2019-08-19 10:09:00,856 Timestep 4, accepted action ('butter', 'fromage blanc') with PandietGain 2.5524 
+2019-08-19 10:09:00,859 Updating PandietScore...
+2019-08-19 10:09:00,861 Previous PandietScore: 56.1570. Current pandietScore 53.6045
+2019-08-19 10:09:00,863 LEARNING TIMESTEP 5
+2019-08-19 10:09:00,865 State : 
+2019-08-19 10:09:05,874 Current state: ('yoghurt',), chosen action: ('yoghurt', 'butter')
+2019-08-19 10:09:05,885 Action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:09:05,887 Baseline action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:09:05,899 Baseline nutGreedy: action ('yoghurt', 'butter'), gain 5.3290394411076605, accepted 0
+2019-08-19 10:09:05,906 The next state is: ('yoghurt',)
+2019-08-19 10:09:06,510 Timestep 5, refused action ('yoghurt', 'butter') 
+2019-08-19 10:09:06,519 Updating PandietScore...
+2019-08-19 10:09:06,523 Previous PandietScore: 53.6045. Current pandietScore 53.6045
+2019-08-19 10:09:06,525 LEARNING TIMESTEP 6
+2019-08-19 10:09:06,533 State : 
+2019-08-19 10:09:11,366 Current state: ('yoghurt',), chosen action: ('yoghurt', 'fromage blanc')
+2019-08-19 10:09:11,371 Action ('yoghurt', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:09:11,382 Baseline action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:09:11,384 Baseline nutGreedy: action ('yoghurt', 'butter'), gain 5.3290394411076605, accepted 0
+2019-08-19 10:09:11,389 The next state is: ('butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:09:32,011 Timestep 6, accepted action ('yoghurt', 'fromage blanc') with PandietGain 1.3505 
+2019-08-19 10:09:32,027 Updating PandietScore...
+2019-08-19 10:09:32,029 Previous PandietScore: 53.6045. Current pandietScore 52.2540
+2019-08-19 10:09:32,032 LEARNING TIMESTEP 7
+2019-08-19 10:09:32,039 State : 
+2019-08-19 10:09:56,151 Current state: ('butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('yoghurt', 'beans')
+2019-08-19 10:09:56,169 Action ('yoghurt', 'beans'), probability of acceptance: 1
+2019-08-19 10:09:56,179 Baseline action ('yoghurt', 'beans'), probability of acceptance: 0
+2019-08-19 10:09:56,181 Baseline nutGreedy: action ('yoghurt', 'beans'), gain 0.3274252412630716, accepted 0
+2019-08-19 10:09:56,192 The next state is: ('margarine', 'sodas colas', 'yoghurt')
+2019-08-19 10:10:12,239 Timestep 7, accepted action ('yoghurt', 'beans') with PandietGain 0.3274 
+2019-08-19 10:10:12,247 Updating PandietScore...
+2019-08-19 10:10:12,248 Previous PandietScore: 52.2540. Current pandietScore 51.9266
+2019-08-19 10:10:12,250 LEARNING TIMESTEP 8
+2019-08-19 10:10:12,252 State : 
+2019-08-19 10:10:18,432 Current state: ('margarine', 'sodas colas', 'yoghurt'), chosen action: ('sodas colas', 'butter')
+2019-08-19 10:10:18,436 Action ('sodas colas', 'butter'), probability of acceptance: 1
+2019-08-19 10:10:18,437 Baseline action ('sodas colas', 'butter'), probability of acceptance: 1
+2019-08-19 10:10:18,439 Baseline nutGreedy: action ('sodas colas', 'butter'), gain 0.6436029397947607, accepted 1
+2019-08-19 10:10:18,441 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:10:25,289 Timestep 8, accepted action ('sodas colas', 'butter') with PandietGain 0.6436 
+2019-08-19 10:10:25,291 Updating PandietScore...
+2019-08-19 10:10:25,293 Previous PandietScore: 51.9266. Current pandietScore 51.2830
+2019-08-19 10:10:25,295 LEARNING TIMESTEP 9
+2019-08-19 10:10:25,300 State : 
+2019-08-19 10:10:31,938 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('beans', 'bread')
+2019-08-19 10:10:31,942 Action ('beans', 'bread'), probability of acceptance: 1
+2019-08-19 10:10:31,944 Baseline action ('margarine', 'sodas colas'), probability of acceptance: 0
+2019-08-19 10:10:31,945 Baseline nutGreedy: action ('margarine', 'sodas colas'), gain -1.4168656889243607, accepted 0
+2019-08-19 10:10:31,947 The next state is: ('bread', 'potatoes')
+2019-08-19 10:10:36,708 Timestep 9, accepted action ('beans', 'bread') with PandietGain -1.8468 
+2019-08-19 10:10:36,710 Updating PandietScore...
+2019-08-19 10:10:36,714 Previous PandietScore: 51.2830. Current pandietScore 53.1298
+2019-08-19 10:10:36,715 LEARNING TIMESTEP 10
+2019-08-19 10:10:36,718 State : 
+2019-08-19 10:10:43,268 Current state: ('bread', 'potatoes'), chosen action: ('bread', 'butter')
+2019-08-19 10:10:43,274 Action ('bread', 'butter'), probability of acceptance: 0
+2019-08-19 10:10:43,285 Baseline action ('bread', 'butter'), probability of acceptance: 0
+2019-08-19 10:10:43,286 Baseline nutGreedy: action ('bread', 'butter'), gain 1.0923009591771802, accepted 0
+2019-08-19 10:10:43,288 The next state is: ('fromage blanc',)
+2019-08-19 10:10:44,016 Timestep 10, refused action ('bread', 'butter') 
+2019-08-19 10:10:44,022 Updating PandietScore...
+2019-08-19 10:10:44,025 Previous PandietScore: 53.1298. Current pandietScore 53.1298
+2019-08-19 10:10:44,029 LEARNING TIMESTEP 11
+2019-08-19 10:10:44,034 State : 
+2019-08-19 10:10:50,726 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'bread')
+2019-08-19 10:10:50,731 Action ('fromage blanc', 'bread'), probability of acceptance: 1
+2019-08-19 10:10:50,733 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:10:50,735 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 4.8543469489685975, accepted 1
+2019-08-19 10:10:50,738 The next state is: ('bread', 'fromage blanc', 'margarine', 'potatoes')
+2019-08-19 10:11:10,717 Timestep 11, accepted action ('fromage blanc', 'bread') with PandietGain -0.7392 
+2019-08-19 10:11:10,723 Updating PandietScore...
+2019-08-19 10:11:10,724 Previous PandietScore: 53.1298. Current pandietScore 53.8690
+2019-08-19 10:11:10,726 LEARNING TIMESTEP 12
+2019-08-19 10:11:10,728 State : 
+2019-08-19 10:11:16,774 Current state: ('bread', 'fromage blanc', 'margarine', 'potatoes'), chosen action: ('margarine', 'butter')
+2019-08-19 10:11:16,790 Action ('margarine', 'butter'), probability of acceptance: 0
+2019-08-19 10:11:16,794 Baseline action ('bread', 'butter'), probability of acceptance: 1
+2019-08-19 10:11:16,796 Baseline nutGreedy: action ('bread', 'butter'), gain 1.3927334129888322, accepted 1
+2019-08-19 10:11:16,798 The next state is: ('butter', 'fromage blanc', 'potatoes')
+2019-08-19 10:11:17,042 Timestep 12, refused action ('margarine', 'butter') 
+2019-08-19 10:11:17,044 Updating PandietScore...
+2019-08-19 10:11:17,046 Previous PandietScore: 53.8690. Current pandietScore 53.8690
+2019-08-19 10:11:17,047 LEARNING TIMESTEP 13
+2019-08-19 10:11:17,049 State : 
+2019-08-19 10:11:24,165 Current state: ('butter', 'fromage blanc', 'potatoes'), chosen action: ('fromage blanc', 'beans')
+2019-08-19 10:11:24,169 Action ('fromage blanc', 'beans'), probability of acceptance: 1
+2019-08-19 10:11:24,172 Baseline action ('potatoes', 'margarine'), probability of acceptance: 0
+2019-08-19 10:11:24,174 Baseline nutGreedy: action ('potatoes', 'margarine'), gain 2.9885407977914866, accepted 0
+2019-08-19 10:11:24,175 The next state is: ('bread', 'potatoes')
+2019-08-19 10:11:28,846 Timestep 13, accepted action ('fromage blanc', 'beans') with PandietGain 1.4344 
+2019-08-19 10:11:28,848 Updating PandietScore...
+2019-08-19 10:11:28,850 Previous PandietScore: 53.8690. Current pandietScore 52.4346
+2019-08-19 10:11:28,851 LEARNING TIMESTEP 14
+2019-08-19 10:11:28,853 State : 
+2019-08-19 10:11:33,642 Current state: ('bread', 'potatoes'), chosen action: ('bread', 'fromage blanc')
+2019-08-19 10:11:33,646 Action ('bread', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:11:33,648 Baseline action ('bread', 'butter'), probability of acceptance: 1
+2019-08-19 10:11:33,650 Baseline nutGreedy: action ('bread', 'butter'), gain 0.39710646399898053, accepted 1
+2019-08-19 10:11:33,652 The next state is: ('butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:11:41,450 Timestep 14, accepted action ('bread', 'fromage blanc') with PandietGain -0.4598 
+2019-08-19 10:11:41,452 Updating PandietScore...
+2019-08-19 10:11:41,453 Previous PandietScore: 52.4346. Current pandietScore 52.8945
+2019-08-19 10:11:41,455 LEARNING TIMESTEP 15
+2019-08-19 10:11:41,457 State : 
+2019-08-19 10:11:47,840 Current state: ('butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('yoghurt', 'beans')
+2019-08-19 10:11:47,844 Action ('yoghurt', 'beans'), probability of acceptance: 1
+2019-08-19 10:11:47,846 Baseline action ('yoghurt', 'beans'), probability of acceptance: 0
+2019-08-19 10:11:47,847 Baseline nutGreedy: action ('yoghurt', 'beans'), gain 0.9678887775269871, accepted 0
+2019-08-19 10:11:47,850 The next state is: ('bread', 'potatoes')
+2019-08-19 10:11:52,741 Timestep 15, accepted action ('yoghurt', 'beans') with PandietGain 0.9679 
+2019-08-19 10:11:52,743 Updating PandietScore...
+2019-08-19 10:11:52,745 Previous PandietScore: 52.8945. Current pandietScore 51.9266
+2019-08-19 10:11:52,747 LEARNING TIMESTEP 16
+2019-08-19 10:11:52,748 State : 
+2019-08-19 10:11:57,372 Current state: ('bread', 'potatoes'), chosen action: ('potatoes', 'butter')
+2019-08-19 10:11:57,375 Action ('potatoes', 'butter'), probability of acceptance: 0
+2019-08-19 10:11:57,382 Baseline action ('bread', 'butter'), probability of acceptance: 0
+2019-08-19 10:11:57,383 Baseline nutGreedy: action ('bread', 'butter'), gain -0.11094607985144478, accepted 0
+2019-08-19 10:11:57,402 The next state is: ('fromage blanc', 'margarine')
+2019-08-19 10:11:57,918 Timestep 16, refused action ('potatoes', 'butter') 
+2019-08-19 10:11:57,921 Updating PandietScore...
+2019-08-19 10:11:57,922 Previous PandietScore: 51.9266. Current pandietScore 51.9266
+2019-08-19 10:11:57,926 LEARNING TIMESTEP 17
+2019-08-19 10:11:57,928 State : 
+2019-08-19 10:12:07,545 Current state: ('fromage blanc', 'margarine'), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:12:07,549 Action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:12:07,552 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:12:07,554 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 2.4235328500871915, accepted 0
+2019-08-19 10:12:07,556 The next state is: ('yoghurt',)
+2019-08-19 10:12:11,632 Timestep 17, accepted action ('fromage blanc', 'butter') with PandietGain 2.4235 
+2019-08-19 10:12:11,635 Updating PandietScore...
+2019-08-19 10:12:11,637 Previous PandietScore: 51.9266. Current pandietScore 49.5031
+2019-08-19 10:12:11,638 LEARNING TIMESTEP 18
+2019-08-19 10:12:11,640 State : 
+2019-08-19 10:12:14,156 Current state: ('yoghurt',), chosen action: ('yoghurt', 'bread')
+2019-08-19 10:12:14,160 Action ('yoghurt', 'bread'), probability of acceptance: 1
+2019-08-19 10:12:14,161 Baseline action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:12:14,163 Baseline nutGreedy: action ('yoghurt', 'butter'), gain 1.227567059852781, accepted 0
+2019-08-19 10:12:14,164 The next state is: ('bread', 'fromage blanc', 'margarine', 'potatoes')
+2019-08-19 10:12:21,533 Timestep 18, accepted action ('yoghurt', 'bread') with PandietGain -4.3660 
+2019-08-19 10:12:21,535 Updating PandietScore...
+2019-08-19 10:12:21,537 Previous PandietScore: 49.5031. Current pandietScore 53.8690
+2019-08-19 10:12:21,538 LEARNING TIMESTEP 19
+2019-08-19 10:12:21,540 State : 
+2019-08-19 10:12:27,995 Current state: ('bread', 'fromage blanc', 'margarine', 'potatoes'), chosen action: ('potatoes', 'yoghurt')
+2019-08-19 10:12:27,998 Action ('potatoes', 'yoghurt'), probability of acceptance: 0
+2019-08-19 10:12:28,006 Baseline action ('bread', 'butter'), probability of acceptance: 1
+2019-08-19 10:12:28,007 Baseline nutGreedy: action ('bread', 'butter'), gain 1.3927334129888322, accepted 1
+2019-08-19 10:12:28,010 The next state is: ('fromage blanc', 'margarine', 'poultry rabbit')
+2019-08-19 10:12:28,272 Timestep 19, refused action ('potatoes', 'yoghurt') 
+2019-08-19 10:12:28,275 Updating PandietScore...
+2019-08-19 10:12:28,276 Previous PandietScore: 53.8690. Current pandietScore 53.8690
+2019-08-19 10:12:28,282 LEARNING TIMESTEP 20
+2019-08-19 10:12:28,283 State : 
+2019-08-19 10:12:34,521 Current state: ('fromage blanc', 'margarine', 'poultry rabbit'), chosen action: ('poultry rabbit', 'butter')
+2019-08-19 10:12:34,526 Action ('poultry rabbit', 'butter'), probability of acceptance: 1
+2019-08-19 10:12:34,527 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 1
+2019-08-19 10:12:34,529 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain 2.9885407977914866, accepted 1
+2019-08-19 10:12:34,531 The next state is: ('fromage blanc', 'margarine', 'poultry rabbit')
+2019-08-19 10:12:40,792 Timestep 20, accepted action ('poultry rabbit', 'butter') with PandietGain 2.9885 
+2019-08-19 10:12:40,808 Updating PandietScore...
+2019-08-19 10:12:40,817 Previous PandietScore: 53.8690. Current pandietScore 50.8805
+2019-08-19 10:12:40,818 LEARNING TIMESTEP 21
+2019-08-19 10:12:40,821 State : 
+2019-08-19 10:12:46,219 Current state: ('fromage blanc', 'margarine', 'poultry rabbit'), chosen action: ('fromage blanc', 'pizza')
+2019-08-19 10:12:46,224 Action ('fromage blanc', 'pizza'), probability of acceptance: 0
+2019-08-19 10:12:46,228 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 1
+2019-08-19 10:12:46,230 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain 0.0, accepted 1
+2019-08-19 10:12:46,232 The next state is: ('bread', 'butter', 'margarine')
+2019-08-19 10:12:46,473 Timestep 21, refused action ('fromage blanc', 'pizza') 
+2019-08-19 10:12:46,475 Updating PandietScore...
+2019-08-19 10:12:46,481 Previous PandietScore: 50.8805. Current pandietScore 50.8805
+2019-08-19 10:12:46,482 LEARNING TIMESTEP 22
+2019-08-19 10:12:46,489 State : 
+2019-08-19 10:12:51,938 Current state: ('bread', 'butter', 'margarine'), chosen action: ('bread', 'fromage blanc')
+2019-08-19 10:12:51,942 Action ('bread', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:12:51,944 Baseline action ('bread', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:12:51,946 Baseline nutGreedy: action ('bread', 'fromage blanc'), gain 0.0, accepted 0
+2019-08-19 10:12:51,948 The next state is: ('bread', 'potatoes')
+2019-08-19 10:12:57,346 Timestep 22, accepted action ('bread', 'fromage blanc') with PandietGain 0.0000 
+2019-08-19 10:12:57,348 Updating PandietScore...
+2019-08-19 10:12:57,350 Previous PandietScore: 50.8805. Current pandietScore 50.8805
+2019-08-19 10:12:57,352 LEARNING TIMESTEP 23
+2019-08-19 10:12:57,354 State : 
+2019-08-19 10:13:06,272 Current state: ('bread', 'potatoes'), chosen action: ('potatoes', 'margarine')
+2019-08-19 10:13:06,277 Action ('potatoes', 'margarine'), probability of acceptance: 1
+2019-08-19 10:13:06,285 Baseline action ('bread', 'butter'), probability of acceptance: 0
+2019-08-19 10:13:06,293 Baseline nutGreedy: action ('bread', 'butter'), gain -1.1570476751431045, accepted 0
+2019-08-19 10:13:06,301 The next state is: ('yoghurt',)
+2019-08-19 10:13:12,242 Timestep 23, accepted action ('potatoes', 'margarine') with PandietGain -3.2727 
+2019-08-19 10:13:12,248 Updating PandietScore...
+2019-08-19 10:13:12,251 Previous PandietScore: 50.8805. Current pandietScore 54.1532
+2019-08-19 10:13:12,253 LEARNING TIMESTEP 24
+2019-08-19 10:13:12,262 State : 
+2019-08-19 10:13:15,749 Current state: ('yoghurt',), chosen action: ('yoghurt', 'butter')
+2019-08-19 10:13:15,753 Action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:13:15,754 Baseline action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:13:15,756 Baseline nutGreedy: action ('yoghurt', 'butter'), gain 5.877738599870767, accepted 0
+2019-08-19 10:13:15,758 The next state is: ('fromage blanc', 'margarine')
+2019-08-19 10:13:16,060 Timestep 24, refused action ('yoghurt', 'butter') 
+2019-08-19 10:13:16,062 Updating PandietScore...
+2019-08-19 10:13:16,064 Previous PandietScore: 54.1532. Current pandietScore 54.1532
+2019-08-19 10:13:16,066 LEARNING TIMESTEP 25
+2019-08-19 10:13:16,069 State : 
+2019-08-19 10:13:22,308 Current state: ('fromage blanc', 'margarine'), chosen action: ('fromage blanc', 'yoghurt')
+2019-08-19 10:13:22,318 Action ('fromage blanc', 'yoghurt'), probability of acceptance: 0
+2019-08-19 10:13:22,326 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:13:22,328 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 4.650171540017986, accepted 0
+2019-08-19 10:13:22,331 The next state is: ('bread', 'butter', 'margarine')
+2019-08-19 10:13:22,649 Timestep 25, refused action ('fromage blanc', 'yoghurt') 
+2019-08-19 10:13:22,651 Updating PandietScore...
+2019-08-19 10:13:22,653 Previous PandietScore: 54.1532. Current pandietScore 54.1532
+2019-08-19 10:13:22,662 LEARNING TIMESTEP 26
+2019-08-19 10:13:22,663 State : 
+2019-08-19 10:13:29,215 Current state: ('bread', 'butter', 'margarine'), chosen action: ('bread', 'fromage blanc')
+2019-08-19 10:13:29,222 Action ('bread', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:13:29,224 Baseline action ('bread', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:13:29,227 Baseline nutGreedy: action ('bread', 'fromage blanc'), gain 3.2727402852224543, accepted 0
+2019-08-19 10:13:29,229 The next state is: ('bread', 'fromage blanc', 'margarine', 'potatoes')
+2019-08-19 10:13:29,491 Timestep 26, refused action ('bread', 'fromage blanc') 
+2019-08-19 10:13:29,497 Updating PandietScore...
+2019-08-19 10:13:29,498 Previous PandietScore: 54.1532. Current pandietScore 54.1532
+2019-08-19 10:13:29,500 LEARNING TIMESTEP 27
+2019-08-19 10:13:29,502 State : 
+2019-08-19 10:13:37,044 Current state: ('bread', 'fromage blanc', 'margarine', 'potatoes'), chosen action: ('margarine', 'butter')
+2019-08-19 10:13:37,047 Action ('margarine', 'butter'), probability of acceptance: 0
+2019-08-19 10:13:37,048 Baseline action ('bread', 'butter'), probability of acceptance: 1
+2019-08-19 10:13:37,050 Baseline nutGreedy: action ('bread', 'butter'), gain 1.6769329004198, accepted 1
+2019-08-19 10:13:37,052 The next state is: ('margarine', 'sodas colas', 'yoghurt')
+2019-08-19 10:13:37,310 Timestep 27, refused action ('margarine', 'butter') 
+2019-08-19 10:13:37,314 Updating PandietScore...
+2019-08-19 10:13:37,320 Previous PandietScore: 54.1532. Current pandietScore 54.1532
+2019-08-19 10:13:37,322 LEARNING TIMESTEP 28
+2019-08-19 10:13:37,328 State : 
+2019-08-19 10:13:42,911 Current state: ('margarine', 'sodas colas', 'yoghurt'), chosen action: ('sodas colas', 'butter')
+2019-08-19 10:13:42,914 Action ('sodas colas', 'butter'), probability of acceptance: 1
+2019-08-19 10:13:42,920 Baseline action ('sodas colas', 'butter'), probability of acceptance: 1
+2019-08-19 10:13:42,922 Baseline nutGreedy: action ('sodas colas', 'butter'), gain 2.8702416297255553, accepted 1
+2019-08-19 10:13:42,924 The next state is: ('bread', 'butter', 'margarine')
+2019-08-19 10:13:48,934 Timestep 28, accepted action ('sodas colas', 'butter') with PandietGain 2.8702 
+2019-08-19 10:13:48,935 Updating PandietScore...
+2019-08-19 10:13:48,937 Previous PandietScore: 54.1532. Current pandietScore 51.2830
+2019-08-19 10:13:48,938 LEARNING TIMESTEP 29
+2019-08-19 10:13:48,940 State : 
+2019-08-19 10:13:54,652 Current state: ('bread', 'butter', 'margarine'), chosen action: ('bread', 'pizza')
+2019-08-19 10:13:54,655 Action ('bread', 'pizza'), probability of acceptance: 1
+2019-08-19 10:13:54,662 Baseline action ('bread', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:13:54,665 Baseline nutGreedy: action ('bread', 'fromage blanc'), gain 0.402498655496899, accepted 1
+2019-08-19 10:13:54,669 The next state is: ('potatoes',)
+2019-08-19 10:13:58,120 Timestep 29, accepted action ('bread', 'pizza') with PandietGain -1.3592 
+2019-08-19 10:13:58,126 Updating PandietScore...
+2019-08-19 10:13:58,127 Previous PandietScore: 51.2830. Current pandietScore 52.6422
+2019-08-19 10:13:58,129 LEARNING TIMESTEP 30
+2019-08-19 10:13:58,131 State : 
+2019-08-19 10:14:01,036 Current state: ('potatoes',), chosen action: ('potatoes', 'margarine')
+2019-08-19 10:14:01,040 Action ('potatoes', 'margarine'), probability of acceptance: 0
+2019-08-19 10:14:01,042 Baseline action ('potatoes', 'butter'), probability of acceptance: 1
+2019-08-19 10:14:01,044 Baseline nutGreedy: action ('potatoes', 'butter'), gain 4.366727346824348, accepted 1
+2019-08-19 10:14:01,046 The next state is: ('butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:14:01,330 Timestep 30, refused action ('potatoes', 'margarine') 
+2019-08-19 10:14:01,332 Updating PandietScore...
+2019-08-19 10:14:01,334 Previous PandietScore: 52.6422. Current pandietScore 52.6422
+2019-08-19 10:14:01,335 LEARNING TIMESTEP 31
+2019-08-19 10:14:01,337 State : 
+2019-08-19 10:14:07,376 Current state: ('butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('yoghurt', 'beans')
+2019-08-19 10:14:07,390 Action ('yoghurt', 'beans'), probability of acceptance: 1
+2019-08-19 10:14:07,392 Baseline action ('yoghurt', 'beans'), probability of acceptance: 0
+2019-08-19 10:14:07,394 Baseline nutGreedy: action ('yoghurt', 'beans'), gain 0.7156274368843754, accepted 0
+2019-08-19 10:14:07,398 The next state is: ('bread', 'butter', 'margarine')
+2019-08-19 10:14:18,369 Timestep 31, accepted action ('yoghurt', 'beans') with PandietGain 0.7156 
+2019-08-19 10:14:18,371 Updating PandietScore...
+2019-08-19 10:14:18,373 Previous PandietScore: 52.6422. Current pandietScore 51.9266
+2019-08-19 10:14:18,375 LEARNING TIMESTEP 32
+2019-08-19 10:14:18,376 State : 
+2019-08-19 10:14:30,749 Current state: ('bread', 'butter', 'margarine'), chosen action: ('bread', 'fromage blanc')
+2019-08-19 10:14:30,755 Action ('bread', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:14:30,758 Baseline action ('bread', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:14:30,761 Baseline nutGreedy: action ('bread', 'fromage blanc'), gain 1.0461015952916597, accepted 0
+2019-08-19 10:14:30,764 The next state is: ('fromage blanc', 'margarine')
+2019-08-19 10:14:36,854 Timestep 32, accepted action ('bread', 'fromage blanc') with PandietGain 1.0461 
+2019-08-19 10:14:36,866 Updating PandietScore...
+2019-08-19 10:14:36,868 Previous PandietScore: 51.9266. Current pandietScore 50.8805
+2019-08-19 10:14:36,875 LEARNING TIMESTEP 33
+2019-08-19 10:14:36,883 State : 
+2019-08-19 10:14:43,245 Current state: ('fromage blanc', 'margarine'), chosen action: ('margarine', 'bread')
+2019-08-19 10:14:43,249 Action ('margarine', 'bread'), probability of acceptance: 0
+2019-08-19 10:14:43,250 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:14:43,254 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 1.3774312547955319, accepted 0
+2019-08-19 10:14:43,256 The next state is: ('butter', 'fromage blanc', 'potatoes')
+2019-08-19 10:14:43,509 Timestep 33, refused action ('margarine', 'bread') 
+2019-08-19 10:14:43,512 Updating PandietScore...
+2019-08-19 10:14:43,514 Previous PandietScore: 50.8805. Current pandietScore 50.8805
+2019-08-19 10:14:43,519 LEARNING TIMESTEP 34
+2019-08-19 10:14:43,521 State : 
+2019-08-19 10:14:50,575 Current state: ('butter', 'fromage blanc', 'potatoes'), chosen action: ('potatoes', 'beans')
+2019-08-19 10:14:50,587 Action ('potatoes', 'beans'), probability of acceptance: 0
+2019-08-19 10:14:50,588 Baseline action ('potatoes', 'margarine'), probability of acceptance: 1
+2019-08-19 10:14:50,589 Baseline nutGreedy: action ('potatoes', 'margarine'), gain 0.0, accepted 1
+2019-08-19 10:14:50,591 The next state is: ('fromage blanc',)
+2019-08-19 10:14:50,939 Timestep 34, refused action ('potatoes', 'beans') 
+2019-08-19 10:14:50,941 Updating PandietScore...
+2019-08-19 10:14:50,943 Previous PandietScore: 50.8805. Current pandietScore 50.8805
+2019-08-19 10:14:50,945 LEARNING TIMESTEP 35
+2019-08-19 10:14:50,947 State : 
+2019-08-19 10:14:53,741 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'bread')
+2019-08-19 10:14:53,744 Action ('fromage blanc', 'bread'), probability of acceptance: 1
+2019-08-19 10:14:53,746 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:14:53,753 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 2.604998314648313, accepted 1
+2019-08-19 10:14:53,754 The next state is: ('fromage blanc', 'margarine')
+2019-08-19 10:14:59,255 Timestep 35, accepted action ('fromage blanc', 'bread') with PandietGain -2.9885 
+2019-08-19 10:14:59,259 Updating PandietScore...
+2019-08-19 10:14:59,268 Previous PandietScore: 50.8805. Current pandietScore 53.8690
+2019-08-19 10:14:59,271 LEARNING TIMESTEP 36
+2019-08-19 10:14:59,276 State : 
+2019-08-19 10:15:07,043 Current state: ('fromage blanc', 'margarine'), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:15:07,050 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:15:07,066 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:15:07,069 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 4.3659720525870185, accepted 0
+2019-08-19 10:15:07,070 The next state is: ('butter', 'fromage blanc', 'potatoes')
+2019-08-19 10:15:07,667 Timestep 36, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:15:07,670 Updating PandietScore...
+2019-08-19 10:15:07,673 Previous PandietScore: 53.8690. Current pandietScore 53.8690
+2019-08-19 10:15:07,676 LEARNING TIMESTEP 37
+2019-08-19 10:15:07,683 State : 
+2019-08-19 10:15:23,175 Current state: ('butter', 'fromage blanc', 'potatoes'), chosen action: ('butter', 'poultry rabbit')
+2019-08-19 10:15:23,183 Action ('butter', 'poultry rabbit'), probability of acceptance: 0
+2019-08-19 10:15:23,190 Baseline action ('potatoes', 'margarine'), probability of acceptance: 1
+2019-08-19 10:15:23,195 Baseline nutGreedy: action ('potatoes', 'margarine'), gain 2.9885407977914866, accepted 1
+2019-08-19 10:15:23,197 The next state is: ('fromage blanc',)
+2019-08-19 10:15:24,436 Timestep 37, refused action ('butter', 'poultry rabbit') 
+2019-08-19 10:15:24,450 Updating PandietScore...
+2019-08-19 10:15:24,473 Previous PandietScore: 53.8690. Current pandietScore 53.8690
+2019-08-19 10:15:24,475 LEARNING TIMESTEP 38
+2019-08-19 10:15:24,481 State : 
+2019-08-19 10:15:29,631 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'poultry rabbit')
+2019-08-19 10:15:29,634 Action ('fromage blanc', 'poultry rabbit'), probability of acceptance: 0
+2019-08-19 10:15:29,636 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:15:29,638 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 5.5935391124397995, accepted 0
+2019-08-19 10:15:29,639 The next state is: ('fromage blanc', 'pizza')
+2019-08-19 10:15:29,898 Timestep 38, refused action ('fromage blanc', 'poultry rabbit') 
+2019-08-19 10:15:29,901 Updating PandietScore...
+2019-08-19 10:15:29,903 Previous PandietScore: 53.8690. Current pandietScore 53.8690
+2019-08-19 10:15:29,910 LEARNING TIMESTEP 39
+2019-08-19 10:15:29,912 State : 
+2019-08-19 10:15:34,416 Current state: ('fromage blanc', 'pizza'), chosen action: ('pizza', 'butter')
+2019-08-19 10:15:34,423 Action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:15:34,426 Baseline action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:15:34,428 Baseline nutGreedy: action ('pizza', 'butter'), gain 3.258203573884664, accepted 0
+2019-08-19 10:15:34,430 The next state is: ('fromage blanc', 'pizza', 'yoghurt')
+2019-08-19 10:15:34,670 Timestep 39, refused action ('pizza', 'butter') 
+2019-08-19 10:15:34,671 Updating PandietScore...
+2019-08-19 10:15:34,673 Previous PandietScore: 53.8690. Current pandietScore 53.8690
+2019-08-19 10:15:34,675 LEARNING TIMESTEP 40
+2019-08-19 10:15:34,681 State : 
+2019-08-19 10:15:40,453 Current state: ('fromage blanc', 'pizza', 'yoghurt'), chosen action: ('pizza', 'butter')
+2019-08-19 10:15:40,460 Action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:15:40,461 Baseline action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:15:40,463 Baseline nutGreedy: action ('pizza', 'butter'), gain 1.9139684557124212, accepted 0
+2019-08-19 10:15:40,464 The next state is: ('fromage blanc', 'margarine')
+2019-08-19 10:15:45,104 Timestep 40, accepted action ('pizza', 'butter') with PandietGain 1.9140 
+2019-08-19 10:15:45,110 Updating PandietScore...
+2019-08-19 10:15:45,114 Previous PandietScore: 53.8690. Current pandietScore 51.9551
+2019-08-19 10:15:45,117 LEARNING TIMESTEP 41
+2019-08-19 10:15:45,124 State : 
+2019-08-19 10:15:52,331 Current state: ('fromage blanc', 'margarine'), chosen action: ('fromage blanc', 'yoghurt')
+2019-08-19 10:15:52,341 Action ('fromage blanc', 'yoghurt'), probability of acceptance: 1
+2019-08-19 10:15:52,344 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:15:52,346 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 2.4520035968745972, accepted 0
+2019-08-19 10:15:52,348 The next state is: ('fromage blanc', 'margarine')
+2019-08-19 10:16:07,570 Timestep 41, accepted action ('fromage blanc', 'yoghurt') with PandietGain -1.0845 
+2019-08-19 10:16:07,576 Updating PandietScore...
+2019-08-19 10:16:07,585 Previous PandietScore: 51.9551. Current pandietScore 53.0396
+2019-08-19 10:16:07,587 LEARNING TIMESTEP 42
+2019-08-19 10:16:07,589 State : 
+2019-08-19 10:16:13,874 Current state: ('fromage blanc', 'margarine'), chosen action: ('margarine', 'butter')
+2019-08-19 10:16:13,882 Action ('margarine', 'butter'), probability of acceptance: 0
+2019-08-19 10:16:13,897 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:16:13,898 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 3.536531840432829, accepted 0
+2019-08-19 10:16:13,900 The next state is: ('fromage blanc',)
+2019-08-19 10:16:14,151 Timestep 42, refused action ('margarine', 'butter') 
+2019-08-19 10:16:14,153 Updating PandietScore...
+2019-08-19 10:16:14,155 Previous PandietScore: 53.0396. Current pandietScore 53.0396
+2019-08-19 10:16:14,156 LEARNING TIMESTEP 43
+2019-08-19 10:16:14,157 State : 
+2019-08-19 10:16:19,294 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'potatoes')
+2019-08-19 10:16:19,308 Action ('fromage blanc', 'potatoes'), probability of acceptance: 1
+2019-08-19 10:16:19,315 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:16:19,320 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 4.76409890028561, accepted 1
+2019-08-19 10:16:19,322 The next state is: ('butter', 'potatoes', 'poultry rabbit', 'sodas colas')
+2019-08-19 10:16:44,261 Timestep 43, accepted action ('fromage blanc', 'potatoes') with PandietGain -0.1829 
+2019-08-19 10:16:44,267 Updating PandietScore...
+2019-08-19 10:16:44,269 Previous PandietScore: 53.0396. Current pandietScore 53.2225
+2019-08-19 10:16:44,271 LEARNING TIMESTEP 44
+2019-08-19 10:16:44,274 State : 
+2019-08-19 10:17:05,218 Current state: ('butter', 'potatoes', 'poultry rabbit', 'sodas colas'), chosen action: ('sodas colas', 'fromage blanc')
+2019-08-19 10:17:05,230 Action ('sodas colas', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:17:05,237 Baseline action ('poultry rabbit', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:17:05,242 Baseline nutGreedy: action ('poultry rabbit', 'fromage blanc'), gain 0.6155875369950863, accepted 0
+2019-08-19 10:17:05,256 The next state is: ('yoghurt',)
+2019-08-19 10:17:05,870 Timestep 44, refused action ('sodas colas', 'fromage blanc') 
+2019-08-19 10:17:05,871 Updating PandietScore...
+2019-08-19 10:17:05,874 Previous PandietScore: 53.2225. Current pandietScore 53.2225
+2019-08-19 10:17:05,876 LEARNING TIMESTEP 45
+2019-08-19 10:17:05,887 State : 
+2019-08-19 10:17:10,787 Current state: ('yoghurt',), chosen action: ('yoghurt', 'margarine')
+2019-08-19 10:17:10,798 Action ('yoghurt', 'margarine'), probability of acceptance: 0
+2019-08-19 10:17:10,807 Baseline action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:17:10,815 Baseline nutGreedy: action ('yoghurt', 'butter'), gain 4.947014030010905, accepted 0
+2019-08-19 10:17:10,816 The next state is: ('butter', 'fromage blanc', 'potatoes')
+2019-08-19 10:17:11,299 Timestep 45, refused action ('yoghurt', 'margarine') 
+2019-08-19 10:17:11,309 Updating PandietScore...
+2019-08-19 10:17:11,310 Previous PandietScore: 53.2225. Current pandietScore 53.2225
+2019-08-19 10:17:11,312 LEARNING TIMESTEP 46
+2019-08-19 10:17:11,315 State : 
+2019-08-19 10:17:21,490 Current state: ('butter', 'fromage blanc', 'potatoes'), chosen action: ('potatoes', 'margarine')
+2019-08-19 10:17:21,500 Action ('potatoes', 'margarine'), probability of acceptance: 0
+2019-08-19 10:17:21,503 Baseline action ('potatoes', 'margarine'), probability of acceptance: 0
+2019-08-19 10:17:21,510 Baseline nutGreedy: action ('potatoes', 'margarine'), gain 2.3420157153625922, accepted 0
+2019-08-19 10:17:21,512 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:17:21,849 Timestep 46, refused action ('potatoes', 'margarine') 
+2019-08-19 10:17:21,852 Updating PandietScore...
+2019-08-19 10:17:21,854 Previous PandietScore: 53.2225. Current pandietScore 53.2225
+2019-08-19 10:17:21,856 LEARNING TIMESTEP 47
+2019-08-19 10:17:21,858 State : 
+2019-08-19 10:17:31,526 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('yoghurt', 'pizza')
+2019-08-19 10:17:31,530 Action ('yoghurt', 'pizza'), probability of acceptance: 1
+2019-08-19 10:17:31,532 Baseline action ('margarine', 'sodas colas'), probability of acceptance: 0
+2019-08-19 10:17:31,534 Baseline nutGreedy: action ('margarine', 'sodas colas'), gain 0.5226513709413325, accepted 0
+2019-08-19 10:17:31,537 The next state is: ('butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:17:47,745 Timestep 47, accepted action ('yoghurt', 'pizza') with PandietGain 0.1533 
+2019-08-19 10:17:47,749 Updating PandietScore...
+2019-08-19 10:17:47,760 Previous PandietScore: 53.2225. Current pandietScore 53.0692
+2019-08-19 10:17:47,764 LEARNING TIMESTEP 48
+2019-08-19 10:17:47,773 State : 
+2019-08-19 10:18:13,434 Current state: ('butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('yoghurt', 'pizza')
+2019-08-19 10:18:13,442 Action ('yoghurt', 'pizza'), probability of acceptance: 1
+2019-08-19 10:18:13,444 Baseline action ('yoghurt', 'beans'), probability of acceptance: 1
+2019-08-19 10:18:13,450 Baseline nutGreedy: action ('yoghurt', 'beans'), gain 1.1426478031246603, accepted 1
+2019-08-19 10:18:13,452 The next state is: ('beans', 'fromage blanc', 'margarine', 'poultry rabbit', 'yoghurt')
+2019-08-19 10:18:35,146 Timestep 48, accepted action ('yoghurt', 'pizza') with PandietGain 0.2244 
+2019-08-19 10:18:35,152 Updating PandietScore...
+2019-08-19 10:18:35,155 Previous PandietScore: 53.0692. Current pandietScore 52.8449
+2019-08-19 10:18:35,162 LEARNING TIMESTEP 49
+2019-08-19 10:18:35,165 State : 
+2019-08-19 10:18:59,523 Current state: ('beans', 'fromage blanc', 'margarine', 'poultry rabbit', 'yoghurt'), chosen action: ('poultry rabbit', 'butter')
+2019-08-19 10:18:59,529 Action ('poultry rabbit', 'butter'), probability of acceptance: 1
+2019-08-19 10:18:59,536 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 0
+2019-08-19 10:18:59,539 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain 0.0979863154804832, accepted 0
+2019-08-19 10:18:59,546 The next state is: ('yoghurt',)
+2019-08-19 10:19:05,987 Timestep 49, accepted action ('poultry rabbit', 'butter') with PandietGain 0.0980 
+2019-08-19 10:19:06,001 Updating PandietScore...
+2019-08-19 10:19:06,009 Previous PandietScore: 52.8449. Current pandietScore 52.7469
+2019-08-19 10:19:06,012 LEARNING TIMESTEP 50
+2019-08-19 10:19:06,015 State : 
+2019-08-19 10:19:09,626 Current state: ('yoghurt',), chosen action: ('yoghurt', 'poultry rabbit')
+2019-08-19 10:19:09,630 Action ('yoghurt', 'poultry rabbit'), probability of acceptance: 0
+2019-08-19 10:19:09,632 Baseline action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:19:09,634 Baseline nutGreedy: action ('yoghurt', 'butter'), gain 4.471402606689068, accepted 0
+2019-08-19 10:19:09,636 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas')
+2019-08-19 10:19:09,905 Timestep 50, refused action ('yoghurt', 'poultry rabbit') 
+2019-08-19 10:19:09,907 Updating PandietScore...
+2019-08-19 10:19:09,909 Previous PandietScore: 52.7469. Current pandietScore 52.7469
+2019-08-19 10:19:09,911 LEARNING TIMESTEP 51
+2019-08-19 10:19:09,915 State : 
+2019-08-19 10:19:16,540 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas'), chosen action: ('sodas colas', 'yoghurt')
+2019-08-19 10:19:16,544 Action ('sodas colas', 'yoghurt'), probability of acceptance: 1
+2019-08-19 10:19:16,547 Baseline action ('margarine', 'yoghurt'), probability of acceptance: 1
+2019-08-19 10:19:16,548 Baseline nutGreedy: action ('margarine', 'yoghurt'), gain 0.04703994761949559, accepted 1
+2019-08-19 10:19:16,550 The next state is: ('fromage blanc', 'margarine')
+2019-08-19 10:19:21,194 Timestep 51, accepted action ('sodas colas', 'yoghurt') with PandietGain 0.0000 
+2019-08-19 10:19:21,205 Updating PandietScore...
+2019-08-19 10:19:21,206 Previous PandietScore: 52.7469. Current pandietScore 52.7469
+2019-08-19 10:19:21,207 LEARNING TIMESTEP 52
+2019-08-19 10:19:21,209 State : 
+2019-08-19 10:19:25,397 Current state: ('fromage blanc', 'margarine'), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:19:25,403 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:19:25,405 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:19:25,410 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 3.243835546836287, accepted 0
+2019-08-19 10:19:25,412 The next state is: ('fromage blanc',)
+2019-08-19 10:19:25,652 Timestep 52, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:19:25,654 Updating PandietScore...
+2019-08-19 10:19:25,655 Previous PandietScore: 52.7469. Current pandietScore 52.7469
+2019-08-19 10:19:25,657 LEARNING TIMESTEP 53
+2019-08-19 10:19:25,660 State : 
+2019-08-19 10:19:28,201 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:19:28,218 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:19:28,224 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:19:28,226 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 4.471402606689068, accepted 0
+2019-08-19 10:19:28,228 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:19:28,461 Timestep 53, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:19:28,463 Updating PandietScore...
+2019-08-19 10:19:28,465 Previous PandietScore: 52.7469. Current pandietScore 52.7469
+2019-08-19 10:19:28,467 LEARNING TIMESTEP 54
+2019-08-19 10:19:28,468 State : 
+2019-08-19 10:19:35,999 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('fromage blanc', 'sodas colas')
+2019-08-19 10:19:36,008 Action ('fromage blanc', 'sodas colas'), probability of acceptance: 0
+2019-08-19 10:19:36,015 Baseline action ('margarine', 'sodas colas'), probability of acceptance: 0
+2019-08-19 10:19:36,017 Baseline nutGreedy: action ('margarine', 'sodas colas'), gain 0.04703994761949559, accepted 0
+2019-08-19 10:19:36,019 The next state is: ('bread', 'butter', 'margarine')
+2019-08-19 10:19:36,347 Timestep 54, refused action ('fromage blanc', 'sodas colas') 
+2019-08-19 10:19:36,349 Updating PandietScore...
+2019-08-19 10:19:36,351 Previous PandietScore: 52.7469. Current pandietScore 52.7469
+2019-08-19 10:19:36,353 LEARNING TIMESTEP 55
+2019-08-19 10:19:36,357 State : 
+2019-08-19 10:19:42,455 Current state: ('bread', 'butter', 'margarine'), chosen action: ('bread', 'fromage blanc')
+2019-08-19 10:19:42,458 Action ('bread', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:19:42,460 Baseline action ('bread', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:19:42,462 Baseline nutGreedy: action ('bread', 'fromage blanc'), gain 1.8664042920407553, accepted 1
+2019-08-19 10:19:42,464 The next state is: ('butter', 'fromage blanc', 'potatoes')
+2019-08-19 10:19:42,790 Timestep 55, refused action ('bread', 'fromage blanc') 
+2019-08-19 10:19:42,792 Updating PandietScore...
+2019-08-19 10:19:42,798 Previous PandietScore: 52.7469. Current pandietScore 52.7469
+2019-08-19 10:19:42,799 LEARNING TIMESTEP 56
+2019-08-19 10:19:42,800 State : 
+2019-08-19 10:19:48,125 Current state: ('butter', 'fromage blanc', 'potatoes'), chosen action: ('potatoes', 'margarine')
+2019-08-19 10:19:48,129 Action ('potatoes', 'margarine'), probability of acceptance: 0
+2019-08-19 10:19:48,130 Baseline action ('potatoes', 'margarine'), probability of acceptance: 0
+2019-08-19 10:19:48,132 Baseline nutGreedy: action ('potatoes', 'margarine'), gain 1.8664042920407553, accepted 0
+2019-08-19 10:19:48,134 The next state is: ('pizza', 'potatoes', 'sodas colas')
+2019-08-19 10:19:48,369 Timestep 56, refused action ('potatoes', 'margarine') 
+2019-08-19 10:19:48,371 Updating PandietScore...
+2019-08-19 10:19:48,373 Previous PandietScore: 52.7469. Current pandietScore 52.7469
+2019-08-19 10:19:48,374 LEARNING TIMESTEP 57
+2019-08-19 10:19:48,376 State : 
+2019-08-19 10:19:53,642 Current state: ('pizza', 'potatoes', 'sodas colas'), chosen action: ('sodas colas', 'fromage blanc')
+2019-08-19 10:19:53,645 Action ('sodas colas', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:19:53,647 Baseline action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:19:53,649 Baseline nutGreedy: action ('pizza', 'butter'), gain 0.25382862133596973, accepted 1
+2019-08-19 10:19:53,650 The next state is: ('yoghurt',)
+2019-08-19 10:19:53,876 Timestep 57, refused action ('sodas colas', 'fromage blanc') 
+2019-08-19 10:19:53,884 Updating PandietScore...
+2019-08-19 10:19:53,887 Previous PandietScore: 52.7469. Current pandietScore 52.7469
+2019-08-19 10:19:53,893 LEARNING TIMESTEP 58
+2019-08-19 10:19:53,895 State : 
+2019-08-19 10:19:56,150 Current state: ('yoghurt',), chosen action: ('yoghurt', 'poultry rabbit')
+2019-08-19 10:19:56,154 Action ('yoghurt', 'poultry rabbit'), probability of acceptance: 0
+2019-08-19 10:19:56,156 Baseline action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:19:56,158 Baseline nutGreedy: action ('yoghurt', 'butter'), gain 4.471402606689068, accepted 0
+2019-08-19 10:19:56,160 The next state is: ('fromage blanc',)
+2019-08-19 10:19:56,396 Timestep 58, refused action ('yoghurt', 'poultry rabbit') 
+2019-08-19 10:19:56,402 Updating PandietScore...
+2019-08-19 10:19:56,404 Previous PandietScore: 52.7469. Current pandietScore 52.7469
+2019-08-19 10:19:56,406 LEARNING TIMESTEP 59
+2019-08-19 10:19:56,411 State : 
+2019-08-19 10:19:58,764 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:19:58,767 Action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:19:58,769 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:19:58,771 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 4.471402606689068, accepted 0
+2019-08-19 10:19:58,773 The next state is: ('bread', 'butter', 'margarine')
+2019-08-19 10:20:05,341 Timestep 59, accepted action ('fromage blanc', 'butter') with PandietGain 4.4714 
+2019-08-19 10:20:05,343 Updating PandietScore...
+2019-08-19 10:20:05,345 Previous PandietScore: 52.7469. Current pandietScore 48.2755
+2019-08-19 10:20:05,347 LEARNING TIMESTEP 60
+2019-08-19 10:20:05,349 State : 
+2019-08-19 10:20:12,612 Current state: ('bread', 'butter', 'margarine'), chosen action: ('bread', 'beans')
+2019-08-19 10:20:12,620 Action ('bread', 'beans'), probability of acceptance: 1
+2019-08-19 10:20:12,626 Baseline action ('bread', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:20:12,627 Baseline nutGreedy: action ('bread', 'fromage blanc'), gain -2.604998314648313, accepted 1
+2019-08-19 10:20:12,630 The next state is: ('yoghurt',)
+2019-08-19 10:20:16,463 Timestep 60, accepted action ('bread', 'beans') with PandietGain -2.6102 
+2019-08-19 10:20:16,465 Updating PandietScore...
+2019-08-19 10:20:16,468 Previous PandietScore: 48.2755. Current pandietScore 50.8857
+2019-08-19 10:20:16,471 LEARNING TIMESTEP 61
+2019-08-19 10:20:16,473 State : 
+2019-08-19 10:20:19,426 Current state: ('yoghurt',), chosen action: ('yoghurt', 'sodas colas')
+2019-08-19 10:20:19,429 Action ('yoghurt', 'sodas colas'), probability of acceptance: 1
+2019-08-19 10:20:19,431 Baseline action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:20:19,433 Baseline nutGreedy: action ('yoghurt', 'butter'), gain 2.6101966203883578, accepted 0
+2019-08-19 10:20:19,435 The next state is: ('fromage blanc',)
+2019-08-19 10:20:23,053 Timestep 61, accepted action ('yoghurt', 'sodas colas') with PandietGain -2.4832 
+2019-08-19 10:20:23,056 Updating PandietScore...
+2019-08-19 10:20:23,058 Previous PandietScore: 50.8857. Current pandietScore 53.3689
+2019-08-19 10:20:23,059 LEARNING TIMESTEP 62
+2019-08-19 10:20:23,063 State : 
+2019-08-19 10:20:26,258 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'sodas colas')
+2019-08-19 10:20:26,261 Action ('fromage blanc', 'sodas colas'), probability of acceptance: 0
+2019-08-19 10:20:26,264 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:20:26,266 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 5.093393580435816, accepted 1
+2019-08-19 10:20:26,268 The next state is: ('sodas colas',)
+2019-08-19 10:20:26,576 Timestep 62, refused action ('fromage blanc', 'sodas colas') 
+2019-08-19 10:20:26,581 Updating PandietScore...
+2019-08-19 10:20:26,590 Previous PandietScore: 53.3689. Current pandietScore 53.3689
+2019-08-19 10:20:26,594 LEARNING TIMESTEP 63
+2019-08-19 10:20:26,595 State : 
+2019-08-19 10:20:30,219 Current state: ('sodas colas',), chosen action: ('sodas colas', 'margarine')
+2019-08-19 10:20:30,226 State not in acceptability matrix !
+2019-08-19 10:20:30,227 State not in acceptability matrix !
+2019-08-19 10:20:30,231 Action ('sodas colas', 'margarine'), probability of acceptance: 0
+2019-08-19 10:20:30,234 Baseline action ('sodas colas', 'butter'), probability of acceptance: 0
+2019-08-19 10:20:30,243 Baseline nutGreedy: action ('sodas colas', 'butter'), gain 5.093393580435816, accepted 0
+2019-08-19 10:20:30,245 The next state is: ('bread', 'fromage blanc', 'margarine', 'potatoes')
+2019-08-19 10:20:30,600 Timestep 63, refused action ('sodas colas', 'margarine') 
+2019-08-19 10:20:30,606 Updating PandietScore...
+2019-08-19 10:20:30,609 Previous PandietScore: 53.3689. Current pandietScore 53.3689
+2019-08-19 10:20:30,612 LEARNING TIMESTEP 64
+2019-08-19 10:20:30,616 State : 
+2019-08-19 10:20:42,709 Current state: ('bread', 'fromage blanc', 'margarine', 'potatoes'), chosen action: ('margarine', 'butter')
+2019-08-19 10:20:42,712 Action ('margarine', 'butter'), probability of acceptance: 0
+2019-08-19 10:20:42,717 Baseline action ('bread', 'butter'), probability of acceptance: 1
+2019-08-19 10:20:42,721 Baseline nutGreedy: action ('bread', 'butter'), gain 0.8925878809848484, accepted 1
+2019-08-19 10:20:42,724 The next state is: ('bread', 'potatoes')
+2019-08-19 10:20:43,040 Timestep 64, refused action ('margarine', 'butter') 
+2019-08-19 10:20:43,042 Updating PandietScore...
+2019-08-19 10:20:43,045 Previous PandietScore: 53.3689. Current pandietScore 53.3689
+2019-08-19 10:20:43,048 LEARNING TIMESTEP 65
+2019-08-19 10:20:43,050 State : 
+2019-08-19 10:20:47,494 Current state: ('bread', 'potatoes'), chosen action: ('bread', 'butter')
+2019-08-19 10:20:47,506 Action ('bread', 'butter'), probability of acceptance: 1
+2019-08-19 10:20:47,507 Baseline action ('bread', 'butter'), probability of acceptance: 1
+2019-08-19 10:20:47,509 Baseline nutGreedy: action ('bread', 'butter'), gain 1.3313475906443983, accepted 1
+2019-08-19 10:20:47,510 The next state is: ('sodas colas',)
+2019-08-19 10:20:50,324 Timestep 65, accepted action ('bread', 'butter') with PandietGain 1.3313 
+2019-08-19 10:20:50,326 Updating PandietScore...
+2019-08-19 10:20:50,327 Previous PandietScore: 53.3689. Current pandietScore 52.0375
+2019-08-19 10:20:50,329 LEARNING TIMESTEP 66
+2019-08-19 10:20:50,331 State : 
+2019-08-19 10:20:52,868 Current state: ('sodas colas',), chosen action: ('sodas colas', 'bread')
+2019-08-19 10:20:52,869 State not in acceptability matrix !
+2019-08-19 10:20:52,871 State not in acceptability matrix !
+2019-08-19 10:20:52,872 Action ('sodas colas', 'bread'), probability of acceptance: 0
+2019-08-19 10:20:52,875 Baseline action ('sodas colas', 'butter'), probability of acceptance: 0
+2019-08-19 10:20:52,883 Baseline nutGreedy: action ('sodas colas', 'butter'), gain 3.7620459897914174, accepted 0
+2019-08-19 10:20:52,886 The next state is: ('bread', 'fromage blanc', 'margarine', 'potatoes')
+2019-08-19 10:20:53,170 Timestep 66, refused action ('sodas colas', 'bread') 
+2019-08-19 10:20:53,175 Updating PandietScore...
+2019-08-19 10:20:53,177 Previous PandietScore: 52.0375. Current pandietScore 52.0375
+2019-08-19 10:20:53,183 LEARNING TIMESTEP 67
+2019-08-19 10:20:53,187 State : 
+2019-08-19 10:21:00,244 Current state: ('bread', 'fromage blanc', 'margarine', 'potatoes'), chosen action: ('fromage blanc', 'pizza')
+2019-08-19 10:21:00,247 Action ('fromage blanc', 'pizza'), probability of acceptance: 0
+2019-08-19 10:21:00,249 Baseline action ('bread', 'butter'), probability of acceptance: 0
+2019-08-19 10:21:00,251 Baseline nutGreedy: action ('bread', 'butter'), gain -0.4387597096595499, accepted 0
+2019-08-19 10:21:00,253 The next state is: ('fromage blanc', 'margarine', 'poultry rabbit')
+2019-08-19 10:21:00,497 Timestep 67, refused action ('fromage blanc', 'pizza') 
+2019-08-19 10:21:00,502 Updating PandietScore...
+2019-08-19 10:21:00,503 Previous PandietScore: 52.0375. Current pandietScore 52.0375
+2019-08-19 10:21:00,505 LEARNING TIMESTEP 68
+2019-08-19 10:21:00,506 State : 
+2019-08-19 10:21:06,027 Current state: ('fromage blanc', 'margarine', 'poultry rabbit'), chosen action: ('poultry rabbit', 'butter')
+2019-08-19 10:21:06,030 Action ('poultry rabbit', 'butter'), probability of acceptance: 1
+2019-08-19 10:21:06,032 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 1
+2019-08-19 10:21:06,034 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain 1.1570476751431045, accepted 1
+2019-08-19 10:21:06,035 The next state is: ('fromage blanc',)
+2019-08-19 10:21:09,026 Timestep 68, accepted action ('poultry rabbit', 'butter') with PandietGain 1.1570 
+2019-08-19 10:21:09,027 Updating PandietScore...
+2019-08-19 10:21:09,029 Previous PandietScore: 52.0375. Current pandietScore 50.8805
+2019-08-19 10:21:09,031 LEARNING TIMESTEP 69
+2019-08-19 10:21:09,032 State : 
+2019-08-19 10:21:11,368 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:21:11,371 Action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:21:11,373 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:21:11,375 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 2.604998314648313, accepted 1
+2019-08-19 10:21:11,382 The next state is: ('yoghurt',)
+2019-08-19 10:21:14,247 Timestep 69, accepted action ('fromage blanc', 'butter') with PandietGain 2.6050 
+2019-08-19 10:21:14,249 Updating PandietScore...
+2019-08-19 10:21:14,251 Previous PandietScore: 50.8805. Current pandietScore 48.2755
+2019-08-19 10:21:14,253 LEARNING TIMESTEP 70
+2019-08-19 10:21:14,255 State : 
+2019-08-19 10:21:16,725 Current state: ('yoghurt',), chosen action: ('yoghurt', 'sodas colas')
+2019-08-19 10:21:16,728 Action ('yoghurt', 'sodas colas'), probability of acceptance: 1
+2019-08-19 10:21:16,730 Baseline action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:21:16,732 Baseline nutGreedy: action ('yoghurt', 'butter'), gain 0.0, accepted 0
+2019-08-19 10:21:16,734 The next state is: ('bread', 'fromage blanc', 'margarine', 'potatoes')
+2019-08-19 10:21:24,716 Timestep 70, accepted action ('yoghurt', 'sodas colas') with PandietGain -5.0934 
+2019-08-19 10:21:24,722 Updating PandietScore...
+2019-08-19 10:21:24,723 Previous PandietScore: 48.2755. Current pandietScore 53.3689
+2019-08-19 10:21:24,725 LEARNING TIMESTEP 71
+2019-08-19 10:21:24,727 State : 
+2019-08-19 10:21:31,070 Current state: ('bread', 'fromage blanc', 'margarine', 'potatoes'), chosen action: ('margarine', 'butter')
+2019-08-19 10:21:31,074 Action ('margarine', 'butter'), probability of acceptance: 0
+2019-08-19 10:21:31,080 Baseline action ('bread', 'butter'), probability of acceptance: 0
+2019-08-19 10:21:31,084 Baseline nutGreedy: action ('bread', 'butter'), gain 0.8925878809848484, accepted 0
+2019-08-19 10:21:31,089 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:21:31,354 Timestep 71, refused action ('margarine', 'butter') 
+2019-08-19 10:21:31,356 Updating PandietScore...
+2019-08-19 10:21:31,358 Previous PandietScore: 53.3689. Current pandietScore 53.3689
+2019-08-19 10:21:31,361 LEARNING TIMESTEP 72
+2019-08-19 10:21:31,362 State : 
+2019-08-19 10:21:37,975 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('butter', 'pizza')
+2019-08-19 10:21:37,993 Action ('butter', 'pizza'), probability of acceptance: 0
+2019-08-19 10:21:37,994 Baseline action ('margarine', 'sodas colas'), probability of acceptance: 0
+2019-08-19 10:21:37,996 Baseline nutGreedy: action ('margarine', 'sodas colas'), gain 0.6690309213662431, accepted 0
+2019-08-19 10:21:37,997 The next state is: ('butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:21:38,251 Timestep 72, refused action ('butter', 'pizza') 
+2019-08-19 10:21:38,253 Updating PandietScore...
+2019-08-19 10:21:38,254 Previous PandietScore: 53.3689. Current pandietScore 53.3689
+2019-08-19 10:21:38,256 LEARNING TIMESTEP 73
+2019-08-19 10:21:38,259 State : 
+2019-08-19 10:21:48,161 Current state: ('butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('yoghurt', 'beans')
+2019-08-19 10:21:48,166 Action ('yoghurt', 'beans'), probability of acceptance: 1
+2019-08-19 10:21:48,169 Baseline action ('yoghurt', 'beans'), probability of acceptance: 1
+2019-08-19 10:21:48,170 Baseline nutGreedy: action ('yoghurt', 'beans'), gain 1.4422936704958431, accepted 1
+2019-08-19 10:21:48,172 The next state is: ('bread', 'fromage blanc', 'margarine', 'potatoes')
+2019-08-19 10:21:57,943 Timestep 73, accepted action ('yoghurt', 'beans') with PandietGain 1.4423 
+2019-08-19 10:21:57,944 Updating PandietScore...
+2019-08-19 10:21:57,946 Previous PandietScore: 53.3689. Current pandietScore 51.9266
+2019-08-19 10:21:57,948 LEARNING TIMESTEP 74
+2019-08-19 10:21:57,950 State : 
+2019-08-19 10:22:06,163 Current state: ('bread', 'fromage blanc', 'margarine', 'potatoes'), chosen action: ('margarine', 'yoghurt')
+2019-08-19 10:22:06,167 Action ('margarine', 'yoghurt'), probability of acceptance: 0
+2019-08-19 10:22:06,170 Baseline action ('bread', 'butter'), probability of acceptance: 0
+2019-08-19 10:22:06,173 Baseline nutGreedy: action ('bread', 'butter'), gain -0.5497057895109947, accepted 0
+2019-08-19 10:22:06,177 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas')
+2019-08-19 10:22:06,601 Timestep 74, refused action ('margarine', 'yoghurt') 
+2019-08-19 10:22:06,609 Updating PandietScore...
+2019-08-19 10:22:06,610 Previous PandietScore: 51.9266. Current pandietScore 51.9266
+2019-08-19 10:22:06,612 LEARNING TIMESTEP 75
+2019-08-19 10:22:06,614 State : 
+2019-08-19 10:22:13,979 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas'), chosen action: ('beans', 'poultry rabbit')
+2019-08-19 10:22:13,992 Action ('beans', 'poultry rabbit'), probability of acceptance: 1
+2019-08-19 10:22:13,994 Baseline action ('margarine', 'yoghurt'), probability of acceptance: 0
+2019-08-19 10:22:13,997 Baseline nutGreedy: action ('margarine', 'yoghurt'), gain -0.7732627491296, accepted 0
+2019-08-19 10:22:14,000 The next state is: ('butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:22:22,254 Timestep 75, accepted action ('beans', 'poultry rabbit') with PandietGain -1.3961 
+2019-08-19 10:22:22,262 Updating PandietScore...
+2019-08-19 10:22:22,269 Previous PandietScore: 51.9266. Current pandietScore 53.3227
+2019-08-19 10:22:22,276 LEARNING TIMESTEP 76
+2019-08-19 10:22:22,289 State : 
+2019-08-19 10:22:29,439 Current state: ('butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('fromage blanc', 'pizza')
+2019-08-19 10:22:29,445 Action ('fromage blanc', 'pizza'), probability of acceptance: 0
+2019-08-19 10:22:29,447 Baseline action ('yoghurt', 'beans'), probability of acceptance: 1
+2019-08-19 10:22:29,449 Baseline nutGreedy: action ('yoghurt', 'beans'), gain 1.3960837003204318, accepted 1
+2019-08-19 10:22:29,452 The next state is: ('fromage blanc',)
+2019-08-19 10:22:29,779 Timestep 76, refused action ('fromage blanc', 'pizza') 
+2019-08-19 10:22:29,789 Updating PandietScore...
+2019-08-19 10:22:29,792 Previous PandietScore: 53.3227. Current pandietScore 53.3227
+2019-08-19 10:22:29,798 LEARNING TIMESTEP 77
+2019-08-19 10:22:29,800 State : 
+2019-08-19 10:22:32,441 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:22:32,445 Action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:22:32,446 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:22:32,448 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 5.047183610260404, accepted 1
+2019-08-19 10:22:32,449 The next state is: ('bread', 'butter', 'margarine')
+2019-08-19 10:22:42,308 Timestep 77, accepted action ('fromage blanc', 'butter') with PandietGain 5.0472 
+2019-08-19 10:22:42,321 Updating PandietScore...
+2019-08-19 10:22:42,324 Previous PandietScore: 53.3227. Current pandietScore 48.2755
+2019-08-19 10:22:42,327 LEARNING TIMESTEP 78
+2019-08-19 10:22:42,330 State : 
+2019-08-19 10:22:56,800 Current state: ('bread', 'butter', 'margarine'), chosen action: ('bread', 'beans')
+2019-08-19 10:22:56,819 Action ('bread', 'beans'), probability of acceptance: 1
+2019-08-19 10:22:56,828 Baseline action ('bread', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:22:56,831 Baseline nutGreedy: action ('bread', 'fromage blanc'), gain -2.604998314648313, accepted 1
+2019-08-19 10:22:56,841 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas')
+2019-08-19 10:23:11,850 Timestep 78, accepted action ('bread', 'beans') with PandietGain -2.6102 
+2019-08-19 10:23:11,852 Updating PandietScore...
+2019-08-19 10:23:11,855 Previous PandietScore: 48.2755. Current pandietScore 50.8857
+2019-08-19 10:23:11,857 LEARNING TIMESTEP 79
+2019-08-19 10:23:11,859 State : 
+2019-08-19 10:23:23,799 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas'), chosen action: ('beans', 'poultry rabbit')
+2019-08-19 10:23:23,807 Action ('beans', 'poultry rabbit'), probability of acceptance: 0
+2019-08-19 10:23:23,813 Baseline action ('margarine', 'yoghurt'), probability of acceptance: 0
+2019-08-19 10:23:23,816 Baseline nutGreedy: action ('margarine', 'yoghurt'), gain -1.8141660386812148, accepted 0
+2019-08-19 10:23:23,819 The next state is: ('margarine', 'sodas colas', 'yoghurt')
+2019-08-19 10:23:24,177 Timestep 79, refused action ('beans', 'poultry rabbit') 
+2019-08-19 10:23:24,188 Updating PandietScore...
+2019-08-19 10:23:24,191 Previous PandietScore: 50.8857. Current pandietScore 50.8857
+2019-08-19 10:23:24,198 LEARNING TIMESTEP 80
+2019-08-19 10:23:24,201 State : 
+2019-08-19 10:23:36,058 Current state: ('margarine', 'sodas colas', 'yoghurt'), chosen action: ('sodas colas', 'beans')
+2019-08-19 10:23:36,067 Action ('sodas colas', 'beans'), probability of acceptance: 0
+2019-08-19 10:23:36,071 Baseline action ('sodas colas', 'butter'), probability of acceptance: 1
+2019-08-19 10:23:36,073 Baseline nutGreedy: action ('sodas colas', 'butter'), gain -0.39730034975685413, accepted 1
+2019-08-19 10:23:36,076 The next state is: ('fromage blanc',)
+2019-08-19 10:23:36,720 Timestep 80, refused action ('sodas colas', 'beans') 
+2019-08-19 10:23:36,724 Updating PandietScore...
+2019-08-19 10:23:36,731 Previous PandietScore: 50.8857. Current pandietScore 50.8857
+2019-08-19 10:23:36,735 LEARNING TIMESTEP 81
+2019-08-19 10:23:36,738 State : 
+2019-08-19 10:23:43,576 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:23:43,587 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:23:43,589 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:23:43,593 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 2.6101966203883578, accepted 1
+2019-08-19 10:23:43,595 The next state is: ('fromage blanc', 'margarine')
+2019-08-19 10:23:44,212 Timestep 81, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:23:44,219 Updating PandietScore...
+2019-08-19 10:23:44,229 Previous PandietScore: 50.8857. Current pandietScore 50.8857
+2019-08-19 10:23:44,231 LEARNING TIMESTEP 82
+2019-08-19 10:23:44,234 State : 
+2019-08-19 10:23:57,530 Current state: ('fromage blanc', 'margarine'), chosen action: ('fromage blanc', 'potatoes')
+2019-08-19 10:23:57,542 Action ('fromage blanc', 'potatoes'), probability of acceptance: 1
+2019-08-19 10:23:57,547 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:23:57,554 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 1.3826295605355767, accepted 0
+2019-08-19 10:23:57,558 The next state is: ('fromage blanc', 'pizza')
+2019-08-19 10:24:13,052 Timestep 82, accepted action ('fromage blanc', 'potatoes') with PandietGain -2.5354 
+2019-08-19 10:24:13,056 Updating PandietScore...
+2019-08-19 10:24:13,061 Previous PandietScore: 50.8857. Current pandietScore 53.4211
+2019-08-19 10:24:13,065 LEARNING TIMESTEP 83
+2019-08-19 10:24:13,069 State : 
+2019-08-19 10:24:27,594 Current state: ('fromage blanc', 'pizza'), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:24:27,624 Action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:24:27,630 Baseline action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:24:27,634 Baseline nutGreedy: action ('pizza', 'butter'), gain 2.810250434961148, accepted 0
+2019-08-19 10:24:27,636 The next state is: ('bread', 'butter', 'margarine')
+2019-08-19 10:24:50,462 Timestep 83, accepted action ('fromage blanc', 'butter') with PandietGain 0.9725 
+2019-08-19 10:24:50,465 Updating PandietScore...
+2019-08-19 10:24:50,468 Previous PandietScore: 53.4211. Current pandietScore 52.4486
+2019-08-19 10:24:50,471 LEARNING TIMESTEP 84
+2019-08-19 10:24:50,473 State : 
+2019-08-19 10:25:13,242 Current state: ('bread', 'butter', 'margarine'), chosen action: ('margarine', 'yoghurt')
+2019-08-19 10:25:13,251 Action ('margarine', 'yoghurt'), probability of acceptance: 1
+2019-08-19 10:25:13,259 Baseline action ('bread', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:25:13,262 Baseline nutGreedy: action ('bread', 'fromage blanc'), gain 1.5681148533772387, accepted 0
+2019-08-19 10:25:13,265 The next state is: ('beans', 'bread', 'fromage blanc', 'poultry rabbit')
+2019-08-19 10:25:34,070 Timestep 84, accepted action ('margarine', 'yoghurt') with PandietGain -0.0745 
+2019-08-19 10:25:34,074 Updating PandietScore...
+2019-08-19 10:25:34,082 Previous PandietScore: 52.4486. Current pandietScore 52.5231
+2019-08-19 10:25:34,086 LEARNING TIMESTEP 85
+2019-08-19 10:25:34,088 State : 
+2019-08-19 10:25:54,402 Current state: ('beans', 'bread', 'fromage blanc', 'poultry rabbit'), chosen action: ('bread', 'margarine')
+2019-08-19 10:25:54,408 Action ('bread', 'margarine'), probability of acceptance: 1
+2019-08-19 10:25:54,418 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 1
+2019-08-19 10:25:54,421 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain -0.12197399326207403, accepted 1
+2019-08-19 10:25:54,429 The next state is: ('fromage blanc',)
+2019-08-19 10:26:06,172 Timestep 85, accepted action ('bread', 'margarine') with PandietGain -1.3660 
+2019-08-19 10:26:06,190 Updating PandietScore...
+2019-08-19 10:26:06,205 Previous PandietScore: 52.5231. Current pandietScore 53.8891
+2019-08-19 10:26:06,208 LEARNING TIMESTEP 86
+2019-08-19 10:26:06,219 State : 
+2019-08-19 10:26:12,017 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:26:12,023 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:26:12,030 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:26:12,032 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 5.613587939269593, accepted 0
+2019-08-19 10:26:12,034 The next state is: ('fromage blanc', 'margarine', 'poultry rabbit')
+2019-08-19 10:26:12,370 Timestep 86, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:26:12,373 Updating PandietScore...
+2019-08-19 10:26:12,375 Previous PandietScore: 53.8891. Current pandietScore 53.8891
+2019-08-19 10:26:12,381 LEARNING TIMESTEP 87
+2019-08-19 10:26:12,385 State : 
+2019-08-19 10:26:22,926 Current state: ('fromage blanc', 'margarine', 'poultry rabbit'), chosen action: ('poultry rabbit', 'potatoes')
+2019-08-19 10:26:22,931 Action ('poultry rabbit', 'potatoes'), probability of acceptance: 1
+2019-08-19 10:26:22,934 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 1
+2019-08-19 10:26:22,936 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain 3.0085896246212798, accepted 1
+2019-08-19 10:26:22,938 The next state is: ('butter', 'fromage blanc', 'potatoes')
+2019-08-19 10:26:34,306 Timestep 87, accepted action ('poultry rabbit', 'potatoes') with PandietGain 0.6137 
+2019-08-19 10:26:34,314 Updating PandietScore...
+2019-08-19 10:26:34,317 Previous PandietScore: 53.8891. Current pandietScore 53.2754
+2019-08-19 10:26:34,320 LEARNING TIMESTEP 88
+2019-08-19 10:26:34,327 State : 
+2019-08-19 10:26:46,559 Current state: ('butter', 'fromage blanc', 'potatoes'), chosen action: ('potatoes', 'margarine')
+2019-08-19 10:26:46,568 Action ('potatoes', 'margarine'), probability of acceptance: 0
+2019-08-19 10:26:46,575 Baseline action ('potatoes', 'margarine'), probability of acceptance: 0
+2019-08-19 10:26:46,593 Baseline nutGreedy: action ('potatoes', 'margarine'), gain 2.3949099767217987, accepted 0
+2019-08-19 10:26:46,600 The next state is: ('fromage blanc', 'pizza', 'yoghurt')
+2019-08-19 10:26:47,373 Timestep 88, refused action ('potatoes', 'margarine') 
+2019-08-19 10:26:47,382 Updating PandietScore...
+2019-08-19 10:26:47,384 Previous PandietScore: 53.2754. Current pandietScore 53.2754
+2019-08-19 10:26:47,388 LEARNING TIMESTEP 89
+2019-08-19 10:26:47,392 State : 
+2019-08-19 10:26:59,056 Current state: ('fromage blanc', 'pizza', 'yoghurt'), chosen action: ('fromage blanc', 'potatoes')
+2019-08-19 10:26:59,060 Action ('fromage blanc', 'potatoes'), probability of acceptance: 1
+2019-08-19 10:26:59,062 Baseline action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:26:59,070 Baseline nutGreedy: action ('pizza', 'butter'), gain 1.3203376346427333, accepted 0
+2019-08-19 10:26:59,072 The next state is: ('fromage blanc',)
+2019-08-19 10:27:08,096 Timestep 89, accepted action ('fromage blanc', 'potatoes') with PandietGain -0.1174 
+2019-08-19 10:27:08,117 Updating PandietScore...
+2019-08-19 10:27:08,119 Previous PandietScore: 53.2754. Current pandietScore 53.3928
+2019-08-19 10:27:08,126 LEARNING TIMESTEP 90
+2019-08-19 10:27:08,127 State : 
+2019-08-19 10:27:16,851 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'beans')
+2019-08-19 10:27:16,861 Action ('fromage blanc', 'beans'), probability of acceptance: 1
+2019-08-19 10:27:16,867 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:27:16,870 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 5.1173283732604915, accepted 0
+2019-08-19 10:27:16,873 The next state is: ('butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:27:36,719 Timestep 90, accepted action ('fromage blanc', 'beans') with PandietGain -0.9821 
+2019-08-19 10:27:36,721 Updating PandietScore...
+2019-08-19 10:27:36,725 Previous PandietScore: 53.3928. Current pandietScore 54.3749
+2019-08-19 10:27:36,727 LEARNING TIMESTEP 91
+2019-08-19 10:27:36,733 State : 
+2019-08-19 10:27:46,604 Current state: ('butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('margarine', 'sodas colas')
+2019-08-19 10:27:46,614 Action ('margarine', 'sodas colas'), probability of acceptance: 1
+2019-08-19 10:27:46,622 Baseline action ('yoghurt', 'beans'), probability of acceptance: 0
+2019-08-19 10:27:46,624 Baseline nutGreedy: action ('yoghurt', 'beans'), gain 2.448338753357433, accepted 0
+2019-08-19 10:27:46,627 The next state is: ('butter', 'potatoes', 'poultry rabbit', 'sodas colas')
+2019-08-19 10:27:56,827 Timestep 91, accepted action ('margarine', 'sodas colas') with PandietGain 1.8976 
+2019-08-19 10:27:56,834 Updating PandietScore...
+2019-08-19 10:27:56,836 Previous PandietScore: 54.3749. Current pandietScore 52.4773
+2019-08-19 10:27:56,838 LEARNING TIMESTEP 92
+2019-08-19 10:27:56,840 State : 
+2019-08-19 10:28:07,570 Current state: ('butter', 'potatoes', 'poultry rabbit', 'sodas colas'), chosen action: ('poultry rabbit', 'fromage blanc')
+2019-08-19 10:28:07,574 Action ('poultry rabbit', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:28:07,580 Baseline action ('poultry rabbit', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:28:07,583 Baseline nutGreedy: action ('poultry rabbit', 'fromage blanc'), gain -0.12961339426247065, accepted 1
+2019-08-19 10:28:07,587 The next state is: ('bread', 'fromage blanc', 'margarine', 'potatoes')
+2019-08-19 10:28:07,972 Timestep 92, refused action ('poultry rabbit', 'fromage blanc') 
+2019-08-19 10:28:07,975 Updating PandietScore...
+2019-08-19 10:28:07,985 Previous PandietScore: 52.4773. Current pandietScore 52.4773
+2019-08-19 10:28:07,987 LEARNING TIMESTEP 93
+2019-08-19 10:28:07,990 State : 
+2019-08-19 10:28:19,050 Current state: ('bread', 'fromage blanc', 'margarine', 'potatoes'), chosen action: ('fromage blanc', 'poultry rabbit')
+2019-08-19 10:28:19,055 Action ('fromage blanc', 'poultry rabbit'), probability of acceptance: 1
+2019-08-19 10:28:19,057 Baseline action ('bread', 'butter'), probability of acceptance: 0
+2019-08-19 10:28:19,059 Baseline nutGreedy: action ('bread', 'butter'), gain 0.001007399302380918, accepted 0
+2019-08-19 10:28:19,061 The next state is: ('bread', 'potatoes')
+2019-08-19 10:28:26,046 Timestep 93, accepted action ('fromage blanc', 'poultry rabbit') with PandietGain -1.7147 
+2019-08-19 10:28:26,049 Updating PandietScore...
+2019-08-19 10:28:26,051 Previous PandietScore: 52.4773. Current pandietScore 54.1920
+2019-08-19 10:28:26,054 LEARNING TIMESTEP 94
+2019-08-19 10:28:26,058 State : 
+2019-08-19 10:28:32,765 Current state: ('bread', 'potatoes'), chosen action: ('potatoes', 'margarine')
+2019-08-19 10:28:32,769 Action ('potatoes', 'margarine'), probability of acceptance: 0
+2019-08-19 10:28:32,771 Baseline action ('bread', 'butter'), probability of acceptance: 1
+2019-08-19 10:28:32,773 Baseline nutGreedy: action ('bread', 'butter'), gain 2.1544307983263167, accepted 1
+2019-08-19 10:28:32,782 The next state is: ('bread', 'potatoes')
+2019-08-19 10:28:33,227 Timestep 94, refused action ('potatoes', 'margarine') 
+2019-08-19 10:28:33,234 Updating PandietScore...
+2019-08-19 10:28:33,248 Previous PandietScore: 54.1920. Current pandietScore 54.1920
+2019-08-19 10:28:33,249 LEARNING TIMESTEP 95
+2019-08-19 10:28:33,254 State : 
+2019-08-19 10:28:39,844 Current state: ('bread', 'potatoes'), chosen action: ('bread', 'beans')
+2019-08-19 10:28:39,849 Action ('bread', 'beans'), probability of acceptance: 1
+2019-08-19 10:28:39,851 Baseline action ('bread', 'butter'), probability of acceptance: 1
+2019-08-19 10:28:39,853 Baseline nutGreedy: action ('bread', 'butter'), gain 2.1544307983263167, accepted 1
+2019-08-19 10:28:39,855 The next state is: ('butter', 'potatoes', 'poultry rabbit', 'sodas colas')
+2019-08-19 10:28:49,970 Timestep 95, accepted action ('bread', 'beans') with PandietGain 0.7077 
+2019-08-19 10:28:49,972 Updating PandietScore...
+2019-08-19 10:28:49,974 Previous PandietScore: 54.1920. Current pandietScore 53.4843
+2019-08-19 10:28:49,977 LEARNING TIMESTEP 96
+2019-08-19 10:28:49,985 State : 
+2019-08-19 10:28:59,706 Current state: ('butter', 'potatoes', 'poultry rabbit', 'sodas colas'), chosen action: ('poultry rabbit', 'pizza')
+2019-08-19 10:28:59,712 Action ('poultry rabbit', 'pizza'), probability of acceptance: 0
+2019-08-19 10:28:59,722 Baseline action ('poultry rabbit', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:28:59,724 Baseline nutGreedy: action ('poultry rabbit', 'fromage blanc'), gain 0.8773452677631397, accepted 0
+2019-08-19 10:28:59,727 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas')
+2019-08-19 10:29:00,098 Timestep 96, refused action ('poultry rabbit', 'pizza') 
+2019-08-19 10:29:00,100 Updating PandietScore...
+2019-08-19 10:29:00,102 Previous PandietScore: 53.4843. Current pandietScore 53.4843
+2019-08-19 10:29:00,109 LEARNING TIMESTEP 97
+2019-08-19 10:29:00,112 State : 
+2019-08-19 10:29:11,315 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas'), chosen action: ('sodas colas', 'yoghurt')
+2019-08-19 10:29:11,328 Action ('sodas colas', 'yoghurt'), probability of acceptance: 1
+2019-08-19 10:29:11,331 Baseline action ('margarine', 'yoghurt'), probability of acceptance: 1
+2019-08-19 10:29:11,339 Baseline nutGreedy: action ('margarine', 'yoghurt'), gain 0.7844091017093859, accepted 1
+2019-08-19 10:29:11,342 The next state is: ('pizza', 'potatoes', 'sodas colas')
+2019-08-19 10:29:22,705 Timestep 97, accepted action ('sodas colas', 'yoghurt') with PandietGain 0.7374 
+2019-08-19 10:29:22,707 Updating PandietScore...
+2019-08-19 10:29:22,715 Previous PandietScore: 53.4843. Current pandietScore 52.7469
+2019-08-19 10:29:22,716 LEARNING TIMESTEP 98
+2019-08-19 10:29:22,719 State : 
+2019-08-19 10:29:31,358 Current state: ('pizza', 'potatoes', 'sodas colas'), chosen action: ('pizza', 'butter')
+2019-08-19 10:29:31,362 Action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:29:31,364 Baseline action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:29:31,366 Baseline nutGreedy: action ('pizza', 'butter'), gain 0.25382862133596973, accepted 0
+2019-08-19 10:29:31,368 The next state is: ('butter', 'fromage blanc', 'potatoes')
+2019-08-19 10:29:40,929 Timestep 98, accepted action ('pizza', 'butter') with PandietGain 0.2538 
+2019-08-19 10:29:40,931 Updating PandietScore...
+2019-08-19 10:29:40,933 Previous PandietScore: 52.7469. Current pandietScore 52.4931
+2019-08-19 10:29:40,935 LEARNING TIMESTEP 99
+2019-08-19 10:29:40,937 State : 
+2019-08-19 10:29:50,831 Current state: ('butter', 'fromage blanc', 'potatoes'), chosen action: ('potatoes', 'poultry rabbit')
+2019-08-19 10:29:50,835 Action ('potatoes', 'poultry rabbit'), probability of acceptance: 1
+2019-08-19 10:29:50,837 Baseline action ('potatoes', 'margarine'), probability of acceptance: 1
+2019-08-19 10:29:50,840 Baseline nutGreedy: action ('potatoes', 'margarine'), gain 1.6125756707047856, accepted 1
+2019-08-19 10:29:50,842 The next state is: ('bread', 'butter', 'margarine')
+2019-08-19 10:30:00,301 Timestep 99, accepted action ('potatoes', 'poultry rabbit') with PandietGain -0.2698 
+2019-08-19 10:30:00,304 Updating PandietScore...
+2019-08-19 10:30:00,306 Previous PandietScore: 52.4931. Current pandietScore 52.7629
+2019-08-19 10:30:00,315 LEARNING TIMESTEP 100
+2019-08-19 10:30:00,316 State : 
+2019-08-19 10:30:09,706 Current state: ('bread', 'butter', 'margarine'), chosen action: ('bread', 'beans')
+2019-08-19 10:30:09,718 Action ('bread', 'beans'), probability of acceptance: 1
+2019-08-19 10:30:09,725 Baseline action ('bread', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:30:09,727 Baseline nutGreedy: action ('bread', 'fromage blanc'), gain 1.8823611903886714, accepted 1
+2019-08-19 10:30:09,732 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas')
+2019-08-19 10:30:21,306 Timestep 100, accepted action ('bread', 'beans') with PandietGain 1.8772 
+2019-08-19 10:30:21,313 Updating PandietScore...
+2019-08-19 10:30:21,315 Previous PandietScore: 52.7629. Current pandietScore 50.8857
+2019-08-19 10:30:21,323 LEARNING TIMESTEP 101
+2019-08-19 10:30:21,326 State : 
+2019-08-19 10:30:31,640 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas'), chosen action: ('beans', 'poultry rabbit')
+2019-08-19 10:30:31,644 Action ('beans', 'poultry rabbit'), probability of acceptance: 0
+2019-08-19 10:30:31,646 Baseline action ('margarine', 'yoghurt'), probability of acceptance: 0
+2019-08-19 10:30:31,648 Baseline nutGreedy: action ('margarine', 'yoghurt'), gain -1.8141660386812148, accepted 0
+2019-08-19 10:30:31,650 The next state is: ('yoghurt',)
+2019-08-19 10:30:32,005 Timestep 101, refused action ('beans', 'poultry rabbit') 
+2019-08-19 10:30:32,015 Updating PandietScore...
+2019-08-19 10:30:32,017 Previous PandietScore: 50.8857. Current pandietScore 50.8857
+2019-08-19 10:30:32,019 LEARNING TIMESTEP 102
+2019-08-19 10:30:32,021 State : 
+2019-08-19 10:30:35,547 Current state: ('yoghurt',), chosen action: ('yoghurt', 'fromage blanc')
+2019-08-19 10:30:35,552 Action ('yoghurt', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:30:35,554 Baseline action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:30:35,556 Baseline nutGreedy: action ('yoghurt', 'butter'), gain 2.6101966203883578, accepted 0
+2019-08-19 10:30:35,559 The next state is: ('fromage blanc',)
+2019-08-19 10:30:39,844 Timestep 102, accepted action ('yoghurt', 'fromage blanc') with PandietGain -1.3683 
+2019-08-19 10:30:39,846 Updating PandietScore...
+2019-08-19 10:30:39,849 Previous PandietScore: 50.8857. Current pandietScore 52.2540
+2019-08-19 10:30:39,851 LEARNING TIMESTEP 103
+2019-08-19 10:30:39,853 State : 
+2019-08-19 10:30:43,445 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:30:43,449 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:30:43,451 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:30:43,453 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 3.978525151203044, accepted 0
+2019-08-19 10:30:43,455 The next state is: ('fromage blanc', 'margarine', 'poultry rabbit')
+2019-08-19 10:30:43,869 Timestep 103, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:30:43,872 Updating PandietScore...
+2019-08-19 10:30:43,874 Previous PandietScore: 52.2540. Current pandietScore 52.2540
+2019-08-19 10:30:43,876 LEARNING TIMESTEP 104
+2019-08-19 10:30:43,878 State : 
+2019-08-19 10:30:52,619 Current state: ('fromage blanc', 'margarine', 'poultry rabbit'), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:30:52,632 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:30:52,634 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 1
+2019-08-19 10:30:52,636 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain 1.3735268365547313, accepted 1
+2019-08-19 10:30:52,643 The next state is: ('butter', 'fromage blanc', 'potatoes')
+2019-08-19 10:30:53,026 Timestep 104, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:30:53,029 Updating PandietScore...
+2019-08-19 10:30:53,031 Previous PandietScore: 52.2540. Current pandietScore 52.2540
+2019-08-19 10:30:53,034 LEARNING TIMESTEP 105
+2019-08-19 10:30:53,036 State : 
+2019-08-19 10:31:01,546 Current state: ('butter', 'fromage blanc', 'potatoes'), chosen action: ('potatoes', 'margarine')
+2019-08-19 10:31:01,550 Action ('potatoes', 'margarine'), probability of acceptance: 1
+2019-08-19 10:31:01,551 Baseline action ('potatoes', 'margarine'), probability of acceptance: 0
+2019-08-19 10:31:01,559 Baseline nutGreedy: action ('potatoes', 'margarine'), gain 1.3735268365547313, accepted 0
+2019-08-19 10:31:01,561 The next state is: ('butter', 'potatoes', 'poultry rabbit', 'sodas colas')
+2019-08-19 10:31:12,504 Timestep 105, accepted action ('potatoes', 'margarine') with PandietGain 1.3735 
+2019-08-19 10:31:12,516 Updating PandietScore...
+2019-08-19 10:31:12,519 Previous PandietScore: 52.2540. Current pandietScore 50.8805
+2019-08-19 10:31:12,521 LEARNING TIMESTEP 106
+2019-08-19 10:31:12,524 State : 
+2019-08-19 10:31:23,425 Current state: ('butter', 'potatoes', 'poultry rabbit', 'sodas colas'), chosen action: ('butter', 'fromage blanc')
+2019-08-19 10:31:23,433 Action ('butter', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:31:23,436 Baseline action ('poultry rabbit', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:31:23,438 Baseline nutGreedy: action ('poultry rabbit', 'fromage blanc'), gain -1.726428178367506, accepted 1
+2019-08-19 10:31:23,440 The next state is: ('fromage blanc', 'margarine')
+2019-08-19 10:31:23,813 Timestep 106, refused action ('butter', 'fromage blanc') 
+2019-08-19 10:31:23,816 Updating PandietScore...
+2019-08-19 10:31:23,818 Previous PandietScore: 50.8805. Current pandietScore 50.8805
+2019-08-19 10:31:23,823 LEARNING TIMESTEP 107
+2019-08-19 10:31:23,825 State : 
+2019-08-19 10:31:30,458 Current state: ('fromage blanc', 'margarine'), chosen action: ('margarine', 'sodas colas')
+2019-08-19 10:31:30,463 Action ('margarine', 'sodas colas'), probability of acceptance: 1
+2019-08-19 10:31:30,465 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:31:30,467 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 1.3774312547955319, accepted 0
+2019-08-19 10:31:30,469 The next state is: ('fromage blanc',)
+2019-08-19 10:31:34,976 Timestep 107, accepted action ('margarine', 'sodas colas') with PandietGain -1.8583 
+2019-08-19 10:31:34,982 Updating PandietScore...
+2019-08-19 10:31:34,986 Previous PandietScore: 50.8805. Current pandietScore 52.7388
+2019-08-19 10:31:34,995 LEARNING TIMESTEP 108
+2019-08-19 10:31:35,001 State : 
+2019-08-19 10:31:38,571 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:31:38,583 Action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:31:38,585 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:31:38,588 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 4.463318291264919, accepted 0
+2019-08-19 10:31:38,594 The next state is: ('fromage blanc', 'sodas colas')
+2019-08-19 10:31:45,945 Timestep 108, accepted action ('fromage blanc', 'butter') with PandietGain 4.4633 
+2019-08-19 10:31:45,948 Updating PandietScore...
+2019-08-19 10:31:45,949 Previous PandietScore: 52.7388. Current pandietScore 48.2755
+2019-08-19 10:31:45,951 LEARNING TIMESTEP 109
+2019-08-19 10:31:45,953 State : 
+2019-08-19 10:31:52,375 Current state: ('fromage blanc', 'sodas colas'), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:31:52,385 State not in acceptability matrix !
+2019-08-19 10:31:52,392 State not in acceptability matrix !
+2019-08-19 10:31:52,401 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:31:52,404 Baseline action ('sodas colas', 'butter'), probability of acceptance: 0
+2019-08-19 10:31:52,413 Baseline nutGreedy: action ('sodas colas', 'butter'), gain -2.3353355385551353, accepted 0
+2019-08-19 10:31:52,415 The next state is: ('fromage blanc', 'pizza', 'yoghurt')
+2019-08-19 10:31:52,790 Timestep 109, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:31:52,792 Updating PandietScore...
+2019-08-19 10:31:52,799 Previous PandietScore: 48.2755. Current pandietScore 48.2755
+2019-08-19 10:31:52,800 LEARNING TIMESTEP 110
+2019-08-19 10:31:52,803 State : 
+2019-08-19 10:32:01,568 Current state: ('fromage blanc', 'pizza', 'yoghurt'), chosen action: ('yoghurt', 'bread')
+2019-08-19 10:32:01,575 Action ('yoghurt', 'bread'), probability of acceptance: 1
+2019-08-19 10:32:01,580 Baseline action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:32:01,589 Baseline nutGreedy: action ('pizza', 'butter'), gain -3.6795706567273783, accepted 1
+2019-08-19 10:32:01,590 The next state is: ('fromage blanc',)
+2019-08-19 10:32:05,869 Timestep 110, accepted action ('yoghurt', 'bread') with PandietGain -4.9600 
+2019-08-19 10:32:05,872 Updating PandietScore...
+2019-08-19 10:32:05,874 Previous PandietScore: 48.2755. Current pandietScore 53.2355
+2019-08-19 10:32:05,876 LEARNING TIMESTEP 111
+2019-08-19 10:32:05,884 State : 
+2019-08-19 10:32:09,490 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'poultry rabbit')
+2019-08-19 10:32:09,494 Action ('fromage blanc', 'poultry rabbit'), probability of acceptance: 0
+2019-08-19 10:32:09,500 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:32:09,502 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 4.9599612458834486, accepted 1
+2019-08-19 10:32:09,505 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas')
+2019-08-19 10:32:09,865 Timestep 111, refused action ('fromage blanc', 'poultry rabbit') 
+2019-08-19 10:32:09,868 Updating PandietScore...
+2019-08-19 10:32:09,871 Previous PandietScore: 53.2355. Current pandietScore 53.2355
+2019-08-19 10:32:09,874 LEARNING TIMESTEP 112
+2019-08-19 10:32:09,876 State : 
+2019-08-19 10:32:20,060 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas'), chosen action: ('butter', 'pizza')
+2019-08-19 10:32:20,064 Action ('butter', 'pizza'), probability of acceptance: 0
+2019-08-19 10:32:20,072 Baseline action ('margarine', 'yoghurt'), probability of acceptance: 0
+2019-08-19 10:32:20,074 Baseline nutGreedy: action ('margarine', 'yoghurt'), gain 0.535598586813876, accepted 0
+2019-08-19 10:32:20,076 The next state is: ('bread', 'fromage blanc', 'margarine', 'potatoes')
+2019-08-19 10:32:20,451 Timestep 112, refused action ('butter', 'pizza') 
+2019-08-19 10:32:20,454 Updating PandietScore...
+2019-08-19 10:32:20,455 Previous PandietScore: 53.2355. Current pandietScore 53.2355
+2019-08-19 10:32:20,457 LEARNING TIMESTEP 113
+2019-08-19 10:32:20,459 State : 
+2019-08-19 10:32:30,519 Current state: ('bread', 'fromage blanc', 'margarine', 'potatoes'), chosen action: ('margarine', 'poultry rabbit')
+2019-08-19 10:32:30,526 Action ('margarine', 'poultry rabbit'), probability of acceptance: 0
+2019-08-19 10:32:30,531 Baseline action ('bread', 'butter'), probability of acceptance: 1
+2019-08-19 10:32:30,533 Baseline nutGreedy: action ('bread', 'butter'), gain 0.7591555464324813, accepted 1
+2019-08-19 10:32:30,536 The next state is: ('yoghurt',)
+2019-08-19 10:32:30,900 Timestep 113, refused action ('margarine', 'poultry rabbit') 
+2019-08-19 10:32:30,904 Updating PandietScore...
+2019-08-19 10:32:30,913 Previous PandietScore: 53.2355. Current pandietScore 53.2355
+2019-08-19 10:32:30,914 LEARNING TIMESTEP 114
+2019-08-19 10:32:30,917 State : 
+2019-08-19 10:32:35,262 Current state: ('yoghurt',), chosen action: ('yoghurt', 'margarine')
+2019-08-19 10:32:35,270 Action ('yoghurt', 'margarine'), probability of acceptance: 1
+2019-08-19 10:32:35,273 Baseline action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:32:35,275 Baseline nutGreedy: action ('yoghurt', 'butter'), gain 4.9599612458834486, accepted 0
+2019-08-19 10:32:35,285 The next state is: ('fromage blanc', 'pizza', 'yoghurt')
+2019-08-19 10:32:44,403 Timestep 114, accepted action ('yoghurt', 'margarine') with PandietGain 3.7383 
+2019-08-19 10:32:44,411 Updating PandietScore...
+2019-08-19 10:32:44,413 Previous PandietScore: 53.2355. Current pandietScore 49.4971
+2019-08-19 10:32:44,415 LEARNING TIMESTEP 115
+2019-08-19 10:32:44,417 State : 
+2019-08-19 10:32:53,354 Current state: ('fromage blanc', 'pizza', 'yoghurt'), chosen action: ('fromage blanc', 'bread')
+2019-08-19 10:32:53,357 Action ('fromage blanc', 'bread'), probability of acceptance: 1
+2019-08-19 10:32:53,359 Baseline action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:32:53,364 Baseline nutGreedy: action ('pizza', 'butter'), gain -2.457948855933772, accepted 0
+2019-08-19 10:32:53,369 The next state is: ('beans', 'fromage blanc', 'margarine', 'poultry rabbit', 'yoghurt')
+2019-08-19 10:33:07,413 Timestep 115, accepted action ('fromage blanc', 'bread') with PandietGain -3.8639 
+2019-08-19 10:33:07,416 Updating PandietScore...
+2019-08-19 10:33:07,418 Previous PandietScore: 49.4971. Current pandietScore 53.3610
+2019-08-19 10:33:07,421 LEARNING TIMESTEP 116
+2019-08-19 10:33:07,426 State : 
+2019-08-19 10:33:17,821 Current state: ('beans', 'fromage blanc', 'margarine', 'poultry rabbit', 'yoghurt'), chosen action: ('poultry rabbit', 'butter')
+2019-08-19 10:33:17,831 Action ('poultry rabbit', 'butter'), probability of acceptance: 0
+2019-08-19 10:33:17,833 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 0
+2019-08-19 10:33:17,836 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain 0.6141160858059393, accepted 0
+2019-08-19 10:33:17,838 The next state is: ('bread', 'pizza', 'yoghurt')
+2019-08-19 10:33:18,175 Timestep 116, refused action ('poultry rabbit', 'butter') 
+2019-08-19 10:33:18,182 Updating PandietScore...
+2019-08-19 10:33:18,189 Previous PandietScore: 53.3610. Current pandietScore 53.3610
+2019-08-19 10:33:18,197 LEARNING TIMESTEP 117
+2019-08-19 10:33:18,200 State : 
+2019-08-19 10:33:26,752 Current state: ('bread', 'pizza', 'yoghurt'), chosen action: ('bread', 'butter')
+2019-08-19 10:33:26,754 State not in acceptability matrix !
+2019-08-19 10:33:26,758 State not in acceptability matrix !
+2019-08-19 10:33:26,762 Action ('bread', 'butter'), probability of acceptance: 0
+2019-08-19 10:33:26,764 Baseline action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:33:26,766 Baseline nutGreedy: action ('pizza', 'butter'), gain 0.8379022554913931, accepted 0
+2019-08-19 10:33:26,768 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas')
+2019-08-19 10:33:27,204 Timestep 117, refused action ('bread', 'butter') 
+2019-08-19 10:33:27,213 Updating PandietScore...
+2019-08-19 10:33:27,214 Previous PandietScore: 53.3610. Current pandietScore 53.3610
+2019-08-19 10:33:27,217 LEARNING TIMESTEP 118
+2019-08-19 10:33:27,223 State : 
+2019-08-19 10:33:37,454 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas'), chosen action: ('butter', 'bread')
+2019-08-19 10:33:37,458 Action ('butter', 'bread'), probability of acceptance: 1
+2019-08-19 10:33:37,460 Baseline action ('margarine', 'yoghurt'), probability of acceptance: 0
+2019-08-19 10:33:37,462 Baseline nutGreedy: action ('margarine', 'yoghurt'), gain 0.6611560334254349, accepted 0
+2019-08-19 10:33:37,464 The next state is: ('butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:33:48,036 Timestep 118, accepted action ('butter', 'bread') with PandietGain -0.4791 
+2019-08-19 10:33:48,038 Updating PandietScore...
+2019-08-19 10:33:48,040 Previous PandietScore: 53.3610. Current pandietScore 53.8401
+2019-08-19 10:33:48,042 LEARNING TIMESTEP 119
+2019-08-19 10:33:48,044 State : 
+2019-08-19 10:33:57,977 Current state: ('butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('margarine', 'sodas colas')
+2019-08-19 10:33:57,991 Action ('margarine', 'sodas colas'), probability of acceptance: 0
+2019-08-19 10:33:57,999 Baseline action ('yoghurt', 'beans'), probability of acceptance: 0
+2019-08-19 10:33:58,001 Baseline nutGreedy: action ('yoghurt', 'beans'), gain 1.9135349126528496, accepted 0
+2019-08-19 10:33:58,003 The next state is: ('fromage blanc',)
+2019-08-19 10:33:58,365 Timestep 119, refused action ('margarine', 'sodas colas') 
+2019-08-19 10:33:58,368 Updating PandietScore...
+2019-08-19 10:33:58,370 Previous PandietScore: 53.8401. Current pandietScore 53.8401
+2019-08-19 10:33:58,372 LEARNING TIMESTEP 120
+2019-08-19 10:33:58,374 State : 
+2019-08-19 10:34:02,151 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'beans')
+2019-08-19 10:34:02,156 Action ('fromage blanc', 'beans'), probability of acceptance: 1
+2019-08-19 10:34:02,158 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:34:02,161 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 5.564634822592822, accepted 0
+2019-08-19 10:34:02,163 The next state is: ('yoghurt',)
+2019-08-19 10:34:06,583 Timestep 120, accepted action ('fromage blanc', 'beans') with PandietGain -0.5348 
+2019-08-19 10:34:06,593 Updating PandietScore...
+2019-08-19 10:34:06,595 Previous PandietScore: 53.8401. Current pandietScore 54.3749
+2019-08-19 10:34:06,602 LEARNING TIMESTEP 121
+2019-08-19 10:34:06,603 State : 
+2019-08-19 10:34:10,359 Current state: ('yoghurt',), chosen action: ('yoghurt', 'butter')
+2019-08-19 10:34:10,364 Action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:34:10,367 Baseline action ('yoghurt', 'butter'), probability of acceptance: 1
+2019-08-19 10:34:10,370 Baseline nutGreedy: action ('yoghurt', 'butter'), gain 6.099438663297406, accepted 1
+2019-08-19 10:34:10,373 The next state is: ('fromage blanc', 'margarine')
+2019-08-19 10:34:10,761 Timestep 121, refused action ('yoghurt', 'butter') 
+2019-08-19 10:34:10,764 Updating PandietScore...
+2019-08-19 10:34:10,766 Previous PandietScore: 54.3749. Current pandietScore 54.3749
+2019-08-19 10:34:10,768 LEARNING TIMESTEP 122
+2019-08-19 10:34:10,770 State : 
+2019-08-19 10:34:19,301 Current state: ('fromage blanc', 'margarine'), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:34:19,307 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:34:19,315 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:34:19,318 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 4.8718716034446246, accepted 0
+2019-08-19 10:34:19,320 The next state is: ('fromage blanc', 'pizza')
+2019-08-19 10:34:19,987 Timestep 122, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:34:19,995 Updating PandietScore...
+2019-08-19 10:34:19,999 Previous PandietScore: 54.3749. Current pandietScore 54.3749
+2019-08-19 10:34:20,007 LEARNING TIMESTEP 123
+2019-08-19 10:34:20,010 State : 
+2019-08-19 10:34:33,872 Current state: ('fromage blanc', 'pizza'), chosen action: ('pizza', 'potatoes')
+2019-08-19 10:34:33,905 Action ('pizza', 'potatoes'), probability of acceptance: 1
+2019-08-19 10:34:33,913 Baseline action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:34:33,922 Baseline nutGreedy: action ('pizza', 'butter'), gain 3.7641031247422703, accepted 0
+2019-08-19 10:34:33,928 The next state is: ('fromage blanc',)
+2019-08-19 10:34:41,276 Timestep 123, accepted action ('pizza', 'potatoes') with PandietGain 1.4804 
+2019-08-19 10:34:41,286 Updating PandietScore...
+2019-08-19 10:34:41,297 Previous PandietScore: 54.3749. Current pandietScore 52.8945
+2019-08-19 10:34:41,301 LEARNING TIMESTEP 124
+2019-08-19 10:34:41,303 State : 
+2019-08-19 10:34:45,432 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:34:45,436 Action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:34:45,438 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:34:45,440 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 4.61898868746696, accepted 1
+2019-08-19 10:34:45,442 The next state is: ('fromage blanc',)
+2019-08-19 10:34:50,043 Timestep 124, accepted action ('fromage blanc', 'butter') with PandietGain 4.6190 
+2019-08-19 10:34:50,045 Updating PandietScore...
+2019-08-19 10:34:50,047 Previous PandietScore: 52.8945. Current pandietScore 48.2755
+2019-08-19 10:34:50,049 LEARNING TIMESTEP 125
+2019-08-19 10:34:50,051 State : 
+2019-08-19 10:34:53,769 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'margarine')
+2019-08-19 10:34:53,773 Action ('fromage blanc', 'margarine'), probability of acceptance: 0
+2019-08-19 10:34:53,776 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:34:53,785 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 0.0, accepted 1
+2019-08-19 10:34:53,786 The next state is: ('fromage blanc', 'pizza', 'yoghurt')
+2019-08-19 10:34:54,210 Timestep 125, refused action ('fromage blanc', 'margarine') 
+2019-08-19 10:34:54,217 Updating PandietScore...
+2019-08-19 10:34:54,219 Previous PandietScore: 48.2755. Current pandietScore 48.2755
+2019-08-19 10:34:54,221 LEARNING TIMESTEP 126
+2019-08-19 10:34:54,230 State : 
+2019-08-19 10:35:03,376 Current state: ('fromage blanc', 'pizza', 'yoghurt'), chosen action: ('yoghurt', 'sodas colas')
+2019-08-19 10:35:03,390 Action ('yoghurt', 'sodas colas'), probability of acceptance: 1
+2019-08-19 10:35:03,399 Baseline action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:35:03,400 Baseline nutGreedy: action ('pizza', 'butter'), gain -3.6795706567273783, accepted 1
+2019-08-19 10:35:03,403 The next state is: ('butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:35:15,876 Timestep 126, accepted action ('yoghurt', 'sodas colas') with PandietGain -4.9108 
+2019-08-19 10:35:15,886 Updating PandietScore...
+2019-08-19 10:35:15,895 Previous PandietScore: 48.2755. Current pandietScore 53.1863
+2019-08-19 10:35:15,896 LEARNING TIMESTEP 127
+2019-08-19 10:35:15,900 State : 
+2019-08-19 10:35:28,362 Current state: ('butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('yoghurt', 'beans')
+2019-08-19 10:35:28,370 Action ('yoghurt', 'beans'), probability of acceptance: 1
+2019-08-19 10:35:28,372 Baseline action ('yoghurt', 'beans'), probability of acceptance: 1
+2019-08-19 10:35:28,374 Baseline nutGreedy: action ('yoghurt', 'beans'), gain 1.2596719257823565, accepted 1
+2019-08-19 10:35:28,376 The next state is: ('fromage blanc', 'pizza', 'sodas colas')
+2019-08-19 10:35:38,447 Timestep 127, accepted action ('yoghurt', 'beans') with PandietGain 1.2597 
+2019-08-19 10:35:38,449 Updating PandietScore...
+2019-08-19 10:35:38,452 Previous PandietScore: 53.1863. Current pandietScore 51.9266
+2019-08-19 10:35:38,454 LEARNING TIMESTEP 128
+2019-08-19 10:35:38,456 State : 
+2019-08-19 10:35:47,718 Current state: ('fromage blanc', 'pizza', 'sodas colas'), chosen action: ('sodas colas', 'butter')
+2019-08-19 10:35:47,722 State not in acceptability matrix !
+2019-08-19 10:35:47,726 State not in acceptability matrix !
+2019-08-19 10:35:47,730 Action ('sodas colas', 'butter'), probability of acceptance: 0
+2019-08-19 10:35:47,732 Baseline action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:35:47,734 Baseline nutGreedy: action ('pizza', 'butter'), gain -0.2602053583030397, accepted 0
+2019-08-19 10:35:47,736 The next state is: ('fromage blanc',)
+2019-08-19 10:35:48,102 Timestep 128, refused action ('sodas colas', 'butter') 
+2019-08-19 10:35:48,107 Updating PandietScore...
+2019-08-19 10:35:48,110 Previous PandietScore: 51.9266. Current pandietScore 51.9266
+2019-08-19 10:35:48,117 LEARNING TIMESTEP 129
+2019-08-19 10:35:48,119 State : 
+2019-08-19 10:35:51,915 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'beans')
+2019-08-19 10:35:51,923 Action ('fromage blanc', 'beans'), probability of acceptance: 0
+2019-08-19 10:35:51,928 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:35:51,931 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 3.6510999099399726, accepted 1
+2019-08-19 10:35:51,934 The next state is: ('butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:35:52,324 Timestep 129, refused action ('fromage blanc', 'beans') 
+2019-08-19 10:35:52,327 Updating PandietScore...
+2019-08-19 10:35:52,329 Previous PandietScore: 51.9266. Current pandietScore 51.9266
+2019-08-19 10:35:52,335 LEARNING TIMESTEP 130
+2019-08-19 10:35:52,337 State : 
+2019-08-19 10:36:02,517 Current state: ('butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('yoghurt', 'beans')
+2019-08-19 10:36:02,522 Action ('yoghurt', 'beans'), probability of acceptance: 1
+2019-08-19 10:36:02,527 Baseline action ('yoghurt', 'beans'), probability of acceptance: 1
+2019-08-19 10:36:02,529 Baseline nutGreedy: action ('yoghurt', 'beans'), gain 0.0, accepted 1
+2019-08-19 10:36:02,531 The next state is: ('margarine', 'sodas colas', 'yoghurt')
+2019-08-19 10:36:12,666 Timestep 130, accepted action ('yoghurt', 'beans') with PandietGain 0.0000 
+2019-08-19 10:36:12,668 Updating PandietScore...
+2019-08-19 10:36:12,673 Previous PandietScore: 51.9266. Current pandietScore 51.9266
+2019-08-19 10:36:12,681 LEARNING TIMESTEP 131
+2019-08-19 10:36:12,685 State : 
+2019-08-19 10:36:23,051 Current state: ('margarine', 'sodas colas', 'yoghurt'), chosen action: ('sodas colas', 'butter')
+2019-08-19 10:36:23,055 Action ('sodas colas', 'butter'), probability of acceptance: 1
+2019-08-19 10:36:23,057 Baseline action ('sodas colas', 'butter'), probability of acceptance: 1
+2019-08-19 10:36:23,059 Baseline nutGreedy: action ('sodas colas', 'butter'), gain 0.6436029397947607, accepted 1
+2019-08-19 10:36:23,061 The next state is: ('fromage blanc',)
+2019-08-19 10:36:28,240 Timestep 131, accepted action ('sodas colas', 'butter') with PandietGain 0.6436 
+2019-08-19 10:36:28,242 Updating PandietScore...
+2019-08-19 10:36:28,245 Previous PandietScore: 51.9266. Current pandietScore 51.2830
+2019-08-19 10:36:28,248 LEARNING TIMESTEP 132
+2019-08-19 10:36:28,251 State : 
+2019-08-19 10:36:32,589 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:36:32,597 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:36:32,605 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:36:32,607 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 3.007496970145212, accepted 1
+2019-08-19 10:36:32,610 The next state is: ('margarine', 'sodas colas', 'yoghurt')
+2019-08-19 10:36:32,962 Timestep 132, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:36:32,964 Updating PandietScore...
+2019-08-19 10:36:32,966 Previous PandietScore: 51.2830. Current pandietScore 51.2830
+2019-08-19 10:36:32,968 LEARNING TIMESTEP 133
+2019-08-19 10:36:32,973 State : 
+2019-08-19 10:36:41,774 Current state: ('margarine', 'sodas colas', 'yoghurt'), chosen action: ('margarine', 'fromage blanc')
+2019-08-19 10:36:41,794 Action ('margarine', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:36:41,795 Baseline action ('sodas colas', 'butter'), probability of acceptance: 1
+2019-08-19 10:36:41,801 Baseline nutGreedy: action ('sodas colas', 'butter'), gain 0.0, accepted 1
+2019-08-19 10:36:41,803 The next state is: ('butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:36:52,866 Timestep 133, accepted action ('margarine', 'fromage blanc') with PandietGain -1.5712 
+2019-08-19 10:36:52,869 Updating PandietScore...
+2019-08-19 10:36:52,872 Previous PandietScore: 51.2830. Current pandietScore 52.8542
+2019-08-19 10:36:52,875 LEARNING TIMESTEP 134
+2019-08-19 10:36:52,885 State : 
+2019-08-19 10:37:04,036 Current state: ('butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('yoghurt', 'sodas colas')
+2019-08-19 10:37:04,048 Action ('yoghurt', 'sodas colas'), probability of acceptance: 1
+2019-08-19 10:37:04,055 Baseline action ('yoghurt', 'beans'), probability of acceptance: 1
+2019-08-19 10:37:04,058 Baseline nutGreedy: action ('yoghurt', 'beans'), gain 0.9276447482521419, accepted 1
+2019-08-19 10:37:04,061 The next state is: ('potatoes',)
+2019-08-19 10:37:09,070 Timestep 134, accepted action ('yoghurt', 'sodas colas') with PandietGain 0.2833 
+2019-08-19 10:37:09,072 Updating PandietScore...
+2019-08-19 10:37:09,075 Previous PandietScore: 52.8542. Current pandietScore 52.5709
+2019-08-19 10:37:09,083 LEARNING TIMESTEP 135
+2019-08-19 10:37:09,086 State : 
+2019-08-19 10:37:13,758 Current state: ('potatoes',), chosen action: ('potatoes', 'bread')
+2019-08-19 10:37:13,763 Action ('potatoes', 'bread'), probability of acceptance: 0
+2019-08-19 10:37:13,767 Baseline action ('potatoes', 'butter'), probability of acceptance: 1
+2019-08-19 10:37:13,771 Baseline nutGreedy: action ('potatoes', 'butter'), gain 4.295438565815253, accepted 1
+2019-08-19 10:37:13,774 The next state is: ('fromage blanc', 'margarine', 'poultry rabbit')
+2019-08-19 10:37:14,292 Timestep 135, refused action ('potatoes', 'bread') 
+2019-08-19 10:37:14,299 Updating PandietScore...
+2019-08-19 10:37:14,306 Previous PandietScore: 52.5709. Current pandietScore 52.5709
+2019-08-19 10:37:14,308 LEARNING TIMESTEP 136
+2019-08-19 10:37:14,311 State : 
+2019-08-19 10:37:23,128 Current state: ('fromage blanc', 'margarine', 'poultry rabbit'), chosen action: ('poultry rabbit', 'butter')
+2019-08-19 10:37:23,135 Action ('poultry rabbit', 'butter'), probability of acceptance: 0
+2019-08-19 10:37:23,143 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 0
+2019-08-19 10:37:23,145 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain 1.6904402511669403, accepted 0
+2019-08-19 10:37:23,148 The next state is: ('fromage blanc', 'pizza', 'yoghurt')
+2019-08-19 10:37:23,498 Timestep 136, refused action ('poultry rabbit', 'butter') 
+2019-08-19 10:37:23,503 Updating PandietScore...
+2019-08-19 10:37:23,505 Previous PandietScore: 52.5709. Current pandietScore 52.5709
+2019-08-19 10:37:23,510 LEARNING TIMESTEP 137
+2019-08-19 10:37:23,513 State : 
+2019-08-19 10:37:34,654 Current state: ('fromage blanc', 'pizza', 'yoghurt'), chosen action: ('pizza', 'butter')
+2019-08-19 10:37:34,659 Action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:37:34,662 Baseline action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:37:34,664 Baseline nutGreedy: action ('pizza', 'butter'), gain 0.6158679090878749, accepted 1
+2019-08-19 10:37:34,666 The next state is: ('yoghurt',)
+2019-08-19 10:37:39,310 Timestep 137, accepted action ('pizza', 'butter') with PandietGain 0.6159 
+2019-08-19 10:37:39,313 Updating PandietScore...
+2019-08-19 10:37:39,316 Previous PandietScore: 52.5709. Current pandietScore 51.9551
+2019-08-19 10:37:39,321 LEARNING TIMESTEP 138
+2019-08-19 10:37:39,323 State : 
+2019-08-19 10:37:43,135 Current state: ('yoghurt',), chosen action: ('yoghurt', 'butter')
+2019-08-19 10:37:43,145 Action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:37:43,152 Baseline action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:37:43,155 Baseline nutGreedy: action ('yoghurt', 'butter'), gain 3.6795706567273783, accepted 0
+2019-08-19 10:37:43,157 The next state is: ('pizza', 'potatoes', 'sodas colas')
+2019-08-19 10:37:43,533 Timestep 138, refused action ('yoghurt', 'butter') 
+2019-08-19 10:37:43,536 Updating PandietScore...
+2019-08-19 10:37:43,539 Previous PandietScore: 51.9551. Current pandietScore 51.9551
+2019-08-19 10:37:43,541 LEARNING TIMESTEP 139
+2019-08-19 10:37:43,543 State : 
+2019-08-19 10:37:52,307 Current state: ('pizza', 'potatoes', 'sodas colas'), chosen action: ('potatoes', 'yoghurt')
+2019-08-19 10:37:52,320 Action ('potatoes', 'yoghurt'), probability of acceptance: 1
+2019-08-19 10:37:52,322 Baseline action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:37:52,325 Baseline nutGreedy: action ('pizza', 'butter'), gain -0.5380033286257202, accepted 0
+2019-08-19 10:37:52,332 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:38:03,571 Timestep 139, accepted action ('potatoes', 'yoghurt') with PandietGain -1.3571 
+2019-08-19 10:38:03,573 Updating PandietScore...
+2019-08-19 10:38:03,575 Previous PandietScore: 51.9551. Current pandietScore 53.3122
+2019-08-19 10:38:03,585 LEARNING TIMESTEP 140
+2019-08-19 10:38:03,586 State : 
+2019-08-19 10:38:14,269 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('margarine', 'bread')
+2019-08-19 10:38:14,273 Action ('margarine', 'bread'), probability of acceptance: 1
+2019-08-19 10:38:14,275 Baseline action ('margarine', 'sodas colas'), probability of acceptance: 0
+2019-08-19 10:38:14,284 Baseline nutGreedy: action ('margarine', 'sodas colas'), gain 0.6123413191042246, accepted 0
+2019-08-19 10:38:14,287 The next state is: ('fromage blanc', 'pizza', 'yoghurt')
+2019-08-19 10:38:24,033 Timestep 140, accepted action ('margarine', 'bread') with PandietGain 0.4657 
+2019-08-19 10:38:24,035 Updating PandietScore...
+2019-08-19 10:38:24,036 Previous PandietScore: 53.3122. Current pandietScore 52.8465
+2019-08-19 10:38:24,039 LEARNING TIMESTEP 141
+2019-08-19 10:38:24,041 State : 
+2019-08-19 10:38:32,835 Current state: ('fromage blanc', 'pizza', 'yoghurt'), chosen action: ('fromage blanc', 'bread')
+2019-08-19 10:38:32,839 Action ('fromage blanc', 'bread'), probability of acceptance: 0
+2019-08-19 10:38:32,841 Baseline action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:38:32,844 Baseline nutGreedy: action ('pizza', 'butter'), gain 0.8914586277952239, accepted 1
+2019-08-19 10:38:32,846 The next state is: ('fromage blanc', 'pizza', 'yoghurt')
+2019-08-19 10:38:33,197 Timestep 141, refused action ('fromage blanc', 'bread') 
+2019-08-19 10:38:33,199 Updating PandietScore...
+2019-08-19 10:38:33,202 Previous PandietScore: 52.8465. Current pandietScore 52.8465
+2019-08-19 10:38:33,205 LEARNING TIMESTEP 142
+2019-08-19 10:38:33,208 State : 
+2019-08-19 10:38:43,119 Current state: ('fromage blanc', 'pizza', 'yoghurt'), chosen action: ('pizza', 'butter')
+2019-08-19 10:38:43,128 Action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:38:43,133 Baseline action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:38:43,137 Baseline nutGreedy: action ('pizza', 'butter'), gain 0.8914586277952239, accepted 1
+2019-08-19 10:38:43,142 The next state is: ('beans', 'bread', 'butter', 'fromage blanc', 'yoghurt')
+2019-08-19 10:38:43,510 Timestep 142, refused action ('pizza', 'butter') 
+2019-08-19 10:38:43,517 Updating PandietScore...
+2019-08-19 10:38:43,518 Previous PandietScore: 52.8465. Current pandietScore 52.8465
+2019-08-19 10:38:43,521 LEARNING TIMESTEP 143
+2019-08-19 10:38:43,524 State : 
+2019-08-19 10:38:53,961 Current state: ('beans', 'bread', 'butter', 'fromage blanc', 'yoghurt'), chosen action: ('yoghurt', 'potatoes')
+2019-08-19 10:38:53,963 State not in acceptability matrix !
+2019-08-19 10:38:53,966 State not in acceptability matrix !
+2019-08-19 10:38:53,972 Action ('yoghurt', 'potatoes'), probability of acceptance: 0
+2019-08-19 10:38:53,974 Baseline action ('bread', 'sodas colas'), probability of acceptance: 0
+2019-08-19 10:38:53,979 Baseline nutGreedy: action ('bread', 'sodas colas'), gain 0.14666662545302955, accepted 0
+2019-08-19 10:38:53,985 The next state is: ('pizza', 'potatoes', 'sodas colas')
+2019-08-19 10:38:54,357 Timestep 143, refused action ('yoghurt', 'potatoes') 
+2019-08-19 10:38:54,359 Updating PandietScore...
+2019-08-19 10:38:54,361 Previous PandietScore: 52.8465. Current pandietScore 52.8465
+2019-08-19 10:38:54,364 LEARNING TIMESTEP 144
+2019-08-19 10:38:54,368 State : 
+2019-08-19 10:39:03,242 Current state: ('pizza', 'potatoes', 'sodas colas'), chosen action: ('pizza', 'butter')
+2019-08-19 10:39:03,246 Action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:39:03,249 Baseline action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:39:03,254 Baseline nutGreedy: action ('pizza', 'butter'), gain 0.3534552991695037, accepted 1
+2019-08-19 10:39:03,260 The next state is: ('fromage blanc',)
+2019-08-19 10:39:03,637 Timestep 144, refused action ('pizza', 'butter') 
+2019-08-19 10:39:03,639 Updating PandietScore...
+2019-08-19 10:39:03,641 Previous PandietScore: 52.8465. Current pandietScore 52.8465
+2019-08-19 10:39:03,643 LEARNING TIMESTEP 145
+2019-08-19 10:39:03,645 State : 
+2019-08-19 10:39:07,451 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:39:07,455 Action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:39:07,457 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:39:07,459 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 4.571029284522602, accepted 1
+2019-08-19 10:39:07,464 The next state is: ('yoghurt',)
+2019-08-19 10:39:12,331 Timestep 145, accepted action ('fromage blanc', 'butter') with PandietGain 4.5710 
+2019-08-19 10:39:12,334 Updating PandietScore...
+2019-08-19 10:39:12,335 Previous PandietScore: 52.8465. Current pandietScore 48.2755
+2019-08-19 10:39:12,338 LEARNING TIMESTEP 146
+2019-08-19 10:39:12,340 State : 
+2019-08-19 10:39:16,104 Current state: ('yoghurt',), chosen action: ('yoghurt', 'butter')
+2019-08-19 10:39:16,113 Action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:39:16,116 Baseline action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:39:16,123 Baseline nutGreedy: action ('yoghurt', 'butter'), gain 0.0, accepted 0
+2019-08-19 10:39:16,124 The next state is: ('bread', 'potatoes')
+2019-08-19 10:39:16,476 Timestep 146, refused action ('yoghurt', 'butter') 
+2019-08-19 10:39:16,489 Updating PandietScore...
+2019-08-19 10:39:16,491 Previous PandietScore: 48.2755. Current pandietScore 48.2755
+2019-08-19 10:39:16,493 LEARNING TIMESTEP 147
+2019-08-19 10:39:16,495 State : 
+2019-08-19 10:39:23,203 Current state: ('bread', 'potatoes'), chosen action: ('potatoes', 'butter')
+2019-08-19 10:39:23,216 Action ('potatoes', 'butter'), probability of acceptance: 1
+2019-08-19 10:39:23,225 Baseline action ('bread', 'butter'), probability of acceptance: 1
+2019-08-19 10:39:23,227 Baseline nutGreedy: action ('bread', 'butter'), gain -3.7620459897914174, accepted 1
+2019-08-19 10:39:23,230 The next state is: ('bread', 'butter', 'margarine')
+2019-08-19 10:39:32,867 Timestep 147, accepted action ('potatoes', 'butter') with PandietGain -4.0792 
+2019-08-19 10:39:32,869 Updating PandietScore...
+2019-08-19 10:39:32,872 Previous PandietScore: 48.2755. Current pandietScore 52.3547
+2019-08-19 10:39:32,875 LEARNING TIMESTEP 148
+2019-08-19 10:39:32,884 State : 
+2019-08-19 10:39:42,730 Current state: ('bread', 'butter', 'margarine'), chosen action: ('butter', 'fromage blanc')
+2019-08-19 10:39:42,743 Action ('butter', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:39:42,746 Baseline action ('bread', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:39:42,749 Baseline nutGreedy: action ('bread', 'fromage blanc'), gain 1.474196854463763, accepted 0
+2019-08-19 10:39:42,752 The next state is: ('butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:39:53,522 Timestep 148, accepted action ('butter', 'fromage blanc') with PandietGain -1.2498 
+2019-08-19 10:39:53,527 Updating PandietScore...
+2019-08-19 10:39:53,529 Previous PandietScore: 52.3547. Current pandietScore 53.6045
+2019-08-19 10:39:53,531 LEARNING TIMESTEP 149
+2019-08-19 10:39:53,533 State : 
+2019-08-19 10:40:03,749 Current state: ('butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('yoghurt', 'beans')
+2019-08-19 10:40:03,753 Action ('yoghurt', 'beans'), probability of acceptance: 1
+2019-08-19 10:40:03,755 Baseline action ('yoghurt', 'beans'), probability of acceptance: 0
+2019-08-19 10:40:03,757 Baseline nutGreedy: action ('yoghurt', 'beans'), gain 1.677939531167688, accepted 0
+2019-08-19 10:40:03,760 The next state is: ('fromage blanc', 'pizza')
+2019-08-19 10:40:11,374 Timestep 149, accepted action ('yoghurt', 'beans') with PandietGain 1.6779 
+2019-08-19 10:40:11,384 Updating PandietScore...
+2019-08-19 10:40:11,388 Previous PandietScore: 53.6045. Current pandietScore 51.9266
+2019-08-19 10:40:11,390 LEARNING TIMESTEP 150
+2019-08-19 10:40:11,399 State : 
+2019-08-19 10:40:18,296 Current state: ('fromage blanc', 'pizza'), chosen action: ('pizza', 'butter')
+2019-08-19 10:40:18,304 Action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:40:18,310 Baseline action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:40:18,312 Baseline nutGreedy: action ('pizza', 'butter'), gain 1.3157643713848373, accepted 0
+2019-08-19 10:40:18,315 The next state is: ('margarine', 'sodas colas', 'yoghurt')
+2019-08-19 10:40:18,667 Timestep 150, refused action ('pizza', 'butter') 
+2019-08-19 10:40:18,669 Updating PandietScore...
+2019-08-19 10:40:18,674 Previous PandietScore: 51.9266. Current pandietScore 51.9266
+2019-08-19 10:40:18,676 LEARNING TIMESTEP 151
+2019-08-19 10:40:18,681 State : 
+2019-08-19 10:40:27,443 Current state: ('margarine', 'sodas colas', 'yoghurt'), chosen action: ('margarine', 'butter')
+2019-08-19 10:40:27,448 Action ('margarine', 'butter'), probability of acceptance: 1
+2019-08-19 10:40:27,450 Baseline action ('sodas colas', 'butter'), probability of acceptance: 1
+2019-08-19 10:40:27,452 Baseline nutGreedy: action ('sodas colas', 'butter'), gain 0.6436029397947607, accepted 1
+2019-08-19 10:40:27,454 The next state is: ('fromage blanc', 'margarine')
+2019-08-19 10:40:34,854 Timestep 151, accepted action ('margarine', 'butter') with PandietGain -0.3534 
+2019-08-19 10:40:34,856 Updating PandietScore...
+2019-08-19 10:40:34,858 Previous PandietScore: 51.9266. Current pandietScore 52.2800
+2019-08-19 10:40:34,860 LEARNING TIMESTEP 152
+2019-08-19 10:40:34,862 State : 
+2019-08-19 10:40:41,576 Current state: ('fromage blanc', 'margarine'), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:40:41,583 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:40:41,589 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:40:41,591 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 2.776973594559145, accepted 0
+2019-08-19 10:40:41,592 The next state is: ('fromage blanc', 'pizza', 'yoghurt')
+2019-08-19 10:40:41,964 Timestep 152, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:40:41,970 Updating PandietScore...
+2019-08-19 10:40:41,972 Previous PandietScore: 52.2800. Current pandietScore 52.2800
+2019-08-19 10:40:41,975 LEARNING TIMESTEP 153
+2019-08-19 10:40:41,979 State : 
+2019-08-19 10:40:52,093 Current state: ('fromage blanc', 'pizza', 'yoghurt'), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:40:52,102 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:40:52,110 Baseline action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:40:52,112 Baseline nutGreedy: action ('pizza', 'butter'), gain 0.3249699976845477, accepted 1
+2019-08-19 10:40:52,115 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:40:52,467 Timestep 153, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:40:52,470 Updating PandietScore...
+2019-08-19 10:40:52,472 Previous PandietScore: 52.2800. Current pandietScore 52.2800
+2019-08-19 10:40:52,474 LEARNING TIMESTEP 154
+2019-08-19 10:40:52,476 State : 
+2019-08-19 10:41:03,268 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('butter', 'potatoes')
+2019-08-19 10:41:03,273 Action ('butter', 'potatoes'), probability of acceptance: 0
+2019-08-19 10:41:03,281 Baseline action ('margarine', 'sodas colas'), probability of acceptance: 0
+2019-08-19 10:41:03,288 Baseline nutGreedy: action ('margarine', 'sodas colas'), gain -0.41982200465764663, accepted 0
+2019-08-19 10:41:03,293 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:41:03,839 Timestep 154, refused action ('butter', 'potatoes') 
+2019-08-19 10:41:03,841 Updating PandietScore...
+2019-08-19 10:41:03,843 Previous PandietScore: 52.2800. Current pandietScore 52.2800
+2019-08-19 10:41:03,845 LEARNING TIMESTEP 155
+2019-08-19 10:41:03,847 State : 
+2019-08-19 10:41:15,574 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('beans', 'poultry rabbit')
+2019-08-19 10:41:15,593 Action ('beans', 'poultry rabbit'), probability of acceptance: 1
+2019-08-19 10:41:15,596 Baseline action ('margarine', 'sodas colas'), probability of acceptance: 0
+2019-08-19 10:41:15,599 Baseline nutGreedy: action ('margarine', 'sodas colas'), gain -0.41982200465764663, accepted 0
+2019-08-19 10:41:15,607 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:41:28,495 Timestep 155, accepted action ('beans', 'poultry rabbit') with PandietGain -0.9713 
+2019-08-19 10:41:28,504 Updating PandietScore...
+2019-08-19 10:41:28,511 Previous PandietScore: 52.2800. Current pandietScore 53.2514
+2019-08-19 10:41:28,512 LEARNING TIMESTEP 156
+2019-08-19 10:41:28,515 State : 
+2019-08-19 10:41:39,513 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('margarine', 'sodas colas')
+2019-08-19 10:41:39,517 Action ('margarine', 'sodas colas'), probability of acceptance: 0
+2019-08-19 10:41:39,524 Baseline action ('margarine', 'sodas colas'), probability of acceptance: 0
+2019-08-19 10:41:39,526 Baseline nutGreedy: action ('margarine', 'sodas colas'), gain 0.5515008880357328, accepted 0
+2019-08-19 10:41:39,529 The next state is: ('beans', 'bread', 'fromage blanc', 'poultry rabbit')
+2019-08-19 10:41:39,886 Timestep 156, refused action ('margarine', 'sodas colas') 
+2019-08-19 10:41:39,899 Updating PandietScore...
+2019-08-19 10:41:39,902 Previous PandietScore: 53.2514. Current pandietScore 53.2514
+2019-08-19 10:41:39,904 LEARNING TIMESTEP 157
+2019-08-19 10:41:39,909 State : 
+2019-08-19 10:41:53,026 Current state: ('beans', 'bread', 'fromage blanc', 'poultry rabbit'), chosen action: ('poultry rabbit', 'butter')
+2019-08-19 10:41:53,031 Action ('poultry rabbit', 'butter'), probability of acceptance: 1
+2019-08-19 10:41:53,033 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 1
+2019-08-19 10:41:53,035 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain 0.6062731168396169, accepted 1
+2019-08-19 10:41:53,037 The next state is: ('margarine', 'sodas colas', 'yoghurt')
+2019-08-19 10:42:04,055 Timestep 157, accepted action ('poultry rabbit', 'butter') with PandietGain 0.6063 
+2019-08-19 10:42:04,058 Updating PandietScore...
+2019-08-19 10:42:04,060 Previous PandietScore: 53.2514. Current pandietScore 52.6451
+2019-08-19 10:42:04,063 LEARNING TIMESTEP 158
+2019-08-19 10:42:04,065 State : 
+2019-08-19 10:42:13,247 Current state: ('margarine', 'sodas colas', 'yoghurt'), chosen action: ('sodas colas', 'butter')
+2019-08-19 10:42:13,252 Action ('sodas colas', 'butter'), probability of acceptance: 0
+2019-08-19 10:42:13,254 Baseline action ('sodas colas', 'butter'), probability of acceptance: 1
+2019-08-19 10:42:13,256 Baseline nutGreedy: action ('sodas colas', 'butter'), gain 1.3620934601204766, accepted 1
+2019-08-19 10:42:13,259 The next state is: ('potatoes',)
+2019-08-19 10:42:13,615 Timestep 158, refused action ('sodas colas', 'butter') 
+2019-08-19 10:42:13,623 Updating PandietScore...
+2019-08-19 10:42:13,625 Previous PandietScore: 52.6451. Current pandietScore 52.6451
+2019-08-19 10:42:13,628 LEARNING TIMESTEP 159
+2019-08-19 10:42:13,630 State : 
+2019-08-19 10:42:17,500 Current state: ('potatoes',), chosen action: ('potatoes', 'butter')
+2019-08-19 10:42:17,510 Action ('potatoes', 'butter'), probability of acceptance: 1
+2019-08-19 10:42:17,519 Baseline action ('potatoes', 'butter'), probability of acceptance: 1
+2019-08-19 10:42:17,520 Baseline nutGreedy: action ('potatoes', 'butter'), gain 4.3695904302656885, accepted 1
+2019-08-19 10:42:17,523 The next state is: ('bread', 'butter', 'margarine')
+2019-08-19 10:42:27,354 Timestep 159, accepted action ('potatoes', 'butter') with PandietGain 4.3696 
+2019-08-19 10:42:27,356 Updating PandietScore...
+2019-08-19 10:42:27,358 Previous PandietScore: 52.6451. Current pandietScore 48.2755
+2019-08-19 10:42:27,360 LEARNING TIMESTEP 160
+2019-08-19 10:42:27,362 State : 
+2019-08-19 10:42:40,208 Current state: ('bread', 'butter', 'margarine'), chosen action: ('bread', 'beans')
+2019-08-19 10:42:40,216 Action ('bread', 'beans'), probability of acceptance: 1
+2019-08-19 10:42:40,227 Baseline action ('bread', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:42:40,233 Baseline nutGreedy: action ('bread', 'fromage blanc'), gain -2.604998314648313, accepted 1
+2019-08-19 10:42:40,241 The next state is: ('beans', 'fromage blanc', 'margarine', 'poultry rabbit', 'yoghurt')
+2019-08-19 10:42:54,550 Timestep 160, accepted action ('bread', 'beans') with PandietGain -2.6102 
+2019-08-19 10:42:54,556 Updating PandietScore...
+2019-08-19 10:42:54,558 Previous PandietScore: 48.2755. Current pandietScore 50.8857
+2019-08-19 10:42:54,560 LEARNING TIMESTEP 161
+2019-08-19 10:42:54,562 State : 
+2019-08-19 10:43:05,441 Current state: ('beans', 'fromage blanc', 'margarine', 'poultry rabbit', 'yoghurt'), chosen action: ('yoghurt', 'potatoes')
+2019-08-19 10:43:05,446 Action ('yoghurt', 'potatoes'), probability of acceptance: 0
+2019-08-19 10:43:05,448 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 0
+2019-08-19 10:43:05,450 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain -1.8612059863007104, accepted 0
+2019-08-19 10:43:05,452 The next state is: ('fromage blanc', 'margarine')
+2019-08-19 10:43:05,807 Timestep 161, refused action ('yoghurt', 'potatoes') 
+2019-08-19 10:43:05,815 Updating PandietScore...
+2019-08-19 10:43:05,816 Previous PandietScore: 50.8857. Current pandietScore 50.8857
+2019-08-19 10:43:05,819 LEARNING TIMESTEP 162
+2019-08-19 10:43:05,821 State : 
+2019-08-19 10:43:12,916 Current state: ('fromage blanc', 'margarine'), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:43:12,924 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:43:12,932 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:43:12,934 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 1.3826295605355767, accepted 1
+2019-08-19 10:43:12,937 The next state is: ('butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:43:13,338 Timestep 162, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:43:13,343 Updating PandietScore...
+2019-08-19 10:43:13,346 Previous PandietScore: 50.8857. Current pandietScore 50.8857
+2019-08-19 10:43:13,350 LEARNING TIMESTEP 163
+2019-08-19 10:43:13,353 State : 
+2019-08-19 10:43:24,567 Current state: ('butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('butter', 'pizza')
+2019-08-19 10:43:24,574 Action ('butter', 'pizza'), probability of acceptance: 1
+2019-08-19 10:43:24,576 Baseline action ('yoghurt', 'beans'), probability of acceptance: 0
+2019-08-19 10:43:24,584 Baseline nutGreedy: action ('yoghurt', 'beans'), gain -1.0409032895516148, accepted 0
+2019-08-19 10:43:24,586 The next state is: ('fromage blanc',)
+2019-08-19 10:43:29,876 Timestep 163, accepted action ('butter', 'pizza') with PandietGain -2.6482 
+2019-08-19 10:43:29,889 Updating PandietScore...
+2019-08-19 10:43:29,891 Previous PandietScore: 50.8857. Current pandietScore 53.5339
+2019-08-19 10:43:29,894 LEARNING TIMESTEP 164
+2019-08-19 10:43:29,902 State : 
+2019-08-19 10:43:34,151 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:43:34,156 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:43:34,159 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:43:34,160 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 5.258371529858358, accepted 0
+2019-08-19 10:43:34,163 The next state is: ('potatoes',)
+2019-08-19 10:43:34,534 Timestep 164, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:43:34,537 Updating PandietScore...
+2019-08-19 10:43:34,539 Previous PandietScore: 53.5339. Current pandietScore 53.5339
+2019-08-19 10:43:34,542 LEARNING TIMESTEP 165
+2019-08-19 10:43:34,544 State : 
+2019-08-19 10:43:39,344 Current state: ('potatoes',), chosen action: ('potatoes', 'yoghurt')
+2019-08-19 10:43:39,348 Action ('potatoes', 'yoghurt'), probability of acceptance: 1
+2019-08-19 10:43:39,350 Baseline action ('potatoes', 'butter'), probability of acceptance: 1
+2019-08-19 10:43:39,352 Baseline nutGreedy: action ('potatoes', 'butter'), gain 5.258371529858358, accepted 1
+2019-08-19 10:43:39,357 The next state is: ('beans', 'bread', 'fromage blanc', 'poultry rabbit')
+2019-08-19 10:43:50,350 Timestep 165, accepted action ('potatoes', 'yoghurt') with PandietGain 1.0296 
+2019-08-19 10:43:50,353 Updating PandietScore...
+2019-08-19 10:43:50,355 Previous PandietScore: 53.5339. Current pandietScore 52.5043
+2019-08-19 10:43:50,357 LEARNING TIMESTEP 166
+2019-08-19 10:43:50,359 State : 
+2019-08-19 10:44:02,273 Current state: ('beans', 'bread', 'fromage blanc', 'poultry rabbit'), chosen action: ('bread', 'potatoes')
+2019-08-19 10:44:02,284 Action ('bread', 'potatoes'), probability of acceptance: 1
+2019-08-19 10:44:02,286 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 1
+2019-08-19 10:44:02,288 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain -0.14079832715414398, accepted 1
+2019-08-19 10:44:02,299 The next state is: ('yoghurt',)
+2019-08-19 10:44:07,154 Timestep 166, accepted action ('bread', 'potatoes') with PandietGain -1.3443 
+2019-08-19 10:44:07,156 Updating PandietScore...
+2019-08-19 10:44:07,158 Previous PandietScore: 52.5043. Current pandietScore 53.8486
+2019-08-19 10:44:07,160 LEARNING TIMESTEP 167
+2019-08-19 10:44:07,163 State : 
+2019-08-19 10:44:11,042 Current state: ('yoghurt',), chosen action: ('yoghurt', 'butter')
+2019-08-19 10:44:11,047 Action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:44:11,049 Baseline action ('yoghurt', 'butter'), probability of acceptance: 0
+2019-08-19 10:44:11,051 Baseline nutGreedy: action ('yoghurt', 'butter'), gain 5.573132292593144, accepted 0
+2019-08-19 10:44:11,053 The next state is: ('bread', 'fromage blanc', 'margarine', 'potatoes')
+2019-08-19 10:44:11,445 Timestep 167, refused action ('yoghurt', 'butter') 
+2019-08-19 10:44:11,447 Updating PandietScore...
+2019-08-19 10:44:11,450 Previous PandietScore: 53.8486. Current pandietScore 53.8486
+2019-08-19 10:44:11,452 LEARNING TIMESTEP 168
+2019-08-19 10:44:11,454 State : 
+2019-08-19 10:44:22,593 Current state: ('bread', 'fromage blanc', 'margarine', 'potatoes'), chosen action: ('margarine', 'poultry rabbit')
+2019-08-19 10:44:22,598 Action ('margarine', 'poultry rabbit'), probability of acceptance: 0
+2019-08-19 10:44:22,607 Baseline action ('bread', 'butter'), probability of acceptance: 0
+2019-08-19 10:44:22,608 Baseline nutGreedy: action ('bread', 'butter'), gain 1.3723265931421764, accepted 0
+2019-08-19 10:44:22,611 The next state is: ('pizza', 'potatoes', 'sodas colas')
+2019-08-19 10:44:22,978 Timestep 168, refused action ('margarine', 'poultry rabbit') 
+2019-08-19 10:44:22,989 Updating PandietScore...
+2019-08-19 10:44:22,991 Previous PandietScore: 53.8486. Current pandietScore 53.8486
+2019-08-19 10:44:22,994 LEARNING TIMESTEP 169
+2019-08-19 10:44:22,999 State : 
+2019-08-19 10:44:32,872 Current state: ('pizza', 'potatoes', 'sodas colas'), chosen action: ('pizza', 'beans')
+2019-08-19 10:44:32,877 Action ('pizza', 'beans'), probability of acceptance: 1
+2019-08-19 10:44:32,886 Baseline action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:44:32,893 Baseline nutGreedy: action ('pizza', 'butter'), gain 1.3555583072400452, accepted 1
+2019-08-19 10:44:32,897 The next state is: ('bread', 'butter', 'margarine')
+2019-08-19 10:44:43,781 Timestep 169, accepted action ('pizza', 'beans') with PandietGain 0.1883 
+2019-08-19 10:44:43,798 Updating PandietScore...
+2019-08-19 10:44:43,801 Previous PandietScore: 53.8486. Current pandietScore 53.6603
+2019-08-19 10:44:43,807 LEARNING TIMESTEP 170
+2019-08-19 10:44:43,808 State : 
+2019-08-19 10:44:53,199 Current state: ('bread', 'butter', 'margarine'), chosen action: ('margarine', 'pizza')
+2019-08-19 10:44:53,205 Action ('margarine', 'pizza'), probability of acceptance: 1
+2019-08-19 10:44:53,210 Baseline action ('bread', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:44:53,213 Baseline nutGreedy: action ('bread', 'fromage blanc'), gain 2.779849586949908, accepted 0
+2019-08-19 10:44:53,222 The next state is: ('bread', 'butter', 'margarine')
+2019-08-19 10:45:03,498 Timestep 170, accepted action ('margarine', 'pizza') with PandietGain 0.9221 
+2019-08-19 10:45:03,500 Updating PandietScore...
+2019-08-19 10:45:03,505 Previous PandietScore: 53.6603. Current pandietScore 52.7382
+2019-08-19 10:45:03,507 LEARNING TIMESTEP 171
+2019-08-19 10:45:03,513 State : 
+2019-08-19 10:45:13,665 Current state: ('bread', 'butter', 'margarine'), chosen action: ('butter', 'pizza')
+2019-08-19 10:45:13,670 Action ('butter', 'pizza'), probability of acceptance: 0
+2019-08-19 10:45:13,673 Baseline action ('bread', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:45:13,675 Baseline nutGreedy: action ('bread', 'fromage blanc'), gain 1.8577056821527265, accepted 0
+2019-08-19 10:45:13,682 The next state is: ('potatoes',)
+2019-08-19 10:45:14,057 Timestep 171, refused action ('butter', 'pizza') 
+2019-08-19 10:45:14,062 Updating PandietScore...
+2019-08-19 10:45:14,064 Previous PandietScore: 52.7382. Current pandietScore 52.7382
+2019-08-19 10:45:14,066 LEARNING TIMESTEP 172
+2019-08-19 10:45:14,068 State : 
+2019-08-19 10:45:18,130 Current state: ('potatoes',), chosen action: ('potatoes', 'butter')
+2019-08-19 10:45:18,138 Action ('potatoes', 'butter'), probability of acceptance: 1
+2019-08-19 10:45:18,141 Baseline action ('potatoes', 'butter'), probability of acceptance: 1
+2019-08-19 10:45:18,143 Baseline nutGreedy: action ('potatoes', 'butter'), gain 4.462703996801039, accepted 1
+2019-08-19 10:45:18,145 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas')
+2019-08-19 10:45:30,104 Timestep 172, accepted action ('potatoes', 'butter') with PandietGain 4.4627 
+2019-08-19 10:45:30,108 Updating PandietScore...
+2019-08-19 10:45:30,114 Previous PandietScore: 52.7382. Current pandietScore 48.2755
+2019-08-19 10:45:30,116 LEARNING TIMESTEP 173
+2019-08-19 10:45:30,118 State : 
+2019-08-19 10:45:40,738 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas'), chosen action: ('beans', 'poultry rabbit')
+2019-08-19 10:45:40,742 Action ('beans', 'poultry rabbit'), probability of acceptance: 1
+2019-08-19 10:45:40,745 Baseline action ('margarine', 'yoghurt'), probability of acceptance: 0
+2019-08-19 10:45:40,747 Baseline nutGreedy: action ('margarine', 'yoghurt'), gain -4.424362659069573, accepted 0
+2019-08-19 10:45:40,750 The next state is: ('bread', 'potatoes')
+2019-08-19 10:45:48,228 Timestep 173, accepted action ('beans', 'poultry rabbit') with PandietGain -5.0472 
+2019-08-19 10:45:48,235 Updating PandietScore...
+2019-08-19 10:45:48,237 Previous PandietScore: 48.2755. Current pandietScore 53.3227
+2019-08-19 10:45:48,239 LEARNING TIMESTEP 174
+2019-08-19 10:45:48,241 State : 
+2019-08-19 10:45:55,970 Current state: ('bread', 'potatoes'), chosen action: ('bread', 'fromage blanc')
+2019-08-19 10:45:55,974 Action ('bread', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:45:55,980 Baseline action ('bread', 'butter'), probability of acceptance: 1
+2019-08-19 10:45:55,985 Baseline nutGreedy: action ('bread', 'butter'), gain 1.285137620468987, accepted 1
+2019-08-19 10:45:55,987 The next state is: ('fromage blanc',)
+2019-08-19 10:46:00,756 Timestep 174, accepted action ('bread', 'fromage blanc') with PandietGain 0.4282 
+2019-08-19 10:46:00,758 Updating PandietScore...
+2019-08-19 10:46:00,760 Previous PandietScore: 53.3227. Current pandietScore 52.8945
+2019-08-19 10:46:00,762 LEARNING TIMESTEP 175
+2019-08-19 10:46:00,764 State : 
+2019-08-19 10:46:04,997 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:46:05,002 Action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:46:05,011 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:46:05,013 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 4.61898868746696, accepted 1
+2019-08-19 10:46:05,022 The next state is: ('fromage blanc', 'margarine')
+2019-08-19 10:46:15,566 Timestep 175, accepted action ('fromage blanc', 'butter') with PandietGain 4.6190 
+2019-08-19 10:46:15,571 Updating PandietScore...
+2019-08-19 10:46:15,573 Previous PandietScore: 52.8945. Current pandietScore 48.2755
+2019-08-19 10:46:15,575 LEARNING TIMESTEP 176
+2019-08-19 10:46:15,581 State : 
+2019-08-19 10:46:24,948 Current state: ('fromage blanc', 'margarine'), chosen action: ('margarine', 'poultry rabbit')
+2019-08-19 10:46:24,952 Action ('margarine', 'poultry rabbit'), probability of acceptance: 1
+2019-08-19 10:46:24,956 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:46:24,959 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain -1.227567059852781, accepted 0
+2019-08-19 10:46:24,962 The next state is: ('bread', 'fromage blanc', 'margarine', 'potatoes')
+2019-08-19 10:46:36,257 Timestep 176, accepted action ('margarine', 'poultry rabbit') with PandietGain -5.1145 
+2019-08-19 10:46:36,259 Updating PandietScore...
+2019-08-19 10:46:36,261 Previous PandietScore: 48.2755. Current pandietScore 53.3900
+2019-08-19 10:46:36,265 LEARNING TIMESTEP 177
+2019-08-19 10:46:36,268 State : 
+2019-08-19 10:46:46,582 Current state: ('bread', 'fromage blanc', 'margarine', 'potatoes'), chosen action: ('margarine', 'yoghurt')
+2019-08-19 10:46:46,588 Action ('margarine', 'yoghurt'), probability of acceptance: 0
+2019-08-19 10:46:46,598 Baseline action ('bread', 'butter'), probability of acceptance: 1
+2019-08-19 10:46:46,602 Baseline nutGreedy: action ('bread', 'butter'), gain 0.9136956855091043, accepted 1
+2019-08-19 10:46:46,605 The next state is: ('margarine', 'sodas colas', 'yoghurt')
+2019-08-19 10:46:46,957 Timestep 177, refused action ('margarine', 'yoghurt') 
+2019-08-19 10:46:46,964 Updating PandietScore...
+2019-08-19 10:46:46,966 Previous PandietScore: 53.3900. Current pandietScore 53.3900
+2019-08-19 10:46:46,967 LEARNING TIMESTEP 178
+2019-08-19 10:46:46,969 State : 
+2019-08-19 10:46:56,609 Current state: ('margarine', 'sodas colas', 'yoghurt'), chosen action: ('sodas colas', 'beans')
+2019-08-19 10:46:56,618 Action ('sodas colas', 'beans'), probability of acceptance: 0
+2019-08-19 10:46:56,621 Baseline action ('sodas colas', 'butter'), probability of acceptance: 1
+2019-08-19 10:46:56,623 Baseline nutGreedy: action ('sodas colas', 'butter'), gain 2.1070044148148597, accepted 1
+2019-08-19 10:46:56,627 The next state is: ('fromage blanc', 'pizza')
+2019-08-19 10:46:56,960 Timestep 178, refused action ('sodas colas', 'beans') 
+2019-08-19 10:46:56,963 Updating PandietScore...
+2019-08-19 10:46:56,965 Previous PandietScore: 53.3900. Current pandietScore 53.3900
+2019-08-19 10:46:56,967 LEARNING TIMESTEP 179
+2019-08-19 10:46:56,969 State : 
+2019-08-19 10:47:04,991 Current state: ('fromage blanc', 'pizza'), chosen action: ('pizza', 'butter')
+2019-08-19 10:47:04,996 Action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:47:05,003 Baseline action ('pizza', 'butter'), probability of acceptance: 0
+2019-08-19 10:47:05,006 Baseline nutGreedy: action ('pizza', 'butter'), gain 2.7791658464049362, accepted 0
+2019-08-19 10:47:05,010 The next state is: ('fromage blanc', 'margarine')
+2019-08-19 10:47:13,452 Timestep 179, accepted action ('pizza', 'butter') with PandietGain 2.7792 
+2019-08-19 10:47:13,455 Updating PandietScore...
+2019-08-19 10:47:13,458 Previous PandietScore: 53.3900. Current pandietScore 50.6108
+2019-08-19 10:47:13,460 LEARNING TIMESTEP 180
+2019-08-19 10:47:13,463 State : 
+2019-08-19 10:47:21,211 Current state: ('fromage blanc', 'margarine'), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:47:21,221 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:47:21,227 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:47:21,230 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 1.1077684787023543, accepted 0
+2019-08-19 10:47:21,234 The next state is: ('fromage blanc',)
+2019-08-19 10:47:21,572 Timestep 180, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:47:21,575 Updating PandietScore...
+2019-08-19 10:47:21,581 Previous PandietScore: 50.6108. Current pandietScore 50.6108
+2019-08-19 10:47:21,584 LEARNING TIMESTEP 181
+2019-08-19 10:47:21,587 State : 
+2019-08-19 10:47:25,531 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:47:25,535 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:47:25,537 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:47:25,539 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 2.3353355385551353, accepted 0
+2019-08-19 10:47:25,542 The next state is: ('fromage blanc',)
+2019-08-19 10:47:25,879 Timestep 181, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:47:25,890 Updating PandietScore...
+2019-08-19 10:47:25,892 Previous PandietScore: 50.6108. Current pandietScore 50.6108
+2019-08-19 10:47:25,894 LEARNING TIMESTEP 182
+2019-08-19 10:47:25,897 State : 
+2019-08-19 10:47:29,871 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:47:29,876 Action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:47:29,885 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:47:29,889 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 2.3353355385551353, accepted 1
+2019-08-19 10:47:29,894 The next state is: ('fromage blanc', 'pizza', 'yoghurt')
+2019-08-19 10:47:39,910 Timestep 182, accepted action ('fromage blanc', 'butter') with PandietGain 2.3353 
+2019-08-19 10:47:39,919 Updating PandietScore...
+2019-08-19 10:47:39,920 Previous PandietScore: 50.6108. Current pandietScore 48.2755
+2019-08-19 10:47:39,923 LEARNING TIMESTEP 183
+2019-08-19 10:47:39,925 State : 
+2019-08-19 10:47:57,448 Current state: ('fromage blanc', 'pizza', 'yoghurt'), chosen action: ('pizza', 'beans')
+2019-08-19 10:47:57,453 Action ('pizza', 'beans'), probability of acceptance: 0
+2019-08-19 10:47:57,458 Baseline action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:47:57,461 Baseline nutGreedy: action ('pizza', 'butter'), gain -3.6795706567273783, accepted 1
+2019-08-19 10:47:57,464 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:47:58,076 Timestep 183, refused action ('pizza', 'beans') 
+2019-08-19 10:47:58,091 Updating PandietScore...
+2019-08-19 10:47:58,098 Previous PandietScore: 48.2755. Current pandietScore 48.2755
+2019-08-19 10:47:58,101 LEARNING TIMESTEP 184
+2019-08-19 10:47:58,104 State : 
+2019-08-19 10:48:10,973 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('beans', 'bread')
+2019-08-19 10:48:10,977 Action ('beans', 'bread'), probability of acceptance: 1
+2019-08-19 10:48:10,987 Baseline action ('margarine', 'sodas colas'), probability of acceptance: 1
+2019-08-19 10:48:10,988 Baseline nutGreedy: action ('margarine', 'sodas colas'), gain -4.424362659069573, accepted 1
+2019-08-19 10:48:10,991 The next state is: ('beans', 'fromage blanc', 'margarine', 'poultry rabbit', 'yoghurt')
+2019-08-19 10:48:29,266 Timestep 184, accepted action ('beans', 'bread') with PandietGain -4.8543 
+2019-08-19 10:48:29,269 Updating PandietScore...
+2019-08-19 10:48:29,271 Previous PandietScore: 48.2755. Current pandietScore 53.1298
+2019-08-19 10:48:29,273 LEARNING TIMESTEP 185
+2019-08-19 10:48:29,275 State : 
+2019-08-19 10:48:40,209 Current state: ('beans', 'fromage blanc', 'margarine', 'poultry rabbit', 'yoghurt'), chosen action: ('poultry rabbit', 'butter')
+2019-08-19 10:48:40,214 Action ('poultry rabbit', 'butter'), probability of acceptance: 0
+2019-08-19 10:48:40,220 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 0
+2019-08-19 10:48:40,222 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain 0.38294434227952934, accepted 0
+2019-08-19 10:48:40,225 The next state is: ('potatoes',)
+2019-08-19 10:48:40,566 Timestep 185, refused action ('poultry rabbit', 'butter') 
+2019-08-19 10:48:40,568 Updating PandietScore...
+2019-08-19 10:48:40,571 Previous PandietScore: 53.1298. Current pandietScore 53.1298
+2019-08-19 10:48:40,575 LEARNING TIMESTEP 186
+2019-08-19 10:48:40,581 State : 
+2019-08-19 10:48:44,507 Current state: ('potatoes',), chosen action: ('potatoes', 'butter')
+2019-08-19 10:48:44,521 Action ('potatoes', 'butter'), probability of acceptance: 1
+2019-08-19 10:48:44,523 Baseline action ('potatoes', 'butter'), probability of acceptance: 1
+2019-08-19 10:48:44,525 Baseline nutGreedy: action ('potatoes', 'butter'), gain 4.8543469489685975, accepted 1
+2019-08-19 10:48:44,531 The next state is: ('bread', 'butter', 'fromage blanc', 'margarine', 'yoghurt')
+2019-08-19 10:48:57,059 Timestep 186, accepted action ('potatoes', 'butter') with PandietGain 4.8543 
+2019-08-19 10:48:57,064 Updating PandietScore...
+2019-08-19 10:48:57,066 Previous PandietScore: 53.1298. Current pandietScore 48.2755
+2019-08-19 10:48:57,069 LEARNING TIMESTEP 187
+2019-08-19 10:48:57,071 State : 
+2019-08-19 10:49:08,498 Current state: ('bread', 'butter', 'fromage blanc', 'margarine', 'yoghurt'), chosen action: ('margarine', 'sodas colas')
+2019-08-19 10:49:08,503 State not in acceptability matrix !
+2019-08-19 10:49:08,506 State not in acceptability matrix !
+2019-08-19 10:49:08,511 Action ('margarine', 'sodas colas'), probability of acceptance: 0
+2019-08-19 10:49:08,513 Baseline action ('bread', 'beans'), probability of acceptance: 0
+2019-08-19 10:49:08,519 Baseline nutGreedy: action ('bread', 'beans'), gain -4.471402606689068, accepted 0
+2019-08-19 10:49:08,520 The next state is: ('bread', 'butter', 'margarine')
+2019-08-19 10:49:08,871 Timestep 187, refused action ('margarine', 'sodas colas') 
+2019-08-19 10:49:08,873 Updating PandietScore...
+2019-08-19 10:49:08,875 Previous PandietScore: 48.2755. Current pandietScore 48.2755
+2019-08-19 10:49:08,881 LEARNING TIMESTEP 188
+2019-08-19 10:49:08,895 State : 
+2019-08-19 10:49:19,571 Current state: ('bread', 'butter', 'margarine'), chosen action: ('bread', 'beans')
+2019-08-19 10:49:19,576 Action ('bread', 'beans'), probability of acceptance: 1
+2019-08-19 10:49:19,589 Baseline action ('bread', 'fromage blanc'), probability of acceptance: 0
+2019-08-19 10:49:19,591 Baseline nutGreedy: action ('bread', 'fromage blanc'), gain -2.604998314648313, accepted 0
+2019-08-19 10:49:19,592 The next state is: ('butter',)
+2019-08-19 10:49:25,071 Timestep 188, accepted action ('bread', 'beans') with PandietGain -2.6102 
+2019-08-19 10:49:25,074 Updating PandietScore...
+2019-08-19 10:49:25,082 Previous PandietScore: 48.2755. Current pandietScore 50.8857
+2019-08-19 10:49:25,084 LEARNING TIMESTEP 189
+2019-08-19 10:49:25,088 State : 
+2019-08-19 10:49:29,393 Current state: ('butter',), chosen action: ('butter', 'beans')
+2019-08-19 10:49:29,402 State not in acceptability matrix !
+2019-08-19 10:49:29,404 State not in acceptability matrix !
+2019-08-19 10:49:29,407 Action ('butter', 'beans'), probability of acceptance: 0
+2019-08-19 10:49:29,410 Baseline action ('butter', 'margarine'), probability of acceptance: 0
+2019-08-19 10:49:29,419 Baseline nutGreedy: action ('butter', 'margarine'), gain 1.3885748195947514, accepted 0
+2019-08-19 10:49:29,420 The next state is: ('beans', 'fromage blanc', 'margarine', 'poultry rabbit', 'yoghurt')
+2019-08-19 10:49:29,837 Timestep 189, refused action ('butter', 'beans') 
+2019-08-19 10:49:29,839 Updating PandietScore...
+2019-08-19 10:49:29,841 Previous PandietScore: 50.8857. Current pandietScore 50.8857
+2019-08-19 10:49:29,844 LEARNING TIMESTEP 190
+2019-08-19 10:49:29,845 State : 
+2019-08-19 10:49:42,426 Current state: ('beans', 'fromage blanc', 'margarine', 'poultry rabbit', 'yoghurt'), chosen action: ('fromage blanc', 'potatoes')
+2019-08-19 10:49:42,435 Action ('fromage blanc', 'potatoes'), probability of acceptance: 0
+2019-08-19 10:49:42,437 Baseline action ('poultry rabbit', 'butter'), probability of acceptance: 1
+2019-08-19 10:49:42,439 Baseline nutGreedy: action ('poultry rabbit', 'butter'), gain -1.8612059863007104, accepted 1
+2019-08-19 10:49:42,442 The next state is: ('fromage blanc',)
+2019-08-19 10:49:42,849 Timestep 190, refused action ('fromage blanc', 'potatoes') 
+2019-08-19 10:49:42,851 Updating PandietScore...
+2019-08-19 10:49:42,853 Previous PandietScore: 50.8857. Current pandietScore 50.8857
+2019-08-19 10:49:42,855 LEARNING TIMESTEP 191
+2019-08-19 10:49:42,857 State : 
+2019-08-19 10:49:47,041 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:49:47,046 Action ('fromage blanc', 'butter'), probability of acceptance: 0
+2019-08-19 10:49:47,048 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:49:47,050 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 2.6101966203883578, accepted 1
+2019-08-19 10:49:47,052 The next state is: ('fromage blanc', 'pizza')
+2019-08-19 10:49:47,436 Timestep 191, refused action ('fromage blanc', 'butter') 
+2019-08-19 10:49:47,438 Updating PandietScore...
+2019-08-19 10:49:47,440 Previous PandietScore: 50.8857. Current pandietScore 50.8857
+2019-08-19 10:49:47,443 LEARNING TIMESTEP 192
+2019-08-19 10:49:47,445 State : 
+2019-08-19 10:49:55,938 Current state: ('fromage blanc', 'pizza'), chosen action: ('pizza', 'butter')
+2019-08-19 10:49:55,943 Action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:49:55,945 Baseline action ('pizza', 'butter'), probability of acceptance: 1
+2019-08-19 10:49:55,948 Baseline nutGreedy: action ('pizza', 'butter'), gain 0.27486108183322244, accepted 1
+2019-08-19 10:49:55,950 The next state is: ('bread', 'potatoes')
+2019-08-19 10:50:05,153 Timestep 192, accepted action ('pizza', 'butter') with PandietGain 0.2749 
+2019-08-19 10:50:05,156 Updating PandietScore...
+2019-08-19 10:50:05,158 Previous PandietScore: 50.8857. Current pandietScore 50.6108
+2019-08-19 10:50:05,160 LEARNING TIMESTEP 193
+2019-08-19 10:50:05,163 State : 
+2019-08-19 10:50:12,763 Current state: ('bread', 'potatoes'), chosen action: ('potatoes', 'butter')
+2019-08-19 10:50:12,768 Action ('potatoes', 'butter'), probability of acceptance: 1
+2019-08-19 10:50:12,770 Baseline action ('bread', 'butter'), probability of acceptance: 0
+2019-08-19 10:50:12,773 Baseline nutGreedy: action ('bread', 'butter'), gain -1.426710451236282, accepted 0
+2019-08-19 10:50:12,775 The next state is: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas')
+2019-08-19 10:50:26,062 Timestep 193, accepted action ('potatoes', 'butter') with PandietGain -1.7439 
+2019-08-19 10:50:26,065 Updating PandietScore...
+2019-08-19 10:50:26,067 Previous PandietScore: 50.6108. Current pandietScore 52.3547
+2019-08-19 10:50:26,073 LEARNING TIMESTEP 194
+2019-08-19 10:50:26,075 State : 
+2019-08-19 10:50:37,246 Current state: ('beans', 'butter', 'fromage blanc', 'margarine', 'sodas colas'), chosen action: ('beans', 'poultry rabbit')
+2019-08-19 10:50:37,250 Action ('beans', 'poultry rabbit'), probability of acceptance: 0
+2019-08-19 10:50:37,252 Baseline action ('margarine', 'yoghurt'), probability of acceptance: 1
+2019-08-19 10:50:37,254 Baseline nutGreedy: action ('margarine', 'yoghurt'), gain -0.3451674899574968, accepted 1
+2019-08-19 10:50:37,256 The next state is: ('fromage blanc',)
+2019-08-19 10:50:37,621 Timestep 194, refused action ('beans', 'poultry rabbit') 
+2019-08-19 10:50:37,627 Updating PandietScore...
+2019-08-19 10:50:37,629 Previous PandietScore: 52.3547. Current pandietScore 52.3547
+2019-08-19 10:50:37,631 LEARNING TIMESTEP 195
+2019-08-19 10:50:37,633 State : 
+2019-08-19 10:50:41,835 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:50:41,839 Action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:50:41,841 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:50:41,843 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 4.079195169112076, accepted 1
+2019-08-19 10:50:41,845 The next state is: ('potatoes',)
+2019-08-19 10:50:46,672 Timestep 195, accepted action ('fromage blanc', 'butter') with PandietGain 4.0792 
+2019-08-19 10:50:46,675 Updating PandietScore...
+2019-08-19 10:50:46,684 Previous PandietScore: 52.3547. Current pandietScore 48.2755
+2019-08-19 10:50:46,685 LEARNING TIMESTEP 196
+2019-08-19 10:50:46,689 State : 
+2019-08-19 10:50:50,660 Current state: ('potatoes',), chosen action: ('potatoes', 'fromage blanc')
+2019-08-19 10:50:50,664 Action ('potatoes', 'fromage blanc'), probability of acceptance: 1
+2019-08-19 10:50:50,666 Baseline action ('potatoes', 'butter'), probability of acceptance: 1
+2019-08-19 10:50:50,668 Baseline nutGreedy: action ('potatoes', 'butter'), gain 0.0, accepted 1
+2019-08-19 10:50:50,670 The next state is: ('fromage blanc',)
+2019-08-19 10:50:55,339 Timestep 196, accepted action ('potatoes', 'fromage blanc') with PandietGain -3.9785 
+2019-08-19 10:50:55,341 Updating PandietScore...
+2019-08-19 10:50:55,343 Previous PandietScore: 48.2755. Current pandietScore 52.2540
+2019-08-19 10:50:55,345 LEARNING TIMESTEP 197
+2019-08-19 10:50:55,347 State : 
+2019-08-19 10:50:59,940 Current state: ('fromage blanc',), chosen action: ('fromage blanc', 'butter')
+2019-08-19 10:50:59,946 Action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:50:59,949 Baseline action ('fromage blanc', 'butter'), probability of acceptance: 1
+2019-08-19 10:50:59,951 Baseline nutGreedy: action ('fromage blanc', 'butter'), gain 3.978525151203044, accepted 1
+2019-08-19 10:50:59,955 The next state is: ('bread', 'fromage blanc', 'margarine', 'potatoes')
+2019-08-19 10:51:12,271 Timestep 197, accepted action ('fromage blanc', 'butter') with PandietGain 3.9785 
+2019-08-19 10:51:12,273 Updating PandietScore...
+2019-08-19 10:51:12,275 Previous PandietScore: 52.2540. Current pandietScore 48.2755
+2019-08-19 10:51:12,284 LEARNING TIMESTEP 198
+2019-08-19 10:51:12,290 State : 
+2019-08-19 10:51:24,754 Current state: ('bread', 'fromage blanc', 'margarine', 'potatoes'), chosen action: ('fromage blanc', 'pizza')
+2019-08-19 10:51:24,758 Action ('fromage blanc', 'pizza'), probability of acceptance: 0
+2019-08-19 10:51:24,760 Baseline action ('bread', 'butter'), probability of acceptance: 1
+2019-08-19 10:51:24,762 Baseline nutGreedy: action ('bread', 'butter'), gain -4.200805699450967, accepted 1
+2019-08-19 10:51:24,768 The next state is: ('potatoes',)
+2019-08-19 10:51:25,143 Timestep 198, refused action ('fromage blanc', 'pizza') 
+2019-08-19 10:51:25,146 Updating PandietScore...
+2019-08-19 10:51:25,148 Previous PandietScore: 48.2755. Current pandietScore 48.2755
+2019-08-19 10:51:25,150 LEARNING TIMESTEP 199
+2019-08-19 10:51:25,153 State : 
+2019-08-19 10:51:29,331 Current state: ('potatoes',), chosen action: ('potatoes', 'margarine')
+2019-08-19 10:51:29,335 Action ('potatoes', 'margarine'), probability of acceptance: 0
+2019-08-19 10:51:29,337 Baseline action ('potatoes', 'butter'), probability of acceptance: 1
+2019-08-19 10:51:29,340 Baseline nutGreedy: action ('potatoes', 'butter'), gain 0.0, accepted 1
+2019-08-19 10:51:29,342 The next state is: ('butter', 'potatoes', 'poultry rabbit', 'sodas colas')
+2019-08-19 10:51:29,706 Timestep 199, refused action ('potatoes', 'margarine') 
+2019-08-19 10:51:29,714 Updating PandietScore...
+2019-08-19 10:51:29,716 Previous PandietScore: 48.2755. Current pandietScore 48.2755
+2019-08-19 10:51:29,719 -------------------------------------------------------

@@ -1,0 +1,132 @@
+nomen,jour,tyrep,nojour,libmarq,typal3,nom_commercial,numlig,noligne,codgr,sougr,codal,algra,alsuc,enric,diete,rien,typal2,qte_brute,qte_nette,codsougr,codal_name,codgr_name,codsougr_name
+110006,1,1,7,summa aldi,2,,47,1,34,99,18151,0,0,0,0,1,4,250,250,3499,café au lait ou café crème ou cappuccino non sucré,coffee,coffee
+110006,1,1,7,,3,,49,3,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,1,3,7,,3,,51,1,17,2,6210,0,0,0,0,1,1,80,80,172,b?uf rosbif rôti,meat,beef
+110006,1,3,7,,1,,52,2,23,7,20030,0,0,0,0,1,4,138,138,237,haricot vert cuit,vegetable,beans
+110006,1,3,7,,3,,53,3,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,1,3,7,,3,,54,4,41,2,23525,0,0,0,0,1,1,200,200,412,flan pâtissier aux ?ufs ou à la parisienne,milky desserts,dessert
+110006,1,3,7,cristaline,1,,55,5,31,4,18008,0,0,0,0,1,4,240,240,314,eau de source,water,spring water
+110006,1,5,7,les doris,1,,58,1,21,1,26034,0,0,0,0,1,2,30,28.5,211,sardine à l'huile en conserve égouttée,fish,sea fish
+110006,1,5,7,,3,,59,2,39,2,25606,0,0,0,0,1,1,150,150,392,salade de pommes de terre,mixed dishes,pasta or potatoe dish
+110006,1,5,7,,2,,60,3,43,1,11110,0,0,0,0,1,1,6,6,431,vinaigrette sans précision,condiment and sauces,sauces
+110006,1,5,7,,3,,61,4,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,1,5,7,,3,,62,5,41,2,23525,0,0,0,0,1,1,200,200,412,flan pâtissier aux ?ufs ou à la parisienne,milky desserts,dessert
+110006,1,5,7,cristaline,1,,63,6,31,4,18008,0,0,0,0,1,4,240,240,314,eau de source,water,spring water
+110006,2,1,1,summa aldi,2,,64,1,34,99,18151,0,0,0,0,1,4,250,250,3499,café au lait ou café crème ou cappuccino non sucré,coffee,coffee
+110006,2,1,1,tutti free,1,,65,2,30,1,31076,1,0,0,0,0,4,2.5,2.5,301,sucre allégé type tutti free,sugar and byproducts,sugar
+110006,2,1,1,,3,,66,3,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,2,1,1,marque repère nadya,1,margarine allégée de tournesol 55%mg,67,4,15,99,16632,1,0,0,0,0,1,5,5,1599,matière grasse allégée 60% m.g.,margarine,margarine
+110006,2,3,1,boucherie leclerc,2,,68,1,17,3,28301,0,0,0,0,1,1,100,100,173,porc rôti cuit,meat,pork
+110006,2,3,1,panzani,2,,69,2,3,1,9811,0,0,0,0,1,4,100,100,31,pâtes alimentaires cuites,pasta,pasta
+110006,2,3,1,,3,,70,3,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,2,3,1,cristaline,1,,71,4,31,4,18008,0,0,0,0,1,4,240,240,314,eau de source,water,spring water
+110006,2,3,1,aldi,1,,72,5,10,2,19611,0,0,0,0,1,1,125,125,102,yaourt aromatisé au lait entier sucré,ultra fresh dairy,yoghurt
+110006,2,3,1,,3,,73,6,26,99,13030,0,0,0,0,1,1,220,198,2699,nectarine non pelée fraîche,fruits,fruits
+110006,2,3,1,marque repère nadya,1,margarine allégée de tournesol 55%mg,74,7,15,99,16632,1,0,0,0,0,1,12,12,1599,matière grasse allégée 60% m.g.,margarine,margarine
+110006,2,3,1,,1,,75,,13,99,81007,1,0,0,0,0,1,10,10,1399,beurre allégé ajouté à la cuisson,butter,butter
+110006,2,5,1,,3,,77,1,23,3,20047,0,0,0,0,1,1,100,100,233,tomate crue,vegetable,fruit vegetable
+110006,2,5,1,aldi,1,,78,2,43,1,11110,0,0,0,0,1,4,10,10,431,vinaigrette sans précision,condiment and sauces,sauces
+110006,2,5,1,aldi,2,,79,3,12,99,22501,0,0,0,0,1,1,120,120,1299,oeuf au plat salé,egg ,egg
+110006,2,5,1,aldi,1,,80,4,41,1,39221,0,0,0,0,1,1,100,100,411,dessert au lait gélifié aromatisé nappé de caramel type flanby,milky desserts,cream dessert
+110006,2,5,1,cristaline,1,,81,5,31,4,18008,0,0,0,0,1,4,240,240,314,eau de source,water,spring water
+110006,2,5,1,,3,,82,6,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,2,5,1,,1,,83,,13,99,81007,1,0,0,0,0,1,10,10,1399,beurre allégé ajouté à la cuisson,butter,butter
+110006,3,1,2,summa aldi,2,,84,1,34,99,18151,0,0,0,0,1,4,250,250,3499,café au lait ou café crème ou cappuccino non sucré,coffee,coffee
+110006,3,1,2,tutti free,1,,85,2,30,1,31076,1,0,0,0,0,4,2.5,2.5,301,sucre allégé type tutti free,sugar and byproducts,sugar
+110006,3,1,2,,3,,86,3,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,3,1,2,marque repère nadya,1,margarine allégée de tournesol 55%mg,87,4,15,99,16632,1,0,0,0,0,1,5,5,1599,matière grasse allégée 60% m.g.,margarine,margarine
+110006,3,3,2,marque repère,2,,88,1,17,2,25163,0,0,0,0,1,3,100,100,172,b?uf boulettes cuites,meat,beef
+110006,3,3,2,aldi,2,,89,2,3,1,9811,0,0,0,0,1,4,100,100,31,pâtes alimentaires cuites,pasta,pasta
+110006,3,3,2,aldi,1,,90,3,10,2,19640,0,0,0,0,1,1,125,125,102,yaourt aromatisé au lait demi-écrémé sucré,ultra fresh dairy,yoghurt
+110006,3,3,2,cristaline,1,,91,4,31,4,18008,0,0,0,0,1,4,240,240,314,eau de source,water,spring water
+110006,3,3,2,,3,,92,5,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,3,3,2,,3,,93,6,26,99,13037,0,0,0,0,1,1,185,166.5,2699,poire non pelée fraîche,fruits,fruits
+110006,3,5,2,,3,,95,1,20,3,8400,0,0,0,0,1,4,25,25,203,pâté de tête ou fromage de tête,charcuterie,pate terrine rillette foie gras
+110006,3,5,2,,2,,96,2,39,6,25103,0,0,0,0,1,3,150,150,396,tomate farcie,mixed dishes,vegetable dish
+110006,3,5,2,aldi bonriz,2,,97,3,4,2,9104,0,0,0,0,1,4,50,50,42,riz blanc cuit,rice or wheat,rice
+110006,3,5,2,,1,,98,4,1,1,7001,0,0,0,0,1,4,30,30,11,pain baguette,breads,bread
+110006,3,5,2,aldi,1,,99,5,10,2,19640,0,0,0,0,1,1,125,125,102,yaourt aromatisé au lait demi-écrémé sucré,ultra fresh dairy,yoghurt
+110006,3,5,2,cristaline,1,,100,6,31,4,18008,0,0,0,0,1,4,240,240,314,eau de source,water,spring water
+110006,3,5,2,aldi,3,,101,7,43,1,11110,0,0,0,0,1,1,16,16,431,vinaigrette sans précision,condiment and sauces,sauces
+110006,4,1,3,summa aldi,2,,26,1,34,99,18151,0,0,0,0,1,4,250,250,3499,café au lait ou café crème ou cappuccino non sucré,coffee,coffee
+110006,4,1,3,tutti free,1,,27,2,30,1,31076,1,0,0,0,0,4,2.5,2.5,301,sucre allégé type tutti free,sugar and byproducts,sugar
+110006,4,1,3,,3,,28,3,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,4,1,3,marque repère nadya,1,margarine allégée de tournesol 55%mg,29,4,15,99,16632,1,0,0,0,0,1,5,5,1599,matière grasse allégée 60% m.g.,margarine,margarine
+110006,4,2,3,,3,,30,1,26,99,13014,0,0,0,0,1,1,50,50,2699,fraise fraîche,fruits,fruits
+110006,4,3,3,marque repère,2,,31,1,18,1,36005,0,0,0,0,1,4,40,36,181,poulet rôti viande et peau,poultry and game,poultry rabbit
+110006,4,3,3,,2,,32,2,23,7,20071,0,0,0,0,1,3,138,138,237,haricot vert surgelé cuit,vegetable,beans
+110006,4,3,3,,3,,33,3,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,4,3,3,cristaline,1,,34,4,31,4,18008,0,0,0,0,1,4,240,240,314,eau de source,water,spring water
+110006,4,3,3,aldi,1,,35,5,10,2,19611,0,0,0,0,1,1,125,125,102,yaourt aromatisé au lait entier sucré,ultra fresh dairy,yoghurt
+110006,4,3,3,,3,,36,6,26,99,13014,0,0,0,0,1,1,150,150,2699,fraise fraîche,fruits,fruits
+110006,4,3,3,,1,,37,,13,99,81007,1,0,0,0,0,1,10,10,1399,beurre allégé ajouté à la cuisson,butter,butter
+110006,4,3,3,,1,,38,,13,99,81007,1,0,0,0,0,1,10,10,1399,beurre allégé ajouté à la cuisson,butter,butter
+110006,4,5,3,attac,1,,40,1,20,1,28925,0,0,0,0,1,1,50,50,201,jambon cuit dd (découenné dégraissé),charcuterie,ham
+110006,4,5,3,,2,,41,2,23,7,20071,0,0,0,0,1,3,138,138,237,haricot vert surgelé cuit,vegetable,beans
+110006,4,5,3,,2,,42,3,43,1,11110,0,0,0,0,1,1,12,12,431,vinaigrette sans précision,condiment and sauces,sauces
+110006,4,5,3,,3,,43,4,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,4,5,3,cristaline,1,,44,5,31,4,18008,0,0,0,0,1,4,240,240,314,eau de source,water,spring water
+110006,4,5,3,aldi,1,,45,6,41,1,39221,0,0,0,0,1,1,100,100,411,dessert au lait gélifié aromatisé nappé de caramel type flanby,milky desserts,cream dessert
+110006,4,5,3,,1,,46,,13,99,81007,1,0,0,0,0,1,10,10,1399,beurre allégé ajouté à la cuisson,butter,butter
+110006,5,1,4,summa aldi,2,,118,1,34,99,18151,0,0,0,0,1,4,250,250,3499,café au lait ou café crème ou cappuccino non sucré,coffee,coffee
+110006,5,1,4,tutti free,1,,119,2,30,1,31076,1,0,0,0,0,4,2.5,2.5,301,sucre allégé type tutti free,sugar and byproducts,sugar
+110006,5,1,4,,3,,120,3,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,5,1,4,marque repère nadya,1,margarine allégée de tournesol 55%mg,121,4,15,99,16632,1,0,0,0,0,1,5,5,1599,matière grasse allégée 60% m.g.,margarine,margarine
+110006,5,3,4,le gaulois,2,,122,1,18,1,36306,0,0,0,0,1,1,80,80,181,dinde ou autre volaille escalope sautée,poultry and game,poultry rabbit
+110006,5,3,4,,1,,124,3,24,99,4003,0,0,0,0,1,3,50,50,2499,pomme de terre cuite à l'eau,potatoes,potatoes
+110006,5,3,4,,1,,125,4,14,99,17440,0,0,0,0,1,3,10,10,1499,huile de tournesol,oil,oil
+110006,5,3,4,,2,,126,5,20,1,28504,0,0,0,0,1,3,12,12,201,lardon nature cuit,charcuterie,ham
+110006,5,3,4,,1,,127,6,43,3,11081,0,0,0,0,1,,3,3,433,épices sans précision,condiment and sauces,salt and spices
+110006,5,3,4,,3,,128,7,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,5,3,4,aldi,1,,129,8,10,2,19640,0,0,0,0,1,1,125,125,102,yaourt aromatisé au lait demi-écrémé sucré,ultra fresh dairy,yoghurt
+110006,5,3,4,cristaline,1,,130,9,31,4,18008,0,0,0,0,1,4,300,300,314,eau de source,water,spring water
+110006,5,3,4,,1,,131,,13,99,81007,1,0,0,0,0,1,10,10,1399,beurre allégé ajouté à la cuisson,butter,butter
+110006,5,3,4,,1,,132,,13,99,81007,1,0,0,0,0,1,10,10,1399,beurre allégé ajouté à la cuisson,butter,butter
+110006,5,4,4,aldi,1,,133,1,32,5,18075,0,0,0,0,1,4,240,240,325,boisson au thé aromatisée sucrée type nestea pêche blanche,fresh drinks,other fresh drinks
+110006,5,5,4,marque repère tradilège,2,,134,1,20,2,30780,0,0,0,0,1,4,35,35,202,saucisse sans précision,charcuterie,sausage saucisson
+110006,5,5,4,marque repère tradilège,2,,135,2,20,2,30005,0,0,0,0,1,4,50,50,202,chipolata cuite,charcuterie,sausage saucisson
+110006,5,5,4,marque repère,2,,136,3,17,2,25505,0,0,0,0,1,4,100,100,172,brochette de b?uf,meat,beef
+110006,5,5,4,,3,,137,4,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,5,5,4,,2,,138,5,23,2,92044,0,0,0,0,1,1,40,40,232,autre salade sans assaisonnement,vegetable,leaf vegetable
+110006,5,5,4,,2,,139,6,43,1,11110,0,0,0,0,1,1,6,6,431,vinaigrette sans précision,condiment and sauces,sauces
+110006,5,5,4,cristaline,1,,140,7,31,4,18008,0,0,0,0,1,4,240,240,314,eau de source,water,spring water
+110006,5,5,4,aldi,1,,141,8,41,1,39221,0,0,0,0,1,1,100,100,411,dessert au lait gélifié aromatisé nappé de caramel type flanby,milky desserts,cream dessert
+110006,6,1,5,summa aldi,2,,102,1,34,99,18151,0,0,0,0,1,4,250,250,3499,café au lait ou café crème ou cappuccino non sucré,coffee,coffee
+110006,6,1,5,tutti free,1,,103,2,30,1,31076,0,1,0,0,0,4,2.5,2.5,301,sucre allégé type tutti free,sugar and byproducts,sugar
+110006,6,1,5,,3,,104,3,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,6,1,5,marque repère nadya,1,margarine allégée de tournesol 55%mg,105,4,15,99,16632,1,0,0,0,0,1,5,5,1599,matière grasse allégée 60% m.g.,margarine,margarine
+110006,6,2,5,freedent,1,,106,1,30,2,31054,0,1,0,0,0,4,3,3,302,chewing-gum sans sucre,sugar and byproducts,sweets
+110006,6,3,5,éco +,1,,107,1,20,1,28900,0,0,0,0,1,1,100,95,201,jambon cuit supérieur,charcuterie,ham
+110006,6,3,5,,3,,108,2,1,1,7001,0,0,0,0,1,1,125,125,11,pain baguette,breads,bread
+110006,6,3,5,,1,,109,3,10,2,19624,0,0,0,0,1,1,125,125,102,yaourt ou spécialité laitière sans précision,ultra fresh dairy,yoghurt
+110006,6,3,5,cristaline,1,,110,4,31,4,18008,0,0,0,0,1,4,360,360,314,eau de source,water,spring water
+110006,6,4,5,cristaline,1,,111,1,31,4,18008,0,0,0,0,1,4,240,240,314,eau de source,water,spring water
+110006,6,5,5,marque repère,1,,112,1,20,3,8400,0,0,0,0,1,4,38,38,203,pâté de tête ou fromage de tête,charcuterie,pate terrine rillette foie gras
+110006,6,5,5,marque repère notre jardin,1,,113,2,25,2,20510,0,0,0,0,1,2,150,150,252,lentille cuisinée en conserve,dried vegetables,processed dried vegetables
+110006,6,5,5,,3,,114,3,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,6,5,5,éco +,1,,115,4,10,2,19628,0,0,0,0,1,1,125,125,102,yaourt ou spécialité laitière aux fruits sans précision,ultra fresh dairy,yoghurt
+110006,6,5,5,cristaline,1,,116,5,31,4,18008,0,0,0,0,1,4,240,240,314,eau de source,water,spring water
+110006,6,5,5,aldi,1,,117,6,43,1,11110,0,0,0,0,1,4,16,16,431,vinaigrette sans précision,condiment and sauces,sauces
+110006,7,1,6,summa aldi,2,,1,1,34,99,18151,0,0,0,0,1,4,250,250,3499,café au lait ou café crème ou cappuccino non sucré,coffee,coffee
+110006,7,1,6,tutti free,1,,2,2,30,1,31076,0,1,0,0,0,4,2.5,2.5,301,sucre allégé type tutti free,sugar and byproducts,sugar
+110006,7,1,6,,3,,3,3,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,7,1,6,marque repère nadya,1,margarine allégée de tournesol 55%mg,4,4,15,99,16632,1,0,0,0,0,1,5,5,1599,matière grasse allégée 60% m.g.,margarine,margarine
+110006,7,3,6,albacore,1,,5,1,21,1,26039,0,0,0,0,1,2,30,30,211,thon au naturel en conserve égoutté,fish,sea fish
+110006,7,3,6,,2,,6,2,43,1,11110,0,0,0,0,1,1,6,6,431,vinaigrette sans précision,condiment and sauces,sauces
+110006,7,3,6,,3,,7,3,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,7,3,6,danone,1,,8,4,10,3,19510,1,0,0,0,0,1,100,100,103,fromage blanc battu 20% m.g. nature,ultra fresh dairy,fromage blanc
+110006,7,3,6,tutti free,1,,9,5,30,1,31076,0,1,0,0,0,4,2.5,2.5,301,sucre allégé type tutti free,sugar and byproducts,sugar
+110006,7,3,6,cristaline,1,,10,6,31,4,18008,0,0,0,0,1,4,240,240,314,eau de source,water,spring water
+110006,7,3,6,thiriet,1,,11,7,4,2,9104,0,0,0,0,1,3,50,50,42,riz blanc cuit,rice or wheat,rice
+110006,7,3,6,thiriet,1,,12,8,23,5,20017,0,0,0,0,1,3,25,25,235,chou-fleur cuit,vegetable,cabbage
+110006,7,3,6,thiriet,1,,13,9,25,1,20503,0,0,0,0,1,3,25,25,251,haricot rouge cuit,dried vegetables,dried vegetables
+110006,7,3,6,thiriet,1,,14,10,23,3,20088,0,0,0,0,1,3,25,25,233,poivron rouge cuit,vegetable,fruit vegetable
+110006,7,3,6,thiriet,1,,15,11,23,1,20035,0,0,0,0,1,3,25,25,231,oignon cuit,vegetable,root vegetable
+110006,7,3,6,thiriet,1,,16,12,23,3,20066,0,0,0,0,1,3,25,25,233,maïs doux en conserve,vegetable,fruit vegetable
+110006,7,5,6,pizza camion,3,,19,1,36,1,25548,0,0,0,0,1,1,110,110,361,pizza royale (jambon fromage champignon),pizzas savoury tarts and pastry,pizza
+110006,7,5,6,marque repère,1,,20,2,23,2,92044,0,0,0,0,1,1,30,30,232,autre salade sans assaisonnement,vegetable,leaf vegetable
+110006,7,5,6,,3,,21,3,1,1,7001,0,0,0,0,1,1,30,30,11,pain baguette,breads,bread
+110006,7,5,6,cristaline,1,,22,4,31,4,18008,0,0,0,0,1,4,240,240,314,eau de source,water,spring water
+110006,7,5,6,danone,1,,23,5,10,3,19510,1,0,0,0,0,1,100,100,103,fromage blanc battu 20% m.g. nature,ultra fresh dairy,fromage blanc
+110006,7,5,6,tutti free,1,,24,6,30,1,31076,0,1,0,0,0,4,2.5,2.5,301,sucre allégé type tutti free,sugar and byproducts,sugar
+110006,7,5,6,cristaline,1,,25,7,31,4,18008,0,0,0,0,1,4,240,240,314,eau de source,water,spring water

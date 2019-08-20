@@ -1,0 +1,2 @@
+nomen;sexe_ps;v2_age;poidsd;poidsm;bmi;menopause;regmaig;regmedic;regmedic;regrelig;regvegr;regvegt;ordi;bonalim;agglo9
+1;2;54;82;82;1;1;1;1;1;1;1;1;1;1;1
